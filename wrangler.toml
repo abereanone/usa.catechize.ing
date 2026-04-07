@@ -1,13 +1,14 @@
 name = "usacatechizeing"
 main = "worker.js"
-compatibility_date = "2025-10-28"
+compatibility_date = "2026-04-07"
 
 [assets]
 directory = "./dist"
 binding = "ASSETS"
 
-[triggers]
-routes = ["https://usa.catechize.ing/*"]
+[[routes]]
+pattern = "usa.catechize.ing"
+custom_domain = true
 
 [observability]
 enabled = false
