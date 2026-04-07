@@ -1,75 +1,44 @@
-<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="bg" x1="88" y1="56" x2="1128" y2="586" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#12306B" />
-      <stop offset="55%" stop-color="#0A1D43" />
-      <stop offset="100%" stop-color="#08142F" />
-    </linearGradient>
-    <radialGradient id="glow-red" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(220 112) rotate(22) scale(360 220)">
-      <stop offset="0%" stop-color="#B22234" stop-opacity="0.28" />
-      <stop offset="100%" stop-color="#B22234" stop-opacity="0" />
-    </radialGradient>
-    <radialGradient id="glow-white" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(930 520) rotate(-16) scale(360 220)">
-      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.12" />
-      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0" />
-    </radialGradient>
-  </defs>
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none">
+  <ns0:defs>
+    <ns0:linearGradient id="bg" x1="88" y1="56" x2="1128" y2="586" gradientUnits="userSpaceOnUse">
+      <ns0:stop offset="0%" stop-color="#12306B" />
+      <ns0:stop offset="55%" stop-color="#0A1D43" />
+      <ns0:stop offset="100%" stop-color="#08142F" />
+    </ns0:linearGradient>
+    <ns0:radialGradient id="glow-red" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(220 112) rotate(22) scale(360 220)">
+      <ns0:stop offset="0%" stop-color="#B22234" stop-opacity="0.28" />
+      <ns0:stop offset="100%" stop-color="#B22234" stop-opacity="0" />
+    </ns0:radialGradient>
+    <ns0:radialGradient id="glow-white" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(930 520) rotate(-16) scale(360 220)">
+      <ns0:stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.12" />
+      <ns0:stop offset="100%" stop-color="#FFFFFF" stop-opacity="0" />
+    </ns0:radialGradient>
+  </ns0:defs>
 
-  <rect width="1200" height="630" rx="40" fill="url(#bg)" />
-  <rect width="1200" height="630" rx="40" fill="url(#glow-red)" />
-  <rect width="1200" height="630" rx="40" fill="url(#glow-white)" />
+  <ns0:rect width="1200" height="630" rx="40" fill="url(#bg)" />
+  <ns0:rect width="1200" height="630" rx="40" fill="url(#glow-red)" />
+  <ns0:rect width="1200" height="630" rx="40" fill="url(#glow-white)" />
 
-  <path d="M92 92H1108" stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="2" stroke-linecap="round" />
-  <path d="M92 538H1108" stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="2" stroke-linecap="round" />
+  <ns0:path d="M92 92H1108" stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="2" stroke-linecap="round" />
+  <ns0:path d="M92 572H1108" stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="2" stroke-linecap="round" />
 
-  <text
-    x="600"
-    y="178"
-    text-anchor="middle"
-    fill="#E6D6B8"
-    font-family="Source Sans 3, Segoe UI, Arial, sans-serif"
-    font-size="42"
-    font-weight="700"
-    letter-spacing="8"
-  >
+  <ns0:text x="600" y="178" text-anchor="middle" fill="#E6D6B8" font-family="Source Sans 3, Segoe UI, Arial, sans-serif" font-size="42" font-weight="700" letter-spacing="8">
     THE CATECHISM OF
-  </text>
+  </ns0:text>
 
-  <text
-    x="600"
-    y="332"
-    text-anchor="middle"
-    fill="#FFFFFF"
-    font-family="Cormorant Garamond, Georgia, serif"
-  >
-    <tspan font-size="88" font-style="italic" font-weight="600" letter-spacing="2">the</tspan>
-    <tspan dx="18" font-size="188" font-weight="700" letter-spacing="10">USA</tspan>
-  </text>
+  <ns0:text x="600" y="332" text-anchor="middle" fill="#FFFFFF" font-family="Cormorant Garamond, Georgia, serif">
+    <ns0:tspan font-size="88" font-style="italic" font-weight="600" letter-spacing="2">the</ns0:tspan>
+    <ns0:tspan dx="18" font-size="188" font-weight="700" letter-spacing="10">USA</ns0:tspan>
+  </ns0:text>
 
-  <path d="M294 386H906" stroke="#B22234" stroke-width="8" stroke-linecap="round" />
-  <path d="M348 404H852" stroke="#D9C7A4" stroke-width="5" stroke-linecap="round" />
+  <ns0:path d="M294 386H906" stroke="#B22234" stroke-width="8" stroke-linecap="round" />
+  <ns0:path d="M348 404H852" stroke="#D9C7A4" stroke-width="5" stroke-linecap="round" />
 
-  <text
-    x="600"
-    y="480"
-    text-anchor="middle"
-    fill="#E8EEF9"
-    font-family="Source Sans 3, Segoe UI, Arial, sans-serif"
-    font-size="38"
-    letter-spacing="0.8"
-  >
-    A Patriot&apos;s Catechism of the United States Constitution
-  </text>
+  <ns0:text x="600" y="480" text-anchor="middle" fill="#E8EEF9" font-family="Source Sans 3, Segoe UI, Arial, sans-serif" font-size="38" letter-spacing="0.8">
+    A Patriot's Catechism of the United States Constitution
+  </ns0:text>
 
-  <text
-    x="600"
-    y="540"
-    text-anchor="middle"
-    fill="#C8D4EA"
-    font-family="Source Sans 3, Segoe UI, Arial, sans-serif"
-    font-size="24"
-    letter-spacing="3"
-  >
-    QUESTIONS • ANSWERS • CONSTITUTIONAL STUDY
-  </text>
-</svg>
+  <ns0:text x="600" y="540" text-anchor="middle" fill="#C8D4EA" font-family="Source Sans 3, Segoe UI, Arial, sans-serif" font-size="24" letter-spacing="3">
+    QUESTIONS &#8226; ANSWERS &#8226; CONSTITUTIONAL STUDY
+  </ns0:text>
+</ns0:svg>
