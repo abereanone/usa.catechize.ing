@@ -1,0 +1,9 @@
+[
+  { "id": "foundations", "name": "Foundations of the Republic", "sortOrder": 20, "groupCode": "found" },
+  { "id": "revolution", "name": "Colonies, Revolution, and Union", "sortOrder": 30, "groupCode": "rev" },
+  { "id": "legislature", "name": "Congress and Representation", "sortOrder": 40, "groupCode": "leg" },
+  { "id": "powers", "name": "Powers of Congress", "sortOrder": 50, "groupCode": "pow" },
+  { "id": "executive", "name": "Presidency and Executive Power", "sortOrder": 60, "groupCode": "exe" },
+  { "id": "judiciary", "name": "Courts, States, and Constitutional Order", "sortOrder": 70, "groupCode": "jud" },
+  { "id": "rights", "name": "Rights and Amendments", "sortOrder": 80, "groupCode": "rgts" }
+]

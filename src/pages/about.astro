@@ -1,0 +1,47 @@
+---
+import Main from "@/layouts/Main.astro";
+import { siteSettings } from "@/config/siteSettings";
+
+const siteName = siteSettings.branding.siteName;
+---
+
+<Main title={`About | ${siteName}`}>
+  <section>
+    <h1>About {siteName}</h1>
+    <p>
+      {siteName} is a web edition of <em>A Patriot&apos;s Catechism of the United States Constitution</em>. It presents
+      the catechism as a searchable, browsable question-and-answer reference so the material is easier to read, teach,
+      review, and revisit.
+    </p>
+
+    <p>
+      In the book&apos;s preface, JD Hall explains that he wrote this catechism in the familiar question-and-answer style
+      long used for instruction and memorization. He argues that children should be catechized in the Constitution so
+      they understand the structure of American government, the meaning of its liberties, and the limits placed on
+      civil power.
+    </p>
+
+    <p>
+      Hall also credits Arthur Stansbury&apos;s 1828 <em>Catechism on the Constitution</em> as an important source, while
+      noting that he expanded the material to account for later constitutional developments, including the Civil War
+      era and subsequent amendments. The introduction encourages readers to take one question at a time, rehearse it
+      regularly, and make sure the answer is understood rather than merely memorized.
+    </p>
+
+    <p>
+      This site follows that same aim by organizing the 342 questions into thematic groups, making them easier to
+      navigate by topic, study in sequence, and revisit over time.
+    </p>
+
+    <p>
+      Credit is due to <strong>JD Hall</strong> for putting together <em>A Patriot&apos;s Catechism of the United
+      States Constitution</em>, and to <strong>Michael Coughlin</strong> for providing the website this edition is built
+      on.
+    </p>
+
+    <p>
+      If this project has been useful to you, consider supporting JD Hall&apos;s ongoing work through his
+      <a href="https://substack.com/@jdhall1" target="_blank" rel="noopener noreferrer">Substack</a>.
+    </p>
+  </section>
+</Main>
