@@ -4,7 +4,7 @@
     "name": "JD Hall",
     "url": "https://substack.com/@jdhall1",
     "title": "Author",
-    "bio": "Author of A Patriot's Catechism of the United States Constitution. Support his ongoing work through his Substack.",
+    "bio": "Author of A Patriot's Catechism of the United States Constitution. Support his ongoing work through his Substack!",
     "sortOrder": 10
   },
   {
@@ -13,6 +13,14 @@
     "url": "https://thingsabove.us/author/mac/",
     "title": "President",
     "bio": "Preacher from Ohio who loves Jesus, my wife, my kids, and my neighbors: including the preborn/voiceless.",
+    "sortOrder": 15
+  },
+  {
+    "id": "rcs",
+    "name": "Reformed Catechisms",
+    "url": "https://catechize.ing",
+    "title": "Site",
+    "bio": "Our sister site, displaying reformed catechism question and answers.",
     "sortOrder": 15
   }
 ]
