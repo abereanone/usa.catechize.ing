@@ -19,3 +19,4 @@ Thumbs.db
 devserver*.err
 devserver*.log
 .tmp-beddome-import/
+AGENTS.md
