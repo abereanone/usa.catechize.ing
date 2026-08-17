@@ -178,6 +178,10 @@ const showLongExplanationLabel = `Show ${longExplanationText}`;
 const hideLongExplanationLabel = `Hide ${longExplanationText}`;
 const RELATED_PREVIEW_LENGTH = 200;
 
+// schema.org FAQPage: one site-authored question with one authoritative answer.
+// Emitted only when we actually have answer text, since acceptedAnswer.text is required.
+const structuredDataJson = question ? buildStructuredData(question) : null;
+
 function resolveGroupCodeFromParam(param: string | undefined, target: Question | null): string | null {
   if (!param || !target || typeof target.id !== "number") {
     return null;
@@ -253,6 +257,35 @@ function getAnswerPreview(entry: Question, maxLength = RELATED_PREVIEW_LENGTH): 
   return `${source.slice(0, maxLength).trimEnd()}...`;
 }
 
+function buildStructuredData(entry: Question): string | null {
+  const answerText = stripHtml(typeof entry.answerHtml === "string" ? entry.answerHtml : "");
+
+  if (!entry.title || !answerText) {
+    return null;
+  }
+
+  const entryUrl = `${siteSettings.openGraph.url}/questions/${entry.slug}`;
+
+  const payload = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    inLanguage: "en",
+    mainEntity: {
+      "@type": "Question",
+      name: entry.title,
+      url: entryUrl,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: answerText,
+        url: entryUrl,
+      },
+    },
+  };
+
+  // Escape "<" so the payload can never terminate the surrounding <script> element.
+  return JSON.stringify(payload).replace(/</g, "\\u003c");
+}
+
 ---
 
 {listingItems ? (
@@ -295,6 +328,10 @@ function getAnswerPreview(entry: Question, maxLength = RELATED_PREVIEW_LENGTH): 
       url: canonicalQuestionPath,
     }}
   >
+    {structuredDataJson ? (
+      <script type="application/ld+json" is:inline set:html={structuredDataJson} />
+    ) : null}
+
     {previousQuestion || nextQuestion ? (
       <nav class="question-top-nav" aria-label="Question navigation">
         {previousQuestion ? (

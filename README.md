@@ -4,7 +4,7 @@ Static Astro site for catechize.ing, publishing question-and-answer content, cat
 
 ## Stack
 
-- [Astro](https://astro.build/) 5.x
+- [Astro](https://astro.build/) 6.x
 - TypeScript project configuration (`tsconfig.json`)
 - Markdown content in `src/content/questions/`
 - Generated question/search artifacts for fast page rendering
@@ -80,7 +80,7 @@ They are intended to be untracked build artifacts, not source files.
 
 ## Local Development
 
-Requirements: Node.js 18.20.8+ and npm.
+Requirements: Node.js 22.12.0+ and npm (Astro 6 requirement).
 
 ```bash
 npm install
@@ -151,8 +151,9 @@ npx wrangler deploy
 ## Notes for Future Updates
 
 - `src/lib/questions.ts` reads from `src/generated/questions.json`, not directly from the Markdown files.
-- Search UI source lives in `public/assets/search-client.js`.
-- `worker.js` uses `public/assets/search-index.json` for the `/api/search` endpoint.
+- Search UI source lives in `public/assets/search-client.js`. It is self-contained and fetches
+  `public/assets/search-index.json` in the browser on the first search.
+- `worker.js` only serves the static assets in `dist/` and maps unmatched GETs to `404.html`.
 - The source of truth for question content is always `src/content/questions/*.md`.
 - If the generated JSON files are removed from git, `npm run dev` and `npm run build` will recreate them automatically.
 
