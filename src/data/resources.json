@@ -22,5 +22,21 @@
     "title": "Site",
     "bio": "Our sister site, displaying reformed catechism question and answers.",
     "sortOrder": 15
+  },
+  {
+    "id": "mac-links",
+    "name": "Sites managed by the curator of usa.catechize.ing",
+    "url": "https://michaelcoughlin.net/links",
+    "title": "Link Directory",
+    "bio": "A directory of the other websites Michael Coughlin builds and maintains.",
+    "sortOrder": 16
+  },
+  {
+    "id": "rconfess",
+    "name": "Reformed Confessions",
+    "url": "https://confess.catechize.ing/",
+    "title": "Website",
+    "bio": "Easily read, study and compare reformed confessions, reverse lookup scripture, and read the Bible online for FREE.",
+    "sortOrder": 20
   }
 ]

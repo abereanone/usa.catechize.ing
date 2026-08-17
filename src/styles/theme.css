@@ -7,8 +7,8 @@
   color-scheme: dark;
 
   /* Typography */
-  --font-body: 'Arial', sans-serif;
-  --font-heading: 'Cormorant Garamond', serif;
+  --font-body: "Arial", sans-serif;
+  --font-heading: "Cormorant Garamond", serif;
   --font-weight-body: 500;
   --font-size-body: 1.15rem;
   --font-size-main: 1.4rem;
@@ -90,6 +90,11 @@
   --exposition-item-question: var(--color-heading);
   --exposition-item-proof: var(--secondary-text);
 
+  /* Question & answer emphasis: sets the Q&A apart from surrounding page text. */
+  --qa-accent: rgba(205, 51, 70, 0.85);
+  --qa-answer-bg: rgba(255, 255, 255, 0.05);
+  --qa-answer-border: rgba(161, 190, 244, 0.16);
+
   /* Misc */
   --question-group-label-color: rgba(255, 255, 255, 0.75);
   --question-id-color: rgba(255, 255, 255, 0.7);
@@ -110,18 +115,12 @@
 
   --transition-theme: background-color 0.2s ease, color 0.2s ease;
   --transition-surface:
-    transform 0.2s ease,
-    box-shadow 0.2s ease,
-    border-color 0.2s ease,
-    background-color 0.2s ease;
+    transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
   --transition-border-bg: background-color 0.2s ease, border-color 0.2s ease;
-  --transition-border-bg-color:
-    background-color 0.2s ease,
-    border-color 0.2s ease,
-    color 0.2s ease;
+  --transition-border-bg-color: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
 }
 
-[data-theme='light'] {
+[data-theme="light"] {
   color-scheme: light;
 
   /* Core colors */
@@ -192,6 +191,12 @@
   --exposition-item-question: #122241;
   --exposition-item-proof: rgba(24, 40, 71, 0.78);
 
+  /* Question & answer emphasis. A white tint would vanish against the light card,
+     so the answer is tinted with the blue-grey surface hue instead. */
+  --qa-accent: #9f1c2c;
+  --qa-answer-bg: rgba(89, 121, 184, 0.07);
+  --qa-answer-border: rgba(89, 121, 184, 0.18);
+
   /* Misc */
   --question-group-label-color: rgba(15, 23, 42, 0.65);
   --question-id-color: rgba(15, 23, 42, 0.9);
@@ -207,8 +212,7 @@ body {
     radial-gradient(circle at top left, rgba(178, 34, 52, 0.22), transparent 30%),
     radial-gradient(circle at top right, rgba(72, 112, 190, 0.28), transparent 32%),
     radial-gradient(circle at 50% 0%, rgba(255, 255, 255, 0.06), transparent 42%),
-    linear-gradient(180deg, rgba(255, 255, 255, 0.03), rgba(0, 0, 0, 0.05)),
-    var(--color-bg);
+    linear-gradient(180deg, rgba(255, 255, 255, 0.03), rgba(0, 0, 0, 0.05)), var(--color-bg);
   color: var(--color-text);
   font-family: var(--font-body);
   font-weight: var(--font-weight-body);
@@ -579,145 +583,145 @@ ul {
   --question-id-pill-color: #d9ffd8;
 }
 
-[data-theme='light'] .question-card[data-question-group="bc"] {
+[data-theme="light"] .question-card[data-question-group="bc"] {
   --question-accent-bg: rgba(184, 134, 34, 0.12);
   --question-accent-border: rgba(173, 122, 23, 0.34);
   --question-accent-text: #8a6113;
 }
 
-[data-theme='light'] .question-card[data-question-group="wsc"] {
+[data-theme="light"] .question-card[data-question-group="wsc"] {
   --question-accent-bg: rgba(84, 138, 214, 0.12);
   --question-accent-border: rgba(68, 123, 198, 0.32);
   --question-accent-text: #235d96;
 }
 
-[data-theme='light'] .question-card[data-question-group="wlc"] {
+[data-theme="light"] .question-card[data-question-group="wlc"] {
   --question-accent-bg: rgba(62, 153, 131, 0.12);
   --question-accent-border: rgba(50, 130, 111, 0.32);
   --question-accent-text: #1d6d5c;
 }
 
-[data-theme='light'] .question-card[data-question-group="hc"] {
+[data-theme="light"] .question-card[data-question-group="hc"] {
   --question-accent-bg: rgba(172, 88, 68, 0.11);
   --question-accent-border: rgba(155, 75, 57, 0.3);
   --question-accent-text: #8b4233;
 }
 
-[data-theme='light'] .question-card[data-question-group="aoc"] {
+[data-theme="light"] .question-card[data-question-group="aoc"] {
   --question-accent-bg: rgba(117, 103, 181, 0.12);
   --question-accent-border: rgba(100, 87, 162, 0.32);
   --question-accent-text: #5f4eb0;
 }
 
-[data-theme='light'] .question-card[data-question-group="found"] {
+[data-theme="light"] .question-card[data-question-group="found"] {
   --question-accent-bg: rgba(188, 34, 52, 0.11);
   --question-accent-border: rgba(159, 29, 44, 0.34);
   --question-accent-text: #921625;
 }
 
-[data-theme='light'] .question-card[data-question-group="rev"] {
+[data-theme="light"] .question-card[data-question-group="rev"] {
   --question-accent-bg: rgba(214, 170, 72, 0.18);
   --question-accent-border: rgba(181, 136, 33, 0.38);
   --question-accent-text: #8b6407;
 }
 
-[data-theme='light'] .question-card[data-question-group="leg"] {
+[data-theme="light"] .question-card[data-question-group="leg"] {
   --question-accent-bg: rgba(32, 88, 182, 0.1);
   --question-accent-border: rgba(29, 79, 157, 0.32);
   --question-accent-text: #1f55ae;
 }
 
-[data-theme='light'] .question-card[data-question-group="pow"] {
+[data-theme="light"] .question-card[data-question-group="pow"] {
   --question-accent-bg: rgba(93, 67, 191, 0.11);
   --question-accent-border: rgba(89, 63, 172, 0.34);
   --question-accent-text: #573cb7;
 }
 
-[data-theme='light'] .question-card[data-question-group="exe"] {
+[data-theme="light"] .question-card[data-question-group="exe"] {
   --question-accent-bg: rgba(14, 125, 128, 0.11);
   --question-accent-border: rgba(17, 112, 115, 0.34);
   --question-accent-text: #0f7274;
 }
 
-[data-theme='light'] .question-card[data-question-group="jud"] {
+[data-theme="light"] .question-card[data-question-group="jud"] {
   --question-accent-bg: rgba(135, 55, 143, 0.11);
   --question-accent-border: rgba(121, 52, 128, 0.34);
   --question-accent-text: #7b2f86;
 }
 
-[data-theme='light'] .question-card[data-question-group="rgts"] {
+[data-theme="light"] .question-card[data-question-group="rgts"] {
   --question-accent-bg: rgba(46, 132, 74, 0.11);
   --question-accent-border: rgba(43, 113, 64, 0.34);
   --question-accent-text: #21683a;
 }
 
-[data-theme='light'] .question-meta-id[data-question-group="bc"] {
+[data-theme="light"] .question-meta-id[data-question-group="bc"] {
   --question-id-bg: rgba(184, 134, 34, 0.12);
   --question-id-border: rgba(173, 122, 23, 0.34);
   --question-id-pill-color: #8a6113;
 }
 
-[data-theme='light'] .question-meta-id[data-question-group="wsc"] {
+[data-theme="light"] .question-meta-id[data-question-group="wsc"] {
   --question-id-bg: rgba(84, 138, 214, 0.12);
   --question-id-border: rgba(68, 123, 198, 0.32);
   --question-id-pill-color: #235d96;
 }
 
-[data-theme='light'] .question-meta-id[data-question-group="wlc"] {
+[data-theme="light"] .question-meta-id[data-question-group="wlc"] {
   --question-id-bg: rgba(62, 153, 131, 0.12);
   --question-id-border: rgba(50, 130, 111, 0.32);
   --question-id-pill-color: #1d6d5c;
 }
 
-[data-theme='light'] .question-meta-id[data-question-group="hc"] {
+[data-theme="light"] .question-meta-id[data-question-group="hc"] {
   --question-id-bg: rgba(172, 88, 68, 0.11);
   --question-id-border: rgba(155, 75, 57, 0.3);
   --question-id-pill-color: #8b4233;
 }
 
-[data-theme='light'] .question-meta-id[data-question-group="aoc"] {
+[data-theme="light"] .question-meta-id[data-question-group="aoc"] {
   --question-id-bg: rgba(117, 103, 181, 0.12);
   --question-id-border: rgba(100, 87, 162, 0.32);
   --question-id-pill-color: #5f4eb0;
 }
 
-[data-theme='light'] .question-meta-id[data-question-group="found"] {
+[data-theme="light"] .question-meta-id[data-question-group="found"] {
   --question-id-bg: rgba(188, 34, 52, 0.11);
   --question-id-border: rgba(159, 29, 44, 0.34);
   --question-id-pill-color: #921625;
 }
 
-[data-theme='light'] .question-meta-id[data-question-group="rev"] {
+[data-theme="light"] .question-meta-id[data-question-group="rev"] {
   --question-id-bg: rgba(214, 170, 72, 0.18);
   --question-id-border: rgba(181, 136, 33, 0.38);
   --question-id-pill-color: #8b6407;
 }
 
-[data-theme='light'] .question-meta-id[data-question-group="leg"] {
+[data-theme="light"] .question-meta-id[data-question-group="leg"] {
   --question-id-bg: rgba(32, 88, 182, 0.1);
   --question-id-border: rgba(29, 79, 157, 0.32);
   --question-id-pill-color: #1f55ae;
 }
 
-[data-theme='light'] .question-meta-id[data-question-group="pow"] {
+[data-theme="light"] .question-meta-id[data-question-group="pow"] {
   --question-id-bg: rgba(93, 67, 191, 0.11);
   --question-id-border: rgba(89, 63, 172, 0.34);
   --question-id-pill-color: #573cb7;
 }
 
-[data-theme='light'] .question-meta-id[data-question-group="exe"] {
+[data-theme="light"] .question-meta-id[data-question-group="exe"] {
   --question-id-bg: rgba(14, 125, 128, 0.11);
   --question-id-border: rgba(17, 112, 115, 0.34);
   --question-id-pill-color: #0f7274;
 }
 
-[data-theme='light'] .question-meta-id[data-question-group="jud"] {
+[data-theme="light"] .question-meta-id[data-question-group="jud"] {
   --question-id-bg: rgba(135, 55, 143, 0.11);
   --question-id-border: rgba(121, 52, 128, 0.34);
   --question-id-pill-color: #7b2f86;
 }
 
-[data-theme='light'] .question-meta-id[data-question-group="rgts"] {
+[data-theme="light"] .question-meta-id[data-question-group="rgts"] {
   --question-id-bg: rgba(46, 132, 74, 0.11);
   --question-id-border: rgba(43, 113, 64, 0.34);
   --question-id-pill-color: #21683a;
@@ -911,73 +915,73 @@ ul {
   filter: brightness(1.06);
 }
 
-[data-theme='light'] .category-chip[data-category-group="bc"] {
+[data-theme="light"] .category-chip[data-category-group="bc"] {
   background-color: rgba(184, 134, 34, 0.12);
   border-color: rgba(173, 122, 23, 0.34);
   color: #8a6113;
 }
 
-[data-theme='light'] .category-chip[data-category-group="wsc"] {
+[data-theme="light"] .category-chip[data-category-group="wsc"] {
   background-color: rgba(84, 138, 214, 0.12);
   border-color: rgba(68, 123, 198, 0.32);
   color: #235d96;
 }
 
-[data-theme='light'] .category-chip[data-category-group="wlc"] {
+[data-theme="light"] .category-chip[data-category-group="wlc"] {
   background-color: rgba(62, 153, 131, 0.12);
   border-color: rgba(50, 130, 111, 0.32);
   color: #1d6d5c;
 }
 
-[data-theme='light'] .category-chip[data-category-group="hc"] {
+[data-theme="light"] .category-chip[data-category-group="hc"] {
   background-color: rgba(172, 88, 68, 0.11);
   border-color: rgba(155, 75, 57, 0.3);
   color: #8b4233;
 }
 
-[data-theme='light'] .category-chip[data-category-group="aoc"] {
+[data-theme="light"] .category-chip[data-category-group="aoc"] {
   background-color: rgba(117, 103, 181, 0.12);
   border-color: rgba(100, 87, 162, 0.32);
   color: #5f4eb0;
 }
 
-[data-theme='light'] .category-chip[data-category-group="found"] {
+[data-theme="light"] .category-chip[data-category-group="found"] {
   background-color: rgba(188, 34, 52, 0.11);
   border-color: rgba(159, 29, 44, 0.34);
   color: #921625;
 }
 
-[data-theme='light'] .category-chip[data-category-group="rev"] {
+[data-theme="light"] .category-chip[data-category-group="rev"] {
   background-color: rgba(214, 170, 72, 0.18);
   border-color: rgba(181, 136, 33, 0.38);
   color: #8b6407;
 }
 
-[data-theme='light'] .category-chip[data-category-group="leg"] {
+[data-theme="light"] .category-chip[data-category-group="leg"] {
   background-color: rgba(32, 88, 182, 0.1);
   border-color: rgba(29, 79, 157, 0.32);
   color: #1f55ae;
 }
 
-[data-theme='light'] .category-chip[data-category-group="pow"] {
+[data-theme="light"] .category-chip[data-category-group="pow"] {
   background-color: rgba(93, 67, 191, 0.11);
   border-color: rgba(89, 63, 172, 0.34);
   color: #573cb7;
 }
 
-[data-theme='light'] .category-chip[data-category-group="exe"] {
+[data-theme="light"] .category-chip[data-category-group="exe"] {
   background-color: rgba(14, 125, 128, 0.11);
   border-color: rgba(17, 112, 115, 0.34);
   color: #0f7274;
 }
 
-[data-theme='light'] .category-chip[data-category-group="jud"] {
+[data-theme="light"] .category-chip[data-category-group="jud"] {
   background-color: rgba(135, 55, 143, 0.11);
   border-color: rgba(121, 52, 128, 0.34);
   color: #7b2f86;
 }
 
-[data-theme='light'] .category-chip[data-category-group="rgts"] {
+[data-theme="light"] .category-chip[data-category-group="rgts"] {
   background-color: rgba(46, 132, 74, 0.11);
   border-color: rgba(43, 113, 64, 0.34);
   color: #21683a;
@@ -1005,6 +1009,40 @@ ul {
 
 .question-body > *:last-child {
   margin-bottom: 0;
+}
+
+/* === Question & answer emphasis ===
+   The question and its answer are the point of the page, so both get a shared
+   accent bar and the answer gets a low-contrast tint. Scoped to .question-article
+   so listing and category pages are untouched. */
+.question-article .page-title {
+  border-left: 3px solid var(--qa-accent);
+  padding-left: 0.85rem;
+}
+
+.question-article .question-body {
+  background: var(--qa-answer-bg);
+  border: 1px solid var(--qa-answer-border);
+  border-left: 3px solid var(--qa-accent);
+  border-radius: 0.6rem;
+  padding: 1.1rem 1.25rem;
+}
+
+/* Share sits below the answer, quiet by default so it never competes with it. */
+.question-share-row {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 1.25rem;
+}
+
+@media (max-width: 640px) {
+  .question-article .page-title {
+    padding-left: 0.65rem;
+  }
+
+  .question-article .question-body {
+    padding: 0.9rem 1rem;
+  }
 }
 
 .related-questions {
@@ -1149,51 +1187,51 @@ ul {
   color: #d9ffd8;
 }
 
-[data-theme='light'] .category-card[data-category-group="bc"] .category-name {
+[data-theme="light"] .category-card[data-category-group="bc"] .category-name {
   color: #8a6113;
 }
 
-[data-theme='light'] .category-card[data-category-group="wsc"] .category-name {
+[data-theme="light"] .category-card[data-category-group="wsc"] .category-name {
   color: #235d96;
 }
 
-[data-theme='light'] .category-card[data-category-group="wlc"] .category-name {
+[data-theme="light"] .category-card[data-category-group="wlc"] .category-name {
   color: #1d6d5c;
 }
 
-[data-theme='light'] .category-card[data-category-group="hc"] .category-name {
+[data-theme="light"] .category-card[data-category-group="hc"] .category-name {
   color: #8b4233;
 }
 
-[data-theme='light'] .category-card[data-category-group="aoc"] .category-name {
+[data-theme="light"] .category-card[data-category-group="aoc"] .category-name {
   color: #5f4eb0;
 }
 
-[data-theme='light'] .category-card[data-category-group="found"] .category-name {
+[data-theme="light"] .category-card[data-category-group="found"] .category-name {
   color: #921625;
 }
 
-[data-theme='light'] .category-card[data-category-group="rev"] .category-name {
+[data-theme="light"] .category-card[data-category-group="rev"] .category-name {
   color: #8b6407;
 }
 
-[data-theme='light'] .category-card[data-category-group="leg"] .category-name {
+[data-theme="light"] .category-card[data-category-group="leg"] .category-name {
   color: #1f55ae;
 }
 
-[data-theme='light'] .category-card[data-category-group="pow"] .category-name {
+[data-theme="light"] .category-card[data-category-group="pow"] .category-name {
   color: #573cb7;
 }
 
-[data-theme='light'] .category-card[data-category-group="exe"] .category-name {
+[data-theme="light"] .category-card[data-category-group="exe"] .category-name {
   color: #0f7274;
 }
 
-[data-theme='light'] .category-card[data-category-group="jud"] .category-name {
+[data-theme="light"] .category-card[data-category-group="jud"] .category-name {
   color: #7b2f86;
 }
 
-[data-theme='light'] .category-card[data-category-group="rgts"] .category-name {
+[data-theme="light"] .category-card[data-category-group="rgts"] .category-name {
   color: #21683a;
 }
 

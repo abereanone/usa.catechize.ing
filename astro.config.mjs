@@ -3,9 +3,7 @@ import sitemap from "@astrojs/sitemap";
 import fs from "node:fs";
 import path from "node:path";
 
-const categories = JSON.parse(
-  fs.readFileSync(path.resolve("./src/data/categories.json"), "utf8")
-);
+const categories = JSON.parse(fs.readFileSync(path.resolve("./src/data/categories.json"), "utf8"));
 
 // Questions are reachable at /questions/<slug> (canonical), /questions/<id>, and
 // /questions/<GROUPCODE><id>. Only the canonical slug form belongs in the sitemap;

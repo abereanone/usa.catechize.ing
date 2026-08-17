@@ -163,9 +163,7 @@ function normalizeLine(value) {
 }
 
 function normalizeWhitespace(value) {
-  return String(value)
-    .replace(/\s+/gu, " ")
-    .trim();
+  return String(value).replace(/\s+/gu, " ").trim();
 }
 
 await main();

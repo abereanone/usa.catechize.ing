@@ -15,4 +15,3 @@ export const questionFrontmatterSchema = z.object({
   suppressAuthor: z.boolean().default(false),
   relatedAnswers: z.array(z.string().trim().regex(slugPattern)).default([]),
 });
-

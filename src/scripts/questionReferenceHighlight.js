@@ -69,9 +69,12 @@ function applyHighlight() {
     const revealedAnswer = revealHiddenAnswer(firstMatch);
     const needsDelay = revealedLong || revealedAnswer;
 
-    window.setTimeout(() => {
-      scrollWithOffset(firstMatch);
-    }, needsDelay ? 80 : 0);
+    window.setTimeout(
+      () => {
+        scrollWithOffset(firstMatch);
+      },
+      needsDelay ? 80 : 0
+    );
   }
 }
 

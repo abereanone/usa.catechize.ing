@@ -9,7 +9,10 @@ import remarkRehype from "remark-rehype";
 import rehypeRaw from "rehype-raw";
 import rehypeStringify from "rehype-stringify";
 
-import { QUESTION_LONG_ANSWER_MARKER, questionFrontmatterSchema } from "../../src/lib/question-schema.js";
+import {
+  QUESTION_LONG_ANSWER_MARKER,
+  questionFrontmatterSchema,
+} from "../../src/lib/question-schema.js";
 
 const currentDir = path.dirname(fileURLToPath(import.meta.url));
 export const ROOT_DIR = path.resolve(currentDir, "..", "..");
@@ -55,7 +58,9 @@ export function splitQuestionBody(body = "", sourceLabel = "question") {
   }
 
   const answerMarkdown = normalized.slice(0, firstMarkerIndex).trim();
-  const longMarkdown = normalized.slice(firstMarkerIndex + QUESTION_LONG_ANSWER_MARKER.length).trim();
+  const longMarkdown = normalized
+    .slice(firstMarkerIndex + QUESTION_LONG_ANSWER_MARKER.length)
+    .trim();
 
   return {
     answerMarkdown,
@@ -332,8 +337,18 @@ function deriveAuthorIds(question) {
 }
 
 function compareQuestionArtifacts(a, b) {
-  const aId = typeof a.id === "number" ? a.id : typeof a.frontmatter?.id === "number" ? a.frontmatter.id : Number.MAX_SAFE_INTEGER;
-  const bId = typeof b.id === "number" ? b.id : typeof b.frontmatter?.id === "number" ? b.frontmatter.id : Number.MAX_SAFE_INTEGER;
+  const aId =
+    typeof a.id === "number"
+      ? a.id
+      : typeof a.frontmatter?.id === "number"
+        ? a.frontmatter.id
+        : Number.MAX_SAFE_INTEGER;
+  const bId =
+    typeof b.id === "number"
+      ? b.id
+      : typeof b.frontmatter?.id === "number"
+        ? b.frontmatter.id
+        : Number.MAX_SAFE_INTEGER;
 
   if (aId !== bId) {
     return aId - bId;
@@ -375,7 +390,9 @@ function validateQuestionDocuments(documents) {
       keys.forEach((key) => {
         const composite = `${id}:${key}`;
         if (seenKeys.has(composite)) {
-          errors.push(`Duplicate numeric ID "${id}" within group "${key}" in ${bucket.map((entry) => entry.fileName).join(", ")}`);
+          errors.push(
+            `Duplicate numeric ID "${id}" within group "${key}" in ${bucket.map((entry) => entry.fileName).join(", ")}`
+          );
         } else {
           seenKeys.add(composite);
         }

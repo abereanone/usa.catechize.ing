@@ -1,6 +1,19 @@
+// Legacy alias: /q/<slugOrId> used to be a generated page emitting a meta-refresh.
+// It is now a real 301 so the canonical /questions/<slugOrId> URL gets the credit.
+const LEGACY_QUESTION_ALIAS = /^\/q\/([^/]+?)(?:\.html)?\/?$/;
+
 export default {
   async fetch(request, env) {
     try {
+      const url = new URL(request.url);
+      const aliasMatch = url.pathname.match(LEGACY_QUESTION_ALIAS);
+
+      if (aliasMatch) {
+        const target = new URL(`/questions/${aliasMatch[1]}`, url);
+        target.search = url.search;
+        return Response.redirect(target.toString(), 301);
+      }
+
       if (!env.ASSETS || typeof env.ASSETS.fetch !== "function") {
         console.error("ASSETS binding unavailable on this deployment.");
         return new Response("Internal Server Error", { status: 500 });

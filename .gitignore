@@ -7,6 +7,9 @@ dist/
 src/generated/questions.json
 public/assets/search-index.json
 
+# Local Wrangler/Miniflare state (cache + observability SQLite) from `wrangler dev`
+.wrangler/
+
 # environment files
 .env
 .env.*
@@ -19,4 +22,10 @@ Thumbs.db
 devserver*.err
 devserver*.log
 .tmp-beddome-import/
-AGENTS.md
+
+# One-time import source material. Kept locally for provenance, not in the repo:
+# nothing in the codebase reads these. scripts/patriots_catechism_extracted.txt IS
+# still tracked, because scripts/import-patriots-catechism.mjs reads it.
+A_Patriot's_Catechism.pdf
+USA_favicon_io.zip
+scripts/pdf-pages/
