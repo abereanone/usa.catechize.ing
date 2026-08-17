@@ -14,23 +14,17 @@ import {
 } from "@/lib/questions";
 import InlineSearchBox from "@/components/InlineSearchBox.astro";
 import QuestionAnswer from "@/components/QuestionAnswer.astro";
-import QuestionLongExplanation from "@/components/QuestionLongExplanation.astro";
 import QuestionNav from "@/components/QuestionNav.astro";
 import QuestionShare from "@/components/QuestionShare.astro";
-import QuestionReferenceHighlightScript from "@/components/QuestionReferenceHighlightScript.astro";
 import { siteSettings } from "@/config/siteSettings";
 
+// Only the canonical slug is built as a page. The numeric (/questions/41) and grouped
+// (/questions/FOUND41) forms are emitted as 301s into dist/_redirects by the
+// question-redirects integration in astro.config.mjs.
 export function getStaticPaths() {
-  return getPublishedQuestions().flatMap((question) => {
-    const entries = [{ params: { slugOrId: question.slug } }];
-    if (typeof question.id === "number") {
-      entries.push({ params: { slugOrId: String(question.id) } });
-      question.groupCodes.forEach((code) => {
-        entries.push({ params: { slugOrId: `${code}${question.id}` } });
-      });
-    }
-    return entries;
-  });
+  return getPublishedQuestions().map((question) => ({
+    params: { slugOrId: question.slug },
+  }));
 }
 
 const { slugOrId } = Astro.params;
@@ -67,8 +61,6 @@ if (!question && !listingMatches) {
 
 const siteName = siteSettings.branding.siteName;
 const showAuthors = siteSettings.showAuthor;
-const hideAnswersByDefault = siteSettings.hideAnswersByDefault;
-const longExplanationText = siteSettings.longExplanationText;
 
 let questionSlug = "";
 let useIdLinks = false;
@@ -117,24 +109,10 @@ if (question) {
 
 const showQuestionId = siteSettings.showQuestionId && questionIdentifierLabel !== null;
 
-const buildQuestionHref = (target: typeof question | null) => {
-  if (!target) return "#";
-  if (
-    activeGroupCode &&
-    typeof target.id === "number" &&
-    (target.groupCodes ?? []).includes(activeGroupCode)
-  ) {
-    return `/questions/${activeGroupCode}${target.id}`;
-  }
-  if (!activeGroupCode && useIdLinks && typeof target.id === "number") {
-    return `/questions/${target.id}`;
-  }
-  const primaryGroup = getPrimaryGroupCode(target);
-  if (primaryGroup && typeof target.id === "number") {
-    return `/questions/${primaryGroup}${target.id}`;
-  }
-  return `/questions/${target.slug}`;
-};
+// Slug is the only built page, so every internal link points straight at it rather
+// than at a numeric/grouped URL that would cost the reader a redirect hop.
+const buildQuestionHref = (target: typeof question | null) =>
+  target ? `/questions/${target.slug}` : "#";
 
 const buildQuestionSnippet = (text: string | null, maxLength = 60) => {
   if (!text) {
@@ -166,22 +144,15 @@ const listingItems = listingMatches
     })
   : null;
 
-const longAuthor = question && question.longAuthorId ? findAuthor(question.longAuthorId) : null;
-const showLongAuthor = Boolean(
-  question && showAuthors && !question.suppressAuthor && longAuthor && question.longHtml
-);
 const relatedQuestions = question ? getRelatedQuestions(question) : [];
 const questionSnippet = question ? buildQuestionSnippet(question.excerpt, 60) : null;
 const questionOgDescription =
   questionSnippet ?? (question ? question.title : null) ?? siteSettings.branding.description;
-const renderedLongHtml = question ? formatLongExplanationHtml(question) : "";
 const canonicalQuestionPath = question ? `/questions/${question.slug}` : undefined;
 const shareUrl = canonicalQuestionPath
   ? `${siteSettings.openGraph.url}${canonicalQuestionPath}`
   : siteSettings.openGraph.url;
 const shareText = question ? question.title : siteSettings.branding.siteName;
-const showLongExplanationLabel = `Show ${longExplanationText}`;
-const hideLongExplanationLabel = `Hide ${longExplanationText}`;
 const RELATED_PREVIEW_LENGTH = 200;
 
 // schema.org FAQPage: one site-authored question with one authoritative answer.
@@ -209,44 +180,12 @@ function resolveGroupCodeFromParam(
   return null;
 }
 
-function getQuestionLink(entry: Question, preferredGroup?: string | null) {
-  if (
-    preferredGroup &&
-    entry.groupCodes?.includes(preferredGroup) &&
-    typeof entry.id === "number"
-  ) {
-    return `/questions/${preferredGroup}${entry.id}`;
-  }
-  if (entry.groupCodes?.length && typeof entry.id === "number") {
-    return `/questions/${entry.groupCodes[0]}${entry.id}`;
-  }
-  if (typeof entry.id === "number") {
-    return `/questions/${entry.id}`;
-  }
+function getQuestionLink(entry: Question) {
   return `/questions/${entry.slug}`;
 }
 
 function getPrimaryGroupCode(entry: Question) {
   return Array.isArray(entry.groupCodes) && entry.groupCodes.length ? entry.groupCodes[0] : null;
-}
-
-function formatLongExplanationHtml(entry: Question): string {
-  if (!entry.longHtml) {
-    return "";
-  }
-
-  if (
-    !entry.longHtml.includes("<strong>Q:</strong>") ||
-    !entry.longHtml.includes("<strong>Proof:</strong>")
-  ) {
-    return entry.longHtml;
-  }
-
-  return entry.longHtml.replace(
-    /<p><strong>Q:<\/strong>\s*([\s\S]*?)<br>\s*<strong>A:<\/strong>\s*([\s\S]*?)<br>\s*<strong>Proof:<\/strong>\s*([\s\S]*?)<\/p>/g,
-    (_match, questionText, answerText, proofText) =>
-      `<div class="exposition-item"><p class="exposition-question">${String(questionText).trim()}</p><p class="exposition-answer"><strong>Answer:</strong> ${String(answerText).trim()}</p><p class="exposition-proof"><strong>Proof:</strong> ${String(proofText).trim()}</p></div>`
-  );
 }
 
 function stripHtml(value: string): string {
@@ -326,7 +265,7 @@ function buildStructuredData(entry: Question): string | null {
                 <a
                   class="question-card card-panel"
                   data-question-group={primaryGroup ? primaryGroup.toLowerCase() : undefined}
-                  href={getQuestionLink(entry, primaryGroup)}
+                  href={getQuestionLink(entry)}
                 >
                   {displayLabel ? <span class="question-id">#{displayLabel}</span> : null}
                   <span class="question-title">
@@ -384,19 +323,9 @@ function buildStructuredData(entry: Question): string | null {
           ) : null}
         </section>
 
-        <QuestionAnswer answerHtml={question.answerHtml} hideByDefault={hideAnswersByDefault} />
+        <QuestionAnswer answerHtml={question.answerHtml} />
 
-        {question.longHtml ? (
-          <QuestionLongExplanation
-            html={renderedLongHtml}
-            showLabel={showLongExplanationLabel}
-            hideLabel={hideLongExplanationLabel}
-            author={showLongAuthor ? longAuthor : null}
-          />
-        ) : null}
-
-        {/* Below the answer so nothing interrupts question -> answer, and after the long
-            explanation so it stays at the end of the answer content when one exists. */}
+        {/* Below the answer so nothing interrupts question -> answer. */}
         <div class="question-share-row">
           <QuestionShare shareUrl={shareUrl} shareText={shareText} />
         </div>
@@ -429,7 +358,7 @@ function buildStructuredData(entry: Question): string | null {
                     <a
                       class="question-card card-panel"
                       data-question-group={primaryGroup ? primaryGroup.toLowerCase() : undefined}
-                      href={getQuestionLink(entry, primaryGroup)}
+                      href={getQuestionLink(entry)}
                     >
                       {displayLabel ? <span class="question-id">#{displayLabel}</span> : null}
                       <span class="question-card-body">
@@ -496,8 +425,6 @@ function buildStructuredData(entry: Question): string | null {
       ) : (
         <p class="category-placeholder category-footer">Uncategorized</p>
       )}
-
-      <QuestionReferenceHighlightScript />
     </Main>
   ) : null
 }

@@ -41,14 +41,9 @@ const entries = questions.map((question) => ({
           window.location.href = "/";
           return;
         }
-        const codes = Array.isArray(random.groupCodes) ? random.groupCodes : [];
-        const target =
-          codes.length && typeof random.id === "number"
-            ? `/questions/${codes[0]}${random.id}`
-            : typeof random.id === "number"
-              ? `/questions/${random.id}`
-              : `/questions/${random.slug}`;
-        window.location.replace(target);
+        // Always the canonical slug URL: the numeric and group-code forms are
+        // redirects now, so linking to them would add a pointless hop.
+        window.location.replace(`/questions/${random.slug}`);
       })();
     </script>
   </body>

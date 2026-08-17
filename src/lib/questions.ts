@@ -9,12 +9,10 @@ export interface Question {
   categories: string[];
   authorId: string | null;
   published: boolean;
-  longAuthorId: string | null;
   suppressAuthor: boolean;
   relatedAnswers: string[];
   excerpt: string;
   answerHtml: string;
-  longHtml: string;
   groupCodes: string[];
 }
 
@@ -57,14 +55,12 @@ function normalizeQuestion(entry: Partial<Question>): Question {
       : [],
     authorId: entry.authorId ? String(entry.authorId) : null,
     published: entry.published !== false,
-    longAuthorId: entry.longAuthorId ? String(entry.longAuthorId) : null,
     suppressAuthor: entry.suppressAuthor === true,
     relatedAnswers: Array.isArray(entry.relatedAnswers)
       ? entry.relatedAnswers.map((value) => String(value))
       : [],
     excerpt: String(entry.excerpt ?? ""),
     answerHtml: String(entry.answerHtml ?? ""),
-    longHtml: String(entry.longHtml ?? ""),
     groupCodes: Array.isArray(entry.groupCodes)
       ? entry.groupCodes.map((value) => String(value))
       : [],

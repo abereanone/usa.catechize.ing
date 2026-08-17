@@ -6,15 +6,10 @@ import { siteSettings } from "@/config/siteSettings";
 interface Props {
   questions: Question[];
   startIndex?: number;
-  highlightReference?: string;
 }
 
 const { questions, startIndex = 0 } = Astro.props;
 const showQuestionId = siteSettings.showQuestionId;
-const highlightReference =
-  typeof Astro.props.highlightReference === "string" && Astro.props.highlightReference.trim().length
-    ? Astro.props.highlightReference.trim()
-    : null;
 const baseIndex =
   typeof startIndex === "number" && Number.isFinite(startIndex)
     ? Math.max(0, Math.floor(startIndex))
@@ -56,9 +51,7 @@ function getAnswerPreview(question: { answerHtml?: string; excerpt?: string }): 
       const displayId =
         formatQuestionIdentifier(q, { groupCode: primaryGroup, fallback: fallbackId }) ??
         (typeof fallbackId === "number" ? fallbackId : null);
-      const href = highlightReference
-        ? `/questions/${q.slug}?ref=${encodeURIComponent(highlightReference)}`
-        : `/questions/${q.slug}`;
+      const href = `/questions/${q.slug}`;
       const answerPreview = getAnswerPreview(q);
       return (
         <li>

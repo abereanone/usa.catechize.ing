@@ -78,18 +78,6 @@
   --category-card-hover-bg: rgba(128, 28, 43, 0.16);
   --resource-card-hover-bg: rgba(128, 28, 43, 0.14);
 
-  /* Long explanation */
-  --long-toggle-border: rgba(125, 160, 224, 0.32);
-  --long-toggle-bg: rgba(255, 255, 255, 0.07);
-  --long-toggle-bg-hover: rgba(178, 34, 52, 0.2);
-  --long-toggle-border-hover: rgba(161, 190, 244, 0.56);
-  --long-content-border: rgba(125, 160, 224, 0.14);
-  --long-content-bg: rgba(255, 255, 255, 0.04);
-  --exposition-item-bg: rgba(14, 29, 58, 0.86);
-  --exposition-item-border: rgba(82, 113, 177, 0.24);
-  --exposition-item-question: var(--color-heading);
-  --exposition-item-proof: var(--secondary-text);
-
   /* Question & answer emphasis: sets the Q&A apart from surrounding page text. */
   --qa-accent: rgba(205, 51, 70, 0.85);
   --qa-answer-bg: rgba(255, 255, 255, 0.05);
@@ -107,7 +95,6 @@
   --radius-card: 16px;
   --radius-pill: 999px;
   --radius-tooltip: 10px;
-  --radius-long-content: 0.9rem;
 
   --shadow-card: 0 18px 32px rgba(0, 0, 0, 0.22);
   --shadow-card-hover: 0 22px 38px rgba(0, 0, 0, 0.28);
@@ -178,18 +165,6 @@
   --question-card-hover-bg: rgba(178, 34, 52, 0.05);
   --category-card-hover-bg: rgba(178, 34, 52, 0.06);
   --resource-card-hover-bg: rgba(178, 34, 52, 0.05);
-
-  /* Long explanation */
-  --long-toggle-border: rgba(76, 104, 161, 0.22);
-  --long-toggle-bg: rgba(255, 255, 255, 0.8);
-  --long-toggle-bg-hover: rgba(178, 34, 52, 0.08);
-  --long-toggle-border-hover: rgba(76, 104, 161, 0.36);
-  --long-content-border: rgba(89, 121, 184, 0.12);
-  --long-content-bg: rgba(255, 255, 255, 0.96);
-  --exposition-item-bg: rgba(230, 237, 252, 0.72);
-  --exposition-item-border: rgba(89, 121, 184, 0.16);
-  --exposition-item-question: #122241;
-  --exposition-item-proof: rgba(24, 40, 71, 0.78);
 
   /* Question & answer emphasis. A white tint would vanish against the light card,
      so the answer is tinted with the blue-grey surface hue instead. */
@@ -264,11 +239,50 @@ h3 {
 }
 
 /* === Main Content === */
+/* Keyboard users land here first and can jump past the nav. Hidden until focused. */
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 2000;
+  padding: 0.75rem 1.15rem;
+  /* Must be an opaque, defined token: this sits on top of page content. */
+  background: var(--color-nav-bg);
+  color: var(--color-nav-text);
+  border: 1px solid var(--surface-border-strong);
+  border-radius: 0 0 0.5rem 0;
+  box-shadow: var(--shadow-card);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.skip-link:focus {
+  left: 0;
+}
+
 main {
   max-width: 960px;
   margin: 2.5rem auto;
   padding: 0 1.5rem;
   font-size: var(--font-size-main);
+}
+
+/* main is focusable only as a skip-link target, so it should not show a focus ring. */
+main:focus {
+  outline: none;
+}
+
+/* Respect the OS "reduce motion" setting. This sheet animates a lot: transforms on
+   cards and buttons, and smooth scrolling on in-page jumps. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -1399,93 +1413,6 @@ ul {
 
 .pagination-wrapper {
   margin: 1.25rem 0 1.25rem;
-}
-
-/* === Long Explanation === */
-.long-explanation {
-  margin-top: 1.5rem;
-}
-
-.long-toggle {
-  appearance: none;
-  border: 1px solid var(--long-toggle-border);
-  background: var(--long-toggle-bg);
-  border-radius: var(--radius-pill);
-  color: var(--color-text);
-  font-size: 0.95rem;
-  font-weight: 500;
-  padding: 0.4rem 1.1rem;
-  cursor: pointer;
-  transition: var(--transition-border-bg-color);
-}
-
-.long-toggle:hover,
-.long-toggle:focus-visible {
-  background-color: var(--long-toggle-bg-hover);
-  border-color: var(--long-toggle-border-hover);
-  outline: none;
-}
-
-.long-content {
-  margin-top: 1rem;
-  border: 1px solid var(--long-content-border);
-  background: var(--long-content-bg);
-  border-radius: var(--radius-long-content);
-  padding: 1.25rem;
-}
-
-.long-content[hidden] {
-  display: none;
-}
-
-.long-content .exposition-item {
-  margin: 0.95rem 0 0;
-  padding: 0.95rem 1rem;
-  border: 1px solid var(--exposition-item-border);
-  background: var(--exposition-item-bg);
-  border-radius: 0.85rem;
-}
-
-.long-content .exposition-item:first-of-type {
-  margin-top: 0.5rem;
-}
-
-.long-content .exposition-question,
-.long-content .exposition-answer,
-.long-content .exposition-proof {
-  margin: 0;
-}
-
-.long-content .exposition-question {
-  font-size: 1.08rem;
-  font-weight: 700;
-  color: var(--exposition-item-question);
-}
-
-.long-content .exposition-answer {
-  margin-top: 0.45rem;
-}
-
-.long-content .exposition-proof {
-  margin-top: 0.45rem;
-  color: var(--exposition-item-proof);
-  font-size: 0.98rem;
-}
-
-.long-author {
-  margin-top: 1rem;
-  font-size: 0.95rem;
-  opacity: 0.8;
-}
-
-.long-author a {
-  color: var(--color-link);
-  font-weight: 500;
-}
-
-.long-author a:hover,
-.long-author a:focus-visible {
-  text-decoration: underline;
 }
 
 .question-body ul {

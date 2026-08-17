@@ -43,13 +43,7 @@ const frontmatter = serializeQuestionFrontmatter({
 
 const template = `${frontmatter}
 
-Write the short answer here.
-
-${"<!-- LONG_ANSWER -->"}
-
-## Long Explanation
-
-Expand the answer here if needed.
+Write the answer here.
 `;
 
 await fs.writeFile(targetPath, template);

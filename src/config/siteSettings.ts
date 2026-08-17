@@ -14,7 +14,6 @@ export const siteSettings = {
   version: appVersion,
   branding,
   issueReportURL: "https://github.com/abereanone/usa.catechize.ing/issues/new",
-  longExplanationText: "Additional Explanation",
   integrations: {
     googleAnalyticsId: "G-29DLV3Q3F0",
   },
@@ -29,7 +28,6 @@ export const siteSettings = {
   },
   showQuestionId: true,
   showAuthor: false,
-  hideAnswersByDefault: false,
   enablePagination: true,
   questionsPerPage: 30,
 } as const;

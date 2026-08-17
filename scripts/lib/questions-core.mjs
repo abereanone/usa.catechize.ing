@@ -9,10 +9,7 @@ import remarkRehype from "remark-rehype";
 import rehypeRaw from "rehype-raw";
 import rehypeStringify from "rehype-stringify";
 
-import {
-  QUESTION_LONG_ANSWER_MARKER,
-  questionFrontmatterSchema,
-} from "../../src/lib/question-schema.js";
+import { questionFrontmatterSchema } from "../../src/lib/question-schema.js";
 
 const currentDir = path.dirname(fileURLToPath(import.meta.url));
 export const ROOT_DIR = path.resolve(currentDir, "..", "..");
@@ -37,37 +34,6 @@ export function slugify(value = "") {
     .replace(/^-+|-+$/g, "");
 }
 
-export function splitQuestionBody(body = "", sourceLabel = "question") {
-  const normalized = normalizeNewlines(body).trim();
-  const firstMarkerIndex = normalized.indexOf(QUESTION_LONG_ANSWER_MARKER);
-
-  if (firstMarkerIndex === -1) {
-    return {
-      answerMarkdown: normalized,
-      longMarkdown: "",
-    };
-  }
-
-  const secondMarkerIndex = normalized.indexOf(
-    QUESTION_LONG_ANSWER_MARKER,
-    firstMarkerIndex + QUESTION_LONG_ANSWER_MARKER.length
-  );
-
-  if (secondMarkerIndex !== -1) {
-    throw new Error(`${sourceLabel} contains multiple ${QUESTION_LONG_ANSWER_MARKER} markers.`);
-  }
-
-  const answerMarkdown = normalized.slice(0, firstMarkerIndex).trim();
-  const longMarkdown = normalized
-    .slice(firstMarkerIndex + QUESTION_LONG_ANSWER_MARKER.length)
-    .trim();
-
-  return {
-    answerMarkdown,
-    longMarkdown,
-  };
-}
-
 export function serializeQuestionFrontmatter(frontmatter) {
   const data = {};
 
@@ -89,10 +55,6 @@ export function serializeQuestionFrontmatter(frontmatter) {
 
   if (frontmatter.published === false) {
     data.published = false;
-  }
-
-  if (frontmatter.longAuthorId) {
-    data.longAuthorId = String(frontmatter.longAuthorId);
   }
 
   if (frontmatter.suppressAuthor === true) {
@@ -125,12 +87,11 @@ export async function loadQuestionDocuments() {
     const raw = await fs.readFile(sourcePath, "utf-8");
     const { frontmatter, body } = parseQuestionMarkdown(raw, fileName);
     const parsedFrontmatter = questionFrontmatterSchema.parse(frontmatter);
-    const { answerMarkdown, longMarkdown } = splitQuestionBody(body, fileName);
+    const answerMarkdown = normalizeNewlines(body).trim();
     const slug = parsedFrontmatter.slug || slugify(path.basename(fileName, ".md"));
     const groupCodes = deriveGroupCodes(parsedFrontmatter.categories, categories);
-    const combinedMarkdown = [answerMarkdown, longMarkdown].filter(Boolean).join("\n\n");
     const cleanedAnswer = cleanMarkdown(answerMarkdown);
-    const cleanedCombined = cleanMarkdown(combinedMarkdown);
+    const cleanedCombined = cleanedAnswer;
 
     documents.push({
       sourcePath,
@@ -138,7 +99,6 @@ export async function loadQuestionDocuments() {
       slug,
       frontmatter: parsedFrontmatter,
       answerMarkdown,
-      longMarkdown,
       cleanedAnswer,
       cleanedCombined,
       excerpt: buildExcerpt(cleanedAnswer),
@@ -182,7 +142,6 @@ export async function buildQuestionArtifacts() {
 
   for (const document of documents) {
     const answerHtml = await renderMarkdown(document.answerMarkdown);
-    const longHtml = await renderMarkdown(document.longMarkdown);
     const question = {
       id: document.frontmatter.id ?? null,
       slug: document.slug,
@@ -190,12 +149,10 @@ export async function buildQuestionArtifacts() {
       categories: [...document.frontmatter.categories],
       authorId: document.frontmatter.authorId ?? null,
       published: document.frontmatter.published !== false,
-      longAuthorId: document.frontmatter.longAuthorId ?? null,
       suppressAuthor: document.frontmatter.suppressAuthor === true,
       relatedAnswers: [...document.frontmatter.relatedAnswers],
       excerpt: document.excerpt,
       answerHtml,
-      longHtml,
       groupCodes: document.groupCodes,
     };
 
@@ -285,7 +242,6 @@ async function renderMarkdown(markdown = "") {
 
 function cleanMarkdown(markdown = "") {
   return normalizeNewlines(markdown)
-    .replace(new RegExp(escapeRegExp(QUESTION_LONG_ANSWER_MARKER), "g"), " ")
     .replace(/```[\s\S]*?```/g, " ")
     .replace(/`[^`]*`/g, " ")
     .replace(/!\[[^\]]*]\([^)]*\)/g, " ")
@@ -329,9 +285,6 @@ function deriveAuthorIds(question) {
   const ids = new Set();
   if (question.authorId) {
     ids.add(String(question.authorId));
-  }
-  if (question.longAuthorId) {
-    ids.add(String(question.longAuthorId));
   }
   return [...ids];
 }

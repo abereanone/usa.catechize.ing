@@ -16,7 +16,7 @@ Static Astro site for catechize.ing, publishing question-and-answer content, cat
 .
 |-- public/
 |   |-- assets/search-client.js    # Search UI source file
-|   `-- styles/theme.css           # Shared theme styles
+|   `-- _redirects                 # Cloudflare Pages redirect rules
 |-- scripts/
 |   |-- build-questions.mjs        # Generates question/search artifacts
 |   |-- check-questions.mjs        # Validates question files without writing
@@ -31,9 +31,9 @@ Static Astro site for catechize.ing, publishing question-and-answer content, cat
 |   |-- generated/questions.json   # Generated on build/dev; ignored by git
 |   |-- layouts/
 |   |-- lib/
-|   `-- pages/
-|-- package.json
-`-- worker.js
+|   |-- pages/
+|   `-- styles/theme.css           # Shared theme styles (bundled by Astro)
+`-- package.json
 ```
 
 ## Canonical Content Model
@@ -51,13 +51,7 @@ categories:
 authorId: mac
 ---
 
-God is our God
-
-<!-- LONG_ANSWER -->
-
-## Long Explanation
-
-Optional extended answer goes here.
+The answer goes here.
 ```
 
 Notes:
@@ -66,7 +60,6 @@ Notes:
 - `published` defaults to `true`.
 - `suppressAuthor` defaults to `false`.
 - `relatedAnswers` uses slugs, not numeric IDs.
-- `<!-- LONG_ANSWER -->` is optional. Content below it becomes the expandable long explanation.
 
 ## Generated Files
 
@@ -102,11 +95,10 @@ npm run preview
 
 1. Create a new question with `npm run new:question -- "Your title here"` or add a Markdown file manually under `src/content/questions/`.
 2. Fill in the frontmatter and body in that file.
-3. If needed, add `<!-- LONG_ANSWER -->` and place the extended explanation below it.
-4. Update `src/data/categories.json` only when you need category sort order or a `groupCode`.
-5. Update `src/data/resources.json` only when you need author/resource metadata such as name, bio, URL, or sort order.
-6. Run `npm run check:questions` to validate the corpus.
-7. Run `npm run build:questions` if you want to refresh the generated artifacts without doing a full site build.
+3. Update `src/data/categories.json` only when you need category sort order or a `groupCode`.
+4. Update `src/data/resources.json` only when you need author/resource metadata such as name, bio, URL, or sort order.
+5. Run `npm run check:questions` to validate the corpus.
+6. Run `npm run build:questions` if you want to refresh the generated artifacts without doing a full site build.
 
 ## Grouped Question IDs
 
@@ -141,19 +133,30 @@ Example effect:
 
 ## Deployment
 
-The repo includes `wrangler.toml` for Cloudflare Workers.
+The site deploys to **Cloudflare Pages** as static assets. Pages clones the repo, runs
+`npm run build`, and publishes `dist/`. There is no Worker and no `functions/` directory:
+the build log confirms `No functions dir at /functions found. Skipping.`
+
+Because there is no server-side code, **redirects live in `public/_redirects`**, which Astro
+copies verbatim into `dist/`. That is the only place redirect rules take effect.
+
+To preview the way Pages will actually serve the site (including `_redirects`):
 
 ```bash
 npm run build
-npx wrangler deploy
+npx wrangler pages dev dist
 ```
+
+Note that `npm run preview` (`astro preview`) serves the static files but does **not**
+apply `_redirects`, so legacy `/q/...` URLs will 404 there.
 
 ## Notes for Future Updates
 
 - `src/lib/questions.ts` reads from `src/generated/questions.json`, not directly from the Markdown files.
 - Search UI source lives in `public/assets/search-client.js`. It is self-contained and fetches
   `public/assets/search-index.json` in the browser on the first search.
-- `worker.js` only serves the static assets in `dist/` and maps unmatched GETs to `404.html`.
+- Redirects belong in `public/_redirects` (Cloudflare Pages). The 404 page is served by Pages
+  automatically from `dist/404.html`.
 - The source of truth for question content is always `src/content/questions/*.md`.
 - If the generated JSON files are removed from git, `npm run dev` and `npm run build` will recreate them automatically.
 
