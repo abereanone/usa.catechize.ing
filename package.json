@@ -12,6 +12,7 @@
     "import:catechisms": "node ./scripts/import-catechisms.mjs",
     "import:patriots": "node ./scripts/import-patriots-catechism.mjs",
     "new:question": "node ./scripts/new-question.mjs",
+    "precheck:types": "npm run build:questions",
     "check:types": "astro check",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
