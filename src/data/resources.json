@@ -1,6 +1,7 @@
 [
   {
     "id": "jdhall",
+    "photo": "/images/resources/jdhall.jpg",
     "name": "JD Hall",
     "url": "https://substack.com/@jdhall1",
     "title": "Author",
@@ -18,6 +19,7 @@
   },
   {
     "id": "rcs",
+    "logo": "/images/resources/rcs.png",
     "name": "Reformed Catechisms",
     "url": "https://catechize.ing",
     "title": "Site",
@@ -26,6 +28,7 @@
   },
   {
     "id": "mac-links",
+    "photo": "/images/resources/mac.jpg",
     "name": "Sites managed by the curator of usa.catechize.ing",
     "url": "https://michaelcoughlin.net/links",
     "title": "Link Directory",
@@ -34,6 +37,7 @@
   },
   {
     "id": "rconfess",
+    "logo": "/images/resources/rconfess.png",
     "name": "Reformed Confessions",
     "url": "https://confess.catechize.ing/",
     "title": "Website",

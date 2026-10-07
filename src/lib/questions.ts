@@ -34,6 +34,7 @@ type AuthorSummary = {
   url?: string;
   bio?: string;
   photo?: string;
+  logo?: string;
   sortOrder?: number;
 };
 
@@ -177,6 +178,7 @@ function buildAuthorMap(): Map<string, AuthorSummary> {
       url: author.url,
       bio: author.bio,
       photo: "photo" in author && author.photo ? String(author.photo) : undefined,
+      logo: "logo" in author && author.logo ? String(author.logo) : undefined,
       sortOrder: typeof author.sortOrder === "number" ? author.sortOrder : undefined,
     });
   });
