@@ -1,10 +1,10 @@
 # catechize.ing
 
-Static Astro site for catechize.ing, publishing question-and-answer content, category pages, author pages, and search.
+Static Astro site for usa.catechize.ing (the Patriot's Catechism), publishing question-and-answer content, category pages, author pages, and search.
 
 ## Stack
 
-- [Astro](https://astro.build/) 6.x
+- [Astro](https://astro.build/) 7.x
 - TypeScript project configuration (`tsconfig.json`)
 - Markdown content in `src/content/questions/`
 - Generated question/search artifacts for fast page rendering
@@ -73,7 +73,7 @@ They are intended to be untracked build artifacts, not source files.
 
 ## Local Development
 
-Requirements: Node.js 22.12.0+ and npm (Astro 6 requirement).
+Requirements: Node.js 22.22.0+ and npm (Astro 7; see `engines` in `package.json`).
 
 ```bash
 npm install
@@ -129,7 +129,24 @@ Example effect:
 - `npm run new:question -- "Title"` - scaffold a new question Markdown file with the next numeric ID.
 - `npm run build` - production build.
 - `npm run preview` - preview the production build locally.
+- `npm run check:types` - rebuild the generated artifacts, then run `astro check`.
+- `npm run format` / `npm run format:check` - run Prettier over the repo (write / check only).
+- `npm run import:patriots` - one-time import of the 342 Patriot's Catechism questions (see below).
+- `npm run import:catechisms` - bulk-import the older catechisms from the sibling `symbolics-data` repo (see below).
 - `npm run astro ...` - run the Astro CLI directly.
+
+### Script reference
+
+All scripts live in `scripts/`, run from the repo root, and write only under `src/` and `public/assets/`.
+
+| Script | What it does | Notes |
+|---|---|---|
+| `build-questions.mjs` | Reads `src/content/questions/*.md`, validates them, writes `src/generated/questions.json` and `public/assets/search-index.json`. | Runs before `dev`, `build` and `check:types`. Safe to re-run. |
+| `check-questions.mjs` | Same validation, writes nothing. | Used by CI. |
+| `new-question.mjs` | Scaffolds `src/content/questions/<slug>.md` from a title with the next free numeric ID. | `npm run new:question -- "Title"`. |
+| `import-patriots-catechism.mjs` | Parses `scripts/patriots_catechism_extracted.txt` (text extracted from the PDF; page images are in `scripts/pdf-pages/`) into `pc-<n>.md` files, assigning the category by question-number range and author `jdhall`. Fails unless it parses exactly 342 questions. | **Deletes and recreates** the existing `pc-*.md` files. One-time. |
+| `import-catechisms.mjs` | Reads Baptist Catechism (1695), Westminster Shorter and Larger, Heidelberg and Orthodox Creed (1680) questions from `../symbolics-data` (override with `SYMBOLICS_DATA_DIR`) and writes cross-linked question files. | **Deletes and recreates** files prefixed `bc-`, `wsc-`, `wlc-`, `hc-`, `aoc-`. Needs the sibling repo, which is not in this repo. |
+| `lib/questions-core.mjs` | Shared code: paths, `slugify`, frontmatter serialising, loading and validating the question files, building the generated artifacts. | Identical copies exist in `catechize.ing`, `suffering.catechize.ing` and `abolition.ing`; keep them in step. |
 
 ## Deployment
 
