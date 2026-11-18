@@ -19,7 +19,7 @@
     "predev": "npm run build:questions",
     "dev": "astro dev",
     "prebuild": "npm run build:questions",
-    "build": "astro build",
+    "build": "astro build && node scripts/go-links.mjs dist --base /go/ --own usa.catechize.ing",
     "preview": "astro preview",
     "astro": "astro"
   },
