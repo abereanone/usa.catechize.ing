@@ -163,555 +163,6 @@
  "books": [],
  "cards": [
   {
-   "id": 180,
-   "slug": "pc-180",
-   "question": "Why did the States delegate these powers to the Federal Government?",
-   "answer": "In order to aid and assist in a more consistent governance among all the people known as Americans.",
-   "topics": [
-    "executive"
-   ],
-   "scripture": [],
-   "words": [
-    "state",
-    "government",
-    "power",
-    "federal"
-   ],
-   "books": []
-  },
-  {
-   "id": 181,
-   "slug": "pc-181",
-   "question": "Who executes the laws which Congress has made, that is, who takes the responsibility in seeing that all citizens shall obey these laws?",
-   "answer": "The President of the United States.",
-   "topics": [
-    "executive"
-   ],
-   "scripture": [],
-   "words": [
-    "state",
-    "citizen",
-    "congress",
-    "president",
-    "laws"
-   ],
-   "books": []
-  },
-  {
-   "id": 182,
-   "slug": "pc-182",
-   "question": "Can the President make laws?",
-   "answer": "No, not at all. Those two powers, making law and executing law, are kept by the Constitutions entirely separate; the power that makes the law cannot execute it, and the power that executes the law cannot make it. The powers of lawmaking are called Legislative powers, and powers of law enforcement are called Executive powers.",
-   "topics": [
-    "executive"
-   ],
-   "scripture": [],
-   "words": [
-    "president",
-    "power",
-    "constitution",
-    "laws"
-   ],
-   "books": []
-  },
-  {
-   "id": 184,
-   "slug": "pc-184",
-   "question": "How does a man become President of the United States?",
-   "answer": "He is elected (chosen) by the people of the United States.",
-   "topics": [
-    "executive"
-   ],
-   "scripture": [],
-   "words": [
-    "state",
-    "president"
-   ],
-   "books": []
-  },
-  {
-   "id": 186,
-   "slug": "pc-186",
-   "question": "How are electors chosen?",
-   "answer": "This process varies from state to state. Typically, political parties nominate electors at their state conventions. Sometimes the process happens by a vote of the party’s central committee. The electors are often state-elected officials, political party leaders, or respected individuals within the party. Comprised together, these electors are called the \"Electoral College.\"",
-   "topics": [
-    "executive"
-   ],
-   "scripture": [],
-   "words": [
-    "state",
-    "vote",
-    "individual"
-   ],
-   "books": []
-  },
-  {
-   "id": 188,
-   "slug": "pc-188",
-   "question": "How many electoral votes must someone have to become President?",
-   "answer": "They must receive the majority of electoral votes, that being 270.",
-   "topics": [
-    "executive"
-   ],
-   "scripture": [],
-   "words": [
-    "president",
-    "vote"
-   ],
-   "books": []
-  },
-  {
-   "id": 190,
-   "slug": "pc-190",
-   "question": "Can a candidate lose the popular vote and still win the Electoral College, making them President?",
-   "answer": "Yes, it has happened on a number of occasions.",
-   "topics": [
-    "executive"
-   ],
-   "scripture": [],
-   "words": [
-    "president",
-    "vote"
-   ],
-   "books": []
-  },
-  {
-   "id": 192,
-   "slug": "pc-192",
-   "question": "Who is qualified to be President of the United States?",
-   "answer": "According to the Constitution, only those meeting the qualifications of citizenship from birth, who are 35 years of age or older, and have actually been continuously residing in the United States for fourteen or more years may be President.",
-   "topics": [
-    "executive"
-   ],
-   "scripture": [],
-   "words": [
-    "state",
-    "president",
-    "constitution"
-   ],
-   "books": []
-  },
-  {
-   "id": 195,
-   "slug": "pc-195",
-   "question": "Must electors vote for Presidents and Vice Presidents of the same party?",
-   "answer": "There is nothing in the Constitution or Federal Law that would prevent an elector from voting for a President from one party and a Vice President from another. However, many state election rules dictate that electors vote for a unified \"ticket\" or \"slate\" of Presidential and Vice Presidential candidates.",
-   "topics": [
-    "executive"
-   ],
-   "scripture": [],
-   "words": [
-    "state",
-    "president",
-    "constitution",
-    "federal",
-    "vote"
-   ],
-   "books": []
-  },
-  {
-   "id": 196,
-   "slug": "pc-196",
-   "question": "Are there any limits on who may serve together as President and Vice President?",
-   "answer": "The Constitution forbids electors from voting for a President and a Vice President from the same state, for fear that one state may become too powerful in the Union of States.",
-   "topics": [
-    "executive"
-   ],
-   "scripture": [],
-   "words": [
-    "state",
-    "president",
-    "constitution"
-   ],
-   "books": []
-  },
-  {
-   "id": 197,
-   "slug": "pc-197",
-   "question": "If the President should die, be removed from office, or resign, who shall carry out his duties of office?",
-   "answer": "The Vice President shall carry out his duties of office.",
-   "topics": [
-    "executive"
-   ],
-   "scripture": [],
-   "words": [
-    "president",
-    "office",
-    "duties"
-   ],
-   "books": []
-  },
-  {
-   "id": 198,
-   "slug": "pc-198",
-   "question": "If the Vice President, now serving as the President, shall be removed from office or resign, who shall carry out his duties of office?",
-   "answer": "The Speaker of the House shall become the President in this case. If he should die, leave or be removed from office, the Senate president pro tempore shall serve. From there, there is a line of succession to cabinet members including the Secretary of State, Secretary of the Treasury, Secretary of Defense and so on.",
-   "topics": [
-    "executive"
-   ],
-   "scripture": [],
-   "words": [
-    "state",
-    "president",
-    "house",
-    "office",
-    "senate",
-    "duties"
-   ],
-   "books": []
-  },
-  {
-   "id": 199,
-   "slug": "pc-199",
-   "question": "May the President be paid for serving in his office?",
-   "answer": "The President may receive a salary, as set by Congress.",
-   "topics": [
-    "executive"
-   ],
-   "scripture": [],
-   "words": [
-    "congress",
-    "president",
-    "office"
-   ],
-   "books": []
-  },
-  {
-   "id": 200,
-   "slug": "pc-200",
-   "question": "May the President receive money from any foreign government?",
-   "answer": "No, the President may not receive any money from any foreign government or receive any exorbitant gifts or honorariums.",
-   "topics": [
-    "executive"
-   ],
-   "scripture": [],
-   "words": [
-    "government",
-    "president",
-    "money"
-   ],
-   "books": []
-  },
-  {
-   "id": 201,
-   "slug": "pc-201",
-   "question": "May the President receive money from any State government?",
-   "answer": "No, the President may not receive money from any State government, lest he favor one State over another.",
-   "topics": [
-    "executive"
-   ],
-   "scripture": [],
-   "words": [
-    "state",
-    "government",
-    "president",
-    "money"
-   ],
-   "books": []
-  },
-  {
-   "id": 203,
-   "slug": "pc-203",
-   "question": "What is the Presidential oath of office?",
-   "answer": "It is these words, \"I do solemnly swear, that I will faithfully execute the office of President of the United States and will, to the best of my ability, preserve, protect, and defend the Constitution of the United States.\" By tradition, Presidents have often included at the end, \"So help me God.\"",
-   "topics": [
-    "executive"
-   ],
-   "scripture": [],
-   "words": [
-    "state",
-    "president",
-    "constitution",
-    "office"
-   ],
-   "books": []
-  },
-  {
-   "id": 204,
-   "slug": "pc-204",
-   "question": "What are the powers belonging to the President?",
-   "answer": "He is the Commander in Chief of all the Armed Services; every officer of all branches, from the highest to the lowest, is obliged to obey his orders.",
-   "topics": [
-    "executive"
-   ],
-   "scripture": [],
-   "words": [
-    "president",
-    "power"
-   ],
-   "books": []
-  },
-  {
-   "id": 205,
-   "slug": "pc-205",
-   "question": "Are the officers of the militia obliged to obey them?",
-   "answer": "Officers of the militia are obliged to obey the Commander in Chief, unless such orders are themselves unconstitutional or if he has himself, become an enemy of the United States.",
-   "topics": [
-    "executive"
-   ],
-   "scripture": [],
-   "words": [
-    "state"
-   ],
-   "books": []
-  },
-  {
-   "id": 206,
-   "slug": "pc-206",
-   "question": "Has he any other powers?",
-   "answer": "Yes, he may grant pardons for crimes.",
-   "topics": [
-    "executive"
-   ],
-   "scripture": [],
-   "words": [
-    "power"
-   ],
-   "books": []
-  },
-  {
-   "id": 207,
-   "slug": "pc-207",
-   "question": "What is a pardon?",
-   "answer": "A pardon is the delivering of a condemned person from the consequences or penalty of his offense.",
-   "topics": [
-    "executive"
-   ],
-   "scripture": [],
-   "words": [],
-   "books": []
-  },
-  {
-   "id": 208,
-   "slug": "pc-208",
-   "question": "May the President do this for all crimes?",
-   "answer": "Yes, although he cannot undo the consequence of impeachment.",
-   "topics": [
-    "executive"
-   ],
-   "scripture": [],
-   "words": [
-    "president"
-   ],
-   "books": []
-  },
-  {
-   "id": 209,
-   "slug": "pc-209",
-   "question": "Does the President possess powers to enter into treaties with other nations?",
-   "answer": "The President may make treaties with other nations on behalf of the United States.",
-   "topics": [
-    "executive"
-   ],
-   "scripture": [],
-   "words": [
-    "state",
-    "president",
-    "power",
-    "nation"
-   ],
-   "books": []
-  },
-  {
-   "id": 211,
-   "slug": "pc-211",
-   "question": "Has the President any power over other offices and positions in the f ederal government?",
-   "answer": "Yes, he has the powers of nomination and appointment.",
-   "topics": [
-    "executive"
-   ],
-   "scripture": [],
-   "words": [
-    "government",
-    "president",
-    "power",
-    "office"
-   ],
-   "books": []
-  },
-  {
-   "id": 213,
-   "slug": "pc-213",
-   "question": "What sort of officers are appointed in this matter?",
-   "answer": "Ambassadors and foreign Ministers, consuls, judges of the Supreme Court and federal districts, and all other officers of the United States, except those who are expressly ordered by the Constitution to be appointed by some person or body other than the President.",
-   "topics": [
-    "executive"
-   ],
-   "scripture": [],
-   "words": [
-    "state",
-    "president",
-    "constitution",
-    "court",
-    "federal",
-    "judge"
-   ],
-   "books": []
-  },
-  {
-   "id": 214,
-   "slug": "pc-214",
-   "question": "May the President appoint any officer without the consent of the Senate?",
-   "answer": "Yes, if Congress makes a law giving him the power to do so.",
-   "topics": [
-    "executive"
-   ],
-   "scripture": [],
-   "words": [
-    "congress",
-    "president",
-    "power",
-    "senate"
-   ],
-   "books": []
-  },
-  {
-   "id": 215,
-   "slug": "pc-215",
-   "question": "What are the regular duties of the President?",
-   "answer": "The President must from time to time report to Congress concerning the state and affairs of the nation.",
-   "topics": [
-    "executive"
-   ],
-   "scripture": [],
-   "words": [
-    "state",
-    "congress",
-    "president",
-    "nation",
-    "duties"
-   ],
-   "books": []
-  },
-  {
-   "id": 218,
-   "slug": "pc-218",
-   "question": "Suppose Congress wishes to know from the President something which he has not told them in his speech or messages, may they call upon him to communicate it?",
-   "answer": "Yes, and if he does not think that the public good requires it to be kept secret, he always answers the call, and gives them the knowledge they requested, if he can do so.",
-   "topics": [
-    "executive"
-   ],
-   "scripture": [],
-   "words": [
-    "congress",
-    "president",
-    "public"
-   ],
-   "books": []
-  },
-  {
-   "id": 219,
-   "slug": "pc-219",
-   "question": "Does he do more than communicate information to the Congress?",
-   "answer": "Yes; it is his duty also to recommend to them such actions as he believes will be for the advantage of the nation.",
-   "topics": [
-    "executive"
-   ],
-   "scripture": [],
-   "words": [
-    "congress",
-    "nation"
-   ],
-   "books": []
-  },
-  {
-   "id": 222,
-   "slug": "pc-222",
-   "question": "Suppose some very important matter should arise while Congress is adjourned, can the President call them together?",
-   "answer": "Yes. He can call either both houses, or only one. If any law is to be made, both houses are required. If only a treaty or an appointment is to be made, the Senate only need be assembled.",
-   "topics": [
-    "executive"
-   ],
-   "scripture": [],
-   "words": [
-    "congress",
-    "president",
-    "house",
-    "senate"
-   ],
-   "books": []
-  },
-  {
-   "id": 223,
-   "slug": "pc-223",
-   "question": "If when both Houses are in session, they should find themselves unable to agree about the time at which they will adjourn (that is, cease to meet and go into recess) can the President end their dispute?",
-   "answer": "Yes, by adjourning both Houses.",
-   "topics": [
-    "executive"
-   ],
-   "scripture": [],
-   "words": [
-    "president",
-    "house"
-   ],
-   "books": []
-  },
-  {
-   "id": 224,
-   "slug": "pc-224",
-   "question": "In that case, when are they to reconvene?",
-   "answer": "At any time the President declares, once he has adjourned them.",
-   "topics": [
-    "executive"
-   ],
-   "scripture": [],
-   "words": [
-    "president"
-   ],
-   "books": []
-  },
-  {
-   "id": 225,
-   "slug": "pc-225",
-   "question": "What are the duties required of the President with regard to foreign heads of state?",
-   "answer": "He must receive all ambassadors and foreign ministers; that is, persons sent by other nations to make treaties with us, or to reside here as representatives of their own government.",
-   "topics": [
-    "executive"
-   ],
-   "scripture": [],
-   "words": [
-    "state",
-    "government",
-    "president",
-    "representative",
-    "nation",
-    "duties"
-   ],
-   "books": []
-  },
-  {
-   "id": 226,
-   "slug": "pc-226",
-   "question": "Has he any great overriding duty?",
-   "answer": "Yes, he has one great, general, and constant duty in which all this power is put at his command, it is to take care that the laws shall be faithfully executed and enforced; that is, that whatever Congress orders shall be done, and that whoever disobeys their laws shall be punished.",
-   "topics": [
-    "executive"
-   ],
-   "scripture": [],
-   "words": [
-    "congress",
-    "power",
-    "laws"
-   ],
-   "books": []
-  },
-  {
-   "id": 228,
-   "slug": "pc-228",
-   "question": "Can there be no bribery but by means of money?",
-   "answer": "Yes; bribes may be offered in various forms. Any benefit or advantage received by an officer of the government, including the President, for a constitutionally improper end is considered a bribe.",
-   "topics": [
-    "executive"
-   ],
-   "scripture": [],
-   "words": [
-    "government",
-    "president",
-    "money"
-   ],
-   "books": []
-  },
-  {
    "id": 1,
    "slug": "pc-1",
    "question": "In what country do you live?",
@@ -744,8 +195,8 @@
   {
    "id": 3,
    "slug": "pc-3",
-   "question": "What is meant by \"state?\"",
-   "answer": "By \"state\" is meant any district or country whose people are all under a common government.",
+   "question": "What is meant by “state?”",
+   "answer": "By “state” is meant any district or country whose people are all under a common government.",
    "topics": [
     "foundations"
    ],
@@ -935,496 +386,330 @@
    "books": []
   },
   {
-   "id": 229,
-   "slug": "pc-229",
-   "question": "What are we to understand by a Court?",
-   "answer": "A court is a legal institution wherein a duly constituted Judge sits to hear and determine disputes, or cases according to the law. A courthouse with courtrooms are the locales wherein this usually takes place.",
+   "id": 16,
+   "slug": "pc-16",
+   "question": "Was America always a Republic?",
+   "answer": "No, she was once a collection of colonies.",
    "topics": [
-    "judiciary"
+    "revolution"
    ],
    "scripture": [],
    "words": [
-    "court",
-    "judge"
+    "colonies"
    ],
    "books": []
   },
   {
-   "id": 231,
-   "slug": "pc-231",
-   "question": "Are there Courts in every State of the United States?",
-   "answer": "Yes. Each State appoints Judges of its own to see that its state laws are enforced.",
+   "id": 17,
+   "slug": "pc-17",
+   "question": "What do you mean by colonies?",
+   "answer": "A colony is a group of citizens of a nation, who settle themselves in a different land under the auspices of their home nation, and hence continue to be ultimately governed by that home nation.",
    "topics": [
-    "judiciary"
+    "revolution"
+   ],
+   "scripture": [],
+   "words": [
+    "citizen",
+    "nation",
+    "colonies"
+   ],
+   "books": []
+  },
+  {
+   "id": 18,
+   "slug": "pc-18",
+   "question": "By what nation were the American colonies governed?",
+   "answer": "The colonies that first created the United States by their union were governed by Great Britain.",
+   "topics": [
+    "revolution"
    ],
    "scripture": [],
    "words": [
     "state",
+    "nation",
+    "colonies"
+   ],
+   "books": []
+  },
+  {
+   "id": 19,
+   "slug": "pc-19",
+   "question": "From where did the laws come that governed the colonies from Great Britain?",
+   "answer": "The laws inherited by the colonists came from what is called English Common Law and Social Compact Theory.",
+   "topics": [
+    "revolution"
+   ],
+   "scripture": [],
+   "words": [
     "laws",
-    "court",
-    "judge"
+    "colonies"
    ],
    "books": []
   },
   {
-   "id": 233,
-   "slug": "pc-233",
-   "question": "Are all these Courts equal, or is one superior to another?",
-   "answer": "They are not all equal but in each State, some of the State Courts are set over others; and so it is with the Courts of the United States.",
+   "id": 20,
+   "slug": "pc-20",
+   "question": "Were these laws good and wise?",
+   "answer": "Many of them were; and for a time the colonies were blessed by their relationship with Great Britain. But over time, unjust laws were passed upon these colonies which threatened their reasonable liberties and well being.",
    "topics": [
-    "judiciary"
+    "revolution"
    ],
    "scripture": [],
    "words": [
-    "state",
-    "court"
-   ],
-   "books": []
-  },
-  {
-   "id": 235,
-   "slug": "pc-235",
-   "question": "Can he take his cause from the State Courts to the Courts of the United States?",
-   "answer": "No, not unless his complaint is related to a law made by a State, which he supposes to be contrary to the Constitution of the United States. That matter can be settled only by the Supreme Court of the United States.",
-   "topics": [
-    "judiciary"
-   ],
-   "scripture": [],
-   "words": [
-    "state",
-    "constitution",
-    "court"
-   ],
-   "books": []
-  },
-  {
-   "id": 236,
-   "slug": "pc-236",
-   "question": "Suppose his complaint is in regard to a law of the United States and not a State law?",
-   "answer": "He must in this case go at once to the Courts of the United States.",
-   "topics": [
-    "judiciary"
-   ],
-   "scripture": [],
-   "words": [
-    "state",
-    "court"
-   ],
-   "books": []
-  },
-  {
-   "id": 237,
-   "slug": "pc-237",
-   "question": "Which courts are these?",
-   "answer": "They consist of one Supreme Court (the highest of all), and of such lower federal courts, as Congress may from time to time establish.",
-   "topics": [
-    "judiciary"
-   ],
-   "scripture": [],
-   "words": [
-    "congress",
-    "court",
-    "federal"
-   ],
-   "books": []
-  },
-  {
-   "id": 238,
-   "slug": "pc-238",
-   "question": "Has Congress established such courts?",
-   "answer": "Yes, it has, which are called Circuit or Appellate Courts of the United Stats; and others, below these, which are called District Courts of the United States.",
-   "topics": [
-    "judiciary"
-   ],
-   "scripture": [],
-   "words": [
-    "state",
-    "congress",
-    "court"
-   ],
-   "books": []
-  },
-  {
-   "id": 239,
-   "slug": "pc-239",
-   "question": "What Judges sit on the Circuit or Appellate Courts of the United States?",
-   "answer": "The thirteen U.S. Appellate courts are presided over by a panel of judges ranging from six to twenty-nine depending on the circuit, though usually a panel of three decides an individual appeal.",
-   "topics": [
-    "judiciary"
-   ],
-   "scripture": [],
-   "words": [
-    "state",
-    "court",
-    "individual",
-    "judge",
-    "twenty"
-   ],
-   "books": []
-  },
-  {
-   "id": 240,
-   "slug": "pc-240",
-   "question": "What Judges sit in the District Courts of the United States?",
-   "answer": "There are 94 federal judicial districts in the United States court system presided over by hundreds of district judges, though each district must have at least one federal judge appointed by the President for life.",
-   "topics": [
-    "judiciary"
-   ],
-   "scripture": [],
-   "words": [
-    "state",
-    "president",
-    "court",
-    "federal",
-    "judge"
-   ],
-   "books": []
-  },
-  {
-   "id": 241,
-   "slug": "pc-241",
-   "question": "What kind of cases are tried in the Courts of the United States?",
-   "answer": "A case must be tried in federal court when there is a dispute concerning the true United States constitutionality of a lower courts decision.",
-   "topics": [
-    "judiciary"
-   ],
-   "scripture": [],
-   "words": [
-    "state",
-    "court",
-    "federal"
-   ],
-   "books": []
-  },
-  {
-   "id": 242,
-   "slug": "pc-242",
-   "question": "Are there other cases to be tried in the Courts of the United States?",
-   "answer": "All cases under the federal laws of the United States. A federal court cannot adjudicate a case of state law unless that law itself or the application thereof is itself being challenged as contrary to the Constitution of the United States.",
-   "topics": [
-    "judiciary"
-   ],
-   "scripture": [],
-   "words": [
-    "state",
-    "constitution",
     "laws",
-    "court",
-    "federal"
+    "colonies"
    ],
    "books": []
   },
   {
-   "id": 246,
-   "slug": "pc-246",
-   "question": "How are the Judges of the Courts of the United States appointed?",
-   "answer": "By the President, with the advice and consent of the Senate.",
+   "id": 21,
+   "slug": "pc-21",
+   "question": "What was the colonies’ response to these unjust laws?",
+   "answer": "They issued complaints, and for a time reasoned with Great Britain, in an attempt to persuade her to see her error and govern more justly.",
    "topics": [
-    "judiciary"
+    "revolution"
    ],
    "scripture": [],
    "words": [
-    "state",
-    "president",
-    "court",
-    "senate",
-    "judge"
-   ],
-   "books": []
-  },
-  {
-   "id": 247,
-   "slug": "pc-247",
-   "question": "How long do they remain in office?",
-   "answer": "A federal presidential judicial appointment is for life or until the justice resigns or is removed by due process for some form of corruption.",
-   "topics": [
-    "judiciary"
-   ],
-   "scripture": [],
-   "words": [
-    "federal",
-    "office",
-    "long"
-   ],
-   "books": []
-  },
-  {
-   "id": 249,
-   "slug": "pc-249",
-   "question": "Why should not Legislators hold their office in the same way?",
-   "answer": "Because they make the laws, while Judges only explain and apply them; it would be very dangerous to liberty to give our law makers power for life; they require restraint lest they should become our tyrants; therefore their term in office is limited, so that if the people deem them unwise or unfaithful, they may refuse them that office again.",
-   "topics": [
-    "judiciary"
-   ],
-   "scripture": [],
-   "words": [
-    "power",
     "laws",
-    "office",
-    "judge"
+    "colonies"
    ],
    "books": []
   },
   {
-   "id": 250,
-   "slug": "pc-250",
-   "question": "How do the Courts determine when laws have been disobeyed and determine their punishment?",
-   "answer": "When a person is charged with having acted illegally to his neighbor, or to the State, whether he is guilty of the charge or not is determined a citizen Jury of his peers.",
+   "id": 22,
+   "slug": "pc-22",
+   "question": "Did Great Britain heed their complaints and repeal these unjust laws?",
+   "answer": "No, but instead she deployed her navy and army threatening the colonies with confiscation of their wealth and violence toward their persons if their compliance was not forthcoming.",
    "topics": [
-    "judiciary"
+    "revolution"
+   ],
+   "scripture": [],
+   "words": [
+    "laws",
+    "colonies"
+   ],
+   "books": []
+  },
+  {
+   "id": 24,
+   "slug": "pc-24",
+   "question": "Did the colonists sin against God by rebelling against Great Britain?",
+   "answer": "No, not at all. Great Britain surrendered the colonists as their citizens when they denied them representation in Parliament. The colonists were citizens where they were represented, which was in their colonies. When a government breaks it’s own compact with its citizens, its citizens are free to find or create new government.",
+   "topics": [
+    "revolution"
+   ],
+   "scripture": [],
+   "words": [
+    "citizen",
+    "government",
+    "colonies"
+   ],
+   "books": []
+  },
+  {
+   "id": 25,
+   "slug": "pc-25",
+   "question": "When the citizens of the colonies declared their independence, what was Great Britain’s response?",
+   "answer": "Great Britain continued to confiscate the wealth and commit violence upon the citizens of the colonies, and thus provoke a state of war.",
+   "topics": [
+    "revolution"
    ],
    "scripture": [],
    "words": [
     "state",
     "citizen",
-    "laws",
-    "court"
+    "colonies"
    ],
    "books": []
   },
   {
-   "id": 253,
-   "slug": "pc-253",
-   "question": "Does a Jury decide in civil suits as well as in criminal prosecutions?",
-   "answer": "Depending on the case, a jury can decide in both.",
+   "id": 26,
+   "slug": "pc-26",
+   "question": "When we speak of this war, what do we call it?",
+   "answer": "We call it the American Revolution.",
    "topics": [
-    "judiciary"
+    "revolution"
    ],
    "scripture": [],
    "words": [],
    "books": []
   },
   {
-   "id": 255,
-   "slug": "pc-255",
-   "question": "Suppose the act was committed at sea, or in some other place not within any one of the States, her territories or possessions. Where is such a trial held?",
-   "answer": "Where Congress shall have appointed by law.",
+   "id": 27,
+   "slug": "pc-27",
+   "question": "What do you mean by Revolution?",
+   "answer": "A revolution means to revolt with the aim of securing a great change of government.",
    "topics": [
-    "judiciary"
+    "revolution"
    ],
    "scripture": [],
    "words": [
-    "state",
-    "congress"
+    "government"
    ],
    "books": []
   },
   {
-   "id": 256,
-   "slug": "pc-256",
-   "question": "Ought all the public acts of a State and its courts and officers be recorded in writing?",
-   "answer": "Certainly; this must be done in order to preserve a remembrance of them and for those affected to show proof of them and if injured, to obtain redress.",
+   "id": 28,
+   "slug": "pc-28",
+   "question": "When and where did the war of the revolution begin?",
+   "answer": "At Lexington and Concord, villages near Boston in Massachusetts, on the 19th of April, 1775.",
    "topics": [
-    "judiciary"
+    "revolution"
+   ],
+   "scripture": [],
+   "words": [],
+   "books": []
+  },
+  {
+   "id": 29,
+   "slug": "pc-29",
+   "question": "How long did the struggle continue?",
+   "answer": "More than seven years.",
+   "topics": [
+    "revolution"
+   ],
+   "scripture": [],
+   "words": [
+    "long"
+   ],
+   "books": []
+  },
+  {
+   "id": 30,
+   "slug": "pc-30",
+   "question": "When did it end?",
+   "answer": "On the 21st of January, 1783 when a treaty was signed at Paris acknowledging the independence of the United States.",
+   "topics": [
+    "revolution"
+   ],
+   "scripture": [],
+   "words": [
+    "state"
+   ],
+   "books": []
+  },
+  {
+   "id": 31,
+   "slug": "pc-31",
+   "question": "Why is the 4th of July kept with such public rejoicing through all parts of the United States?",
+   "answer": "Because it was on the 4th of July, 1776, that the Colonies first declared themselves free and independent.",
+   "topics": [
+    "revolution"
    ],
    "scripture": [],
    "words": [
     "state",
-    "court",
+    "colonies",
     "public"
    ],
    "books": []
   },
   {
-   "id": 257,
-   "slug": "pc-257",
-   "question": "When such a record is made in one of the states, and a copy of it duly proved and given, must that record be received as proof by all the other States?",
-   "answer": "Yes, but Congress may determine by law in what manner the record shall be proved for that purpose.",
+   "id": 32,
+   "slug": "pc-32",
+   "question": "What was the change produced by the Revolution?",
+   "answer": "The different Colonies became each a free state, having power to govern itself in any way it should think proper.",
    "topics": [
-    "judiciary"
+    "revolution"
    ],
    "scripture": [],
    "words": [
     "state",
-    "congress"
-   ],
-   "books": []
-  },
-  {
-   "id": 258,
-   "slug": "pc-258",
-   "question": "When a citizen of one state travels to any other state of the Union, may he be treated as if he were a foreigner? That is, may any difference be made between his privileges and those of the citizens of that state?",
-   "answer": "No. He shall enjoy every privilege enjoyed by the citizens of that state.",
-   "topics": [
-    "judiciary"
-   ],
-   "scripture": [],
-   "words": [
-    "state",
-    "citizen"
-   ],
-   "books": []
-  },
-  {
-   "id": 259,
-   "slug": "pc-259",
-   "question": "If a person charged with a crime in one State, shall flee from justice into the bounds of another State is he safe from pursuit and trial?",
-   "answer": "No. If the Governor of the State where the crime was committed applies to the Governor of the State where he has taken refuge, the latter shall cause him to be delivered to the state in which the offense is alleged. This is called extradition.",
-   "topics": [
-    "judiciary"
-   ],
-   "scripture": [],
-   "words": [
-    "state"
-   ],
-   "books": []
-  },
-  {
-   "id": 260,
-   "slug": "pc-260",
-   "question": "How many States were there which revolted from Great Britain at the Revolution?",
-   "answer": "Thirteen.",
-   "topics": [
-    "judiciary"
-   ],
-   "scripture": [],
-   "words": [
-    "state"
-   ],
-   "books": []
-  },
-  {
-   "id": 261,
-   "slug": "pc-261",
-   "question": "Did they all agree to the Federal Constitution at the time it went into operation?",
-   "answer": "Not all, but the rest came in soon after.",
-   "topics": [
-    "judiciary"
-   ],
-   "scripture": [],
-   "words": [
-    "constitution",
-    "federal"
-   ],
-   "books": []
-  },
-  {
-   "id": 262,
-   "slug": "pc-262",
-   "question": "Was it then expected that other future States would be formed and join the Union?",
-   "answer": "Yes, and provision was made for admitting them.",
-   "topics": [
-    "judiciary"
-   ],
-   "scripture": [],
-   "words": [
-    "state"
-   ],
-   "books": []
-  },
-  {
-   "id": 263,
-   "slug": "pc-263",
-   "question": "By whom were they to be admitted?",
-   "answer": "By Congress.",
-   "topics": [
-    "judiciary"
-   ],
-   "scripture": [],
-   "words": [
-    "congress"
-   ],
-   "books": []
-  },
-  {
-   "id": 265,
-   "slug": "pc-265",
-   "question": "Has any State the right to set up a monarchical form of government for itself, that is a government where the supreme power is in the hands of a king?",
-   "answer": "No. At the time of our nation’s founding the colonies were all individual republics. The new government they formed for the union of these republics was itself a representative republican model, which would then be enacted in any additional states which would join this union in the future.",
-   "topics": [
-    "judiciary"
-   ],
-   "scripture": [],
-   "words": [
-    "state",
-    "government",
     "power",
-    "representative",
-    "right",
-    "nation",
-    "colonies",
-    "individual"
+    "colonies"
    ],
    "books": []
   },
   {
-   "id": 266,
-   "slug": "pc-266",
-   "question": "Who is to see that this state of affairs is maintained?",
-   "answer": "The Congress.",
+   "id": 33,
+   "slug": "pc-33",
+   "question": "Had not one state any power over the other?",
+   "answer": "Legally, each state was an independent, autonomous and sovereign entity.",
    "topics": [
-    "judiciary"
+    "revolution"
    ],
    "scripture": [],
    "words": [
     "state",
-    "congress"
+    "power"
    ],
    "books": []
   },
   {
-   "id": 267,
-   "slug": "pc-267",
-   "question": "Does Congress secure any privilege to the different States?",
-   "answer": "Yes. It must protect them from attack or invasion by a foreign enemy. This is one of the most important benefits of our Union; each State has the protection of the whole.",
+   "id": 34,
+   "slug": "pc-34",
+   "question": "Why did the states decide to create the Union?",
+   "answer": "The states discovered that they could better accomplish several vitally important tasks by working together, creating a general and central government to help the states achieve this cooperation.",
    "topics": [
-    "judiciary"
+    "revolution"
    ],
    "scripture": [],
    "words": [
     "state",
-    "congress"
+    "government"
    ],
    "books": []
   },
   {
-   "id": 270,
-   "slug": "pc-270",
-   "question": "What is the supreme law of the United States?",
-   "answer": "The Constitution itself is supreme; and all laws and treaties made by Congress and the President, in conformity with it, are superior to any law made by one of the States, so that if a law of a State contradicts a law of Congress, the State law is of no force, and the United States law alone must be obeyed.",
+   "id": 35,
+   "slug": "pc-35",
+   "question": "What approach to government and law did the states first create in order to work together?",
+   "answer": "They drafted the Articles of Confederation.",
    "topics": [
-    "judiciary"
+    "revolution"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "government"
+   ],
+   "books": []
+  },
+  {
+   "id": 36,
+   "slug": "pc-36",
+   "question": "What were the Articles of Confederation?",
+   "answer": "The Articles of Confederation were a broad precursor to what would become the Constitution of the United States.",
+   "topics": [
+    "revolution"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "constitution"
+   ],
+   "books": []
+  },
+  {
+   "id": 37,
+   "slug": "pc-37",
+   "question": "What were the problems with the Articles of Confederation?",
+   "answer": "The problems with the Articles of Confederation were mostly due to their lack of specificity and the resulting deficiency they provided for governing a nation such as the United States hoped to become.",
+   "topics": [
+    "revolution"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "nation"
+   ],
+   "books": []
+  },
+  {
+   "id": 38,
+   "slug": "pc-38",
+   "question": "Who makes laws in both the states and in the Union?",
+   "answer": "Laws which concern only one of the states are made by persons chosen by the people of that state by representatives they have selected, called the legislature. Laws which concern all the states or more states than one are made by the Congress of the United States.",
+   "topics": [
+    "revolution"
    ],
    "scripture": [],
    "words": [
     "state",
     "congress",
-    "president",
-    "constitution",
-    "laws"
-   ],
-   "books": []
-  },
-  {
-   "id": 271,
-   "slug": "pc-271",
-   "question": "Is there any recourse for the State, if the Courts are misinterpreting the Constitution or if laws are being enforced (or not enforced) despotically or prejudicially?",
-   "answer": "Yes, the Doctrine of the Lesser Magistrate demands that all elected offices - even smaller State or local magistrates - must defend the Constitution of the United States. Within their means and ability, they are able to resist tyranny by keeping their own oath to the Constitution.",
-   "topics": [
-    "judiciary"
-   ],
-   "scripture": [],
-   "words": [
-    "state",
-    "constitution",
     "laws",
-    "court",
-    "office"
-   ],
-   "books": []
-  },
-  {
-   "id": 272,
-   "slug": "pc-272",
-   "question": "What is the Doctrine of the Lesser Magistrate?",
-   "answer": "The Doctrine of the Lesser Magistrate teaches that when the superior or higher ranking civil authority makes unconstitutional or immoral policies, the lower or lesser ranking civil authority has both a right and duty to refuse obedience to that superior authority. If necessary, the lesser authorities may even actively resist the higher authority in keeping with their oath of office.",
-   "topics": [
-    "judiciary"
-   ],
-   "scripture": [],
-   "words": [
-    "right",
-    "office"
+    "representative"
    ],
    "books": []
   },
@@ -3007,7 +2292,7 @@
    "id": 153,
    "slug": "pc-153",
    "question": "Are there additional powers conferred by the Constitution upon the Congress of the United States?",
-   "answer": "Congress may make any law which \"shall be necessary and proper for carrying into execution the foregoing powers,\" that is, any law necessary to fulfill the very specific responsibilities given it by the Constitution.",
+   "answer": "Congress may make any law which “shall be necessary and proper for carrying into execution the foregoing powers,” that is, any law necessary to fulfill the very specific responsibilities given it by the Constitution.",
    "topics": [
     "powers"
    ],
@@ -3174,7 +2459,7 @@
    "id": 167,
    "slug": "pc-167",
    "question": "May a citizen of the United States be punished for an action that was not contrary to any law at the time of the action, but does violate a law that was enacted after the time of the action?",
-   "answer": "No. A law that attempts to punish actions that were done before the law was made, is called an \"ex-post-facto law.\" This also is expressly forbidden by the Constitution.",
+   "answer": "No. A law that attempts to punish actions that were done before the law was made, is called an “ex-post-facto law.” This also is expressly forbidden by the Constitution.",
    "topics": [
     "powers"
    ],
@@ -3292,202 +2577,291 @@
    "books": []
   },
   {
-   "id": 16,
-   "slug": "pc-16",
-   "question": "Was America always a Republic?",
-   "answer": "No, she was once a collection of colonies.",
+   "id": 180,
+   "slug": "pc-180",
+   "question": "Why did the States delegate these powers to the Federal Government?",
+   "answer": "In order to aid and assist in a more consistent governance among all the people known as Americans.",
    "topics": [
-    "revolution"
-   ],
-   "scripture": [],
-   "words": [
-    "colonies"
-   ],
-   "books": []
-  },
-  {
-   "id": 17,
-   "slug": "pc-17",
-   "question": "What do you mean by colonies?",
-   "answer": "A colony is a group of citizens of a nation, who settle themselves in a different land under the auspices of their home nation, and hence continue to be ultimately governed by that home nation.",
-   "topics": [
-    "revolution"
-   ],
-   "scripture": [],
-   "words": [
-    "citizen",
-    "nation",
-    "colonies"
-   ],
-   "books": []
-  },
-  {
-   "id": 18,
-   "slug": "pc-18",
-   "question": "By what nation were the American colonies governed?",
-   "answer": "The colonies that first created the United States by their union were governed by Great Britain.",
-   "topics": [
-    "revolution"
+    "executive"
    ],
    "scripture": [],
    "words": [
     "state",
-    "nation",
-    "colonies"
-   ],
-   "books": []
-  },
-  {
-   "id": 19,
-   "slug": "pc-19",
-   "question": "From where did the laws come that governed the colonies from Great Britain?",
-   "answer": "The laws inherited by the colonists came from what is called English Common Law and Social Compact Theory.",
-   "topics": [
-    "revolution"
-   ],
-   "scripture": [],
-   "words": [
-    "laws",
-    "colonies"
-   ],
-   "books": []
-  },
-  {
-   "id": 20,
-   "slug": "pc-20",
-   "question": "Were these laws good and wise?",
-   "answer": "Many of them were; and for a time the colonies were blessed by their relationship with Great Britain. But over time, unjust laws were passed upon these colonies which threatened their reasonable liberties and well being.",
-   "topics": [
-    "revolution"
-   ],
-   "scripture": [],
-   "words": [
-    "laws",
-    "colonies"
-   ],
-   "books": []
-  },
-  {
-   "id": 21,
-   "slug": "pc-21",
-   "question": "What was the colonies’ response to these unjust laws?",
-   "answer": "They issued complaints, and for a time reasoned with Great Britain, in an attempt to persuade her to see her error and govern more justly.",
-   "topics": [
-    "revolution"
-   ],
-   "scripture": [],
-   "words": [
-    "laws",
-    "colonies"
-   ],
-   "books": []
-  },
-  {
-   "id": 22,
-   "slug": "pc-22",
-   "question": "Did Great Britain heed their complaints and repeal these unjust laws?",
-   "answer": "No, but instead she deployed her navy and army threatening the colonies with confiscation of their wealth and violence toward their persons if their compliance was not forthcoming.",
-   "topics": [
-    "revolution"
-   ],
-   "scripture": [],
-   "words": [
-    "laws",
-    "colonies"
-   ],
-   "books": []
-  },
-  {
-   "id": 24,
-   "slug": "pc-24",
-   "question": "Did the colonists sin against God by rebelling against Great Britain?",
-   "answer": "No, not at all. Great Britain surrendered the colonists as their citizens when they denied them representation in Parliament. The colonists were citizens where they were represented, which was in their colonies. When a government breaks it’s own compact with its citizens, its citizens are free to find or create new government.",
-   "topics": [
-    "revolution"
-   ],
-   "scripture": [],
-   "words": [
-    "citizen",
     "government",
-    "colonies"
+    "power",
+    "federal"
    ],
    "books": []
   },
   {
-   "id": 25,
-   "slug": "pc-25",
-   "question": "When the citizens of the colonies declared their independence, what was Great Britain’s response?",
-   "answer": "Great Britain continued to confiscate the wealth and commit violence upon the citizens of the colonies, and thus provoke a state of war.",
+   "id": 181,
+   "slug": "pc-181",
+   "question": "Who executes the laws which Congress has made, that is, who takes the responsibility in seeing that all citizens shall obey these laws?",
+   "answer": "The President of the United States.",
    "topics": [
-    "revolution"
+    "executive"
    ],
    "scripture": [],
    "words": [
     "state",
     "citizen",
-    "colonies"
+    "congress",
+    "president",
+    "laws"
    ],
    "books": []
   },
   {
-   "id": 26,
-   "slug": "pc-26",
-   "question": "When we speak of this war, what do we call it?",
-   "answer": "We call it the American Revolution.",
+   "id": 182,
+   "slug": "pc-182",
+   "question": "Can the President make laws?",
+   "answer": "No, not at all. Those two powers, making law and executing law, are kept by the Constitutions entirely separate; the power that makes the law cannot execute it, and the power that executes the law cannot make it. The powers of lawmaking are called Legislative powers, and powers of law enforcement are called Executive powers.",
    "topics": [
-    "revolution"
-   ],
-   "scripture": [],
-   "words": [],
-   "books": []
-  },
-  {
-   "id": 27,
-   "slug": "pc-27",
-   "question": "What do you mean by Revolution?",
-   "answer": "A revolution means to revolt with the aim of securing a great change of government.",
-   "topics": [
-    "revolution"
+    "executive"
    ],
    "scripture": [],
    "words": [
-    "government"
+    "president",
+    "power",
+    "constitution",
+    "laws"
    ],
    "books": []
   },
   {
-   "id": 28,
-   "slug": "pc-28",
-   "question": "When and where did the war of the revolution begin?",
-   "answer": "At Lexington and Concord, villages near Boston in Massachusetts, on the 19th of April, 1775.",
+   "id": 184,
+   "slug": "pc-184",
+   "question": "How does a man become President of the United States?",
+   "answer": "He is elected (chosen) by the people of the United States.",
    "topics": [
-    "revolution"
-   ],
-   "scripture": [],
-   "words": [],
-   "books": []
-  },
-  {
-   "id": 29,
-   "slug": "pc-29",
-   "question": "How long did the struggle continue?",
-   "answer": "More than seven years.",
-   "topics": [
-    "revolution"
+    "executive"
    ],
    "scripture": [],
    "words": [
-    "long"
+    "state",
+    "president"
    ],
    "books": []
   },
   {
-   "id": 30,
-   "slug": "pc-30",
-   "question": "When did it end?",
-   "answer": "On the 21st of January, 1783 when a treaty was signed at Paris acknowledging the independence of the United States.",
+   "id": 186,
+   "slug": "pc-186",
+   "question": "How are electors chosen?",
+   "answer": "This process varies from state to state. Typically, political parties nominate electors at their state conventions. Sometimes the process happens by a vote of the party’s central committee. The electors are often state-elected officials, political party leaders, or respected individuals within the party. Comprised together, these electors are called the “Electoral College.”",
    "topics": [
-    "revolution"
+    "executive"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "vote",
+    "individual"
+   ],
+   "books": []
+  },
+  {
+   "id": 188,
+   "slug": "pc-188",
+   "question": "How many electoral votes must someone have to become President?",
+   "answer": "They must receive the majority of electoral votes, that being 270.",
+   "topics": [
+    "executive"
+   ],
+   "scripture": [],
+   "words": [
+    "president",
+    "vote"
+   ],
+   "books": []
+  },
+  {
+   "id": 190,
+   "slug": "pc-190",
+   "question": "Can a candidate lose the popular vote and still win the Electoral College, making them President?",
+   "answer": "Yes, it has happened on a number of occasions.",
+   "topics": [
+    "executive"
+   ],
+   "scripture": [],
+   "words": [
+    "president",
+    "vote"
+   ],
+   "books": []
+  },
+  {
+   "id": 192,
+   "slug": "pc-192",
+   "question": "Who is qualified to be President of the United States?",
+   "answer": "According to the Constitution, only those meeting the qualifications of citizenship from birth, who are 35 years of age or older, and have actually been continuously residing in the United States for fourteen or more years may be President.",
+   "topics": [
+    "executive"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "president",
+    "constitution"
+   ],
+   "books": []
+  },
+  {
+   "id": 195,
+   "slug": "pc-195",
+   "question": "Must electors vote for Presidents and Vice Presidents of the same party?",
+   "answer": "There is nothing in the Constitution or Federal Law that would prevent an elector from voting for a President from one party and a Vice President from another. However, many state election rules dictate that electors vote for a unified “ticket” or “slate” of Presidential and Vice Presidential candidates.",
+   "topics": [
+    "executive"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "president",
+    "constitution",
+    "federal",
+    "vote"
+   ],
+   "books": []
+  },
+  {
+   "id": 196,
+   "slug": "pc-196",
+   "question": "Are there any limits on who may serve together as President and Vice President?",
+   "answer": "The Constitution forbids electors from voting for a President and a Vice President from the same state, for fear that one state may become too powerful in the Union of States.",
+   "topics": [
+    "executive"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "president",
+    "constitution"
+   ],
+   "books": []
+  },
+  {
+   "id": 197,
+   "slug": "pc-197",
+   "question": "If the President should die, be removed from office, or resign, who shall carry out his duties of office?",
+   "answer": "The Vice President shall carry out his duties of office.",
+   "topics": [
+    "executive"
+   ],
+   "scripture": [],
+   "words": [
+    "president",
+    "office",
+    "duties"
+   ],
+   "books": []
+  },
+  {
+   "id": 198,
+   "slug": "pc-198",
+   "question": "If the Vice President, now serving as the President, shall be removed from office or resign, who shall carry out his duties of office?",
+   "answer": "The Speaker of the House shall become the President in this case. If he should die, leave or be removed from office, the Senate president pro tempore shall serve. From there, there is a line of succession to cabinet members including the Secretary of State, Secretary of the Treasury, Secretary of Defense and so on.",
+   "topics": [
+    "executive"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "president",
+    "house",
+    "office",
+    "senate",
+    "duties"
+   ],
+   "books": []
+  },
+  {
+   "id": 199,
+   "slug": "pc-199",
+   "question": "May the President be paid for serving in his office?",
+   "answer": "The President may receive a salary, as set by Congress.",
+   "topics": [
+    "executive"
+   ],
+   "scripture": [],
+   "words": [
+    "congress",
+    "president",
+    "office"
+   ],
+   "books": []
+  },
+  {
+   "id": 200,
+   "slug": "pc-200",
+   "question": "May the President receive money from any foreign government?",
+   "answer": "No, the President may not receive any money from any foreign government or receive any exorbitant gifts or honorariums.",
+   "topics": [
+    "executive"
+   ],
+   "scripture": [],
+   "words": [
+    "government",
+    "president",
+    "money"
+   ],
+   "books": []
+  },
+  {
+   "id": 201,
+   "slug": "pc-201",
+   "question": "May the President receive money from any State government?",
+   "answer": "No, the President may not receive money from any State government, lest he favor one State over another.",
+   "topics": [
+    "executive"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "government",
+    "president",
+    "money"
+   ],
+   "books": []
+  },
+  {
+   "id": 203,
+   "slug": "pc-203",
+   "question": "What is the Presidential oath of office?",
+   "answer": "It is these words, “I do solemnly swear, that I will faithfully execute the office of President of the United States and will, to the best of my ability, preserve, protect, and defend the Constitution of the United States.” By tradition, Presidents have often included at the end, “So help me God.”",
+   "topics": [
+    "executive"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "president",
+    "constitution",
+    "office"
+   ],
+   "books": []
+  },
+  {
+   "id": 204,
+   "slug": "pc-204",
+   "question": "What are the powers belonging to the President?",
+   "answer": "He is the Commander in Chief of all the Armed Services; every officer of all branches, from the highest to the lowest, is obliged to obey his orders.",
+   "topics": [
+    "executive"
+   ],
+   "scripture": [],
+   "words": [
+    "president",
+    "power"
+   ],
+   "books": []
+  },
+  {
+   "id": 205,
+   "slug": "pc-205",
+   "question": "Are the officers of the militia obliged to obey them?",
+   "answer": "Officers of the militia are obliged to obey the Commander in Chief, unless such orders are themselves unconstitutional or if he has himself, become an enemy of the United States.",
+   "topics": [
+    "executive"
    ],
    "scripture": [],
    "words": [
@@ -3496,126 +2870,752 @@
    "books": []
   },
   {
-   "id": 31,
-   "slug": "pc-31",
-   "question": "Why is the 4th of July kept with such public rejoicing through all parts of the United States?",
-   "answer": "Because it was on the 4th of July, 1776, that the Colonies first declared themselves free and independent.",
+   "id": 206,
+   "slug": "pc-206",
+   "question": "Has he any other powers?",
+   "answer": "Yes, he may grant pardons for crimes.",
    "topics": [
-    "revolution"
+    "executive"
    ],
    "scripture": [],
    "words": [
-    "state",
-    "colonies",
-    "public"
-   ],
-   "books": []
-  },
-  {
-   "id": 32,
-   "slug": "pc-32",
-   "question": "What was the change produced by the Revolution?",
-   "answer": "The different Colonies became each a free state, having power to govern itself in any way it should think proper.",
-   "topics": [
-    "revolution"
-   ],
-   "scripture": [],
-   "words": [
-    "state",
-    "power",
-    "colonies"
-   ],
-   "books": []
-  },
-  {
-   "id": 33,
-   "slug": "pc-33",
-   "question": "Had not one state any power over the other?",
-   "answer": "Legally, each state was an independent, autonomous and sovereign entity.",
-   "topics": [
-    "revolution"
-   ],
-   "scripture": [],
-   "words": [
-    "state",
     "power"
    ],
    "books": []
   },
   {
-   "id": 34,
-   "slug": "pc-34",
-   "question": "Why did the states decide to create the Union?",
-   "answer": "The states discovered that they could better accomplish several vitally important tasks by working together, creating a general and central government to help the states achieve this cooperation.",
+   "id": 207,
+   "slug": "pc-207",
+   "question": "What is a pardon?",
+   "answer": "A pardon is the delivering of a condemned person from the consequences or penalty of his offense.",
    "topics": [
-    "revolution"
+    "executive"
+   ],
+   "scripture": [],
+   "words": [],
+   "books": []
+  },
+  {
+   "id": 208,
+   "slug": "pc-208",
+   "question": "May the President do this for all crimes?",
+   "answer": "Yes, although he cannot undo the consequence of impeachment.",
+   "topics": [
+    "executive"
    ],
    "scripture": [],
    "words": [
-    "state",
-    "government"
+    "president"
    ],
    "books": []
   },
   {
-   "id": 35,
-   "slug": "pc-35",
-   "question": "What approach to government and law did the states first create in order to work together?",
-   "answer": "They drafted the Articles of Confederation.",
+   "id": 209,
+   "slug": "pc-209",
+   "question": "Does the President possess powers to enter into treaties with other nations?",
+   "answer": "The President may make treaties with other nations on behalf of the United States.",
    "topics": [
-    "revolution"
+    "executive"
    ],
    "scripture": [],
    "words": [
     "state",
-    "government"
-   ],
-   "books": []
-  },
-  {
-   "id": 36,
-   "slug": "pc-36",
-   "question": "What were the Articles of Confederation?",
-   "answer": "The Articles of Confederation were a broad precursor to what would become the Constitution of the United States.",
-   "topics": [
-    "revolution"
-   ],
-   "scripture": [],
-   "words": [
-    "state",
-    "constitution"
-   ],
-   "books": []
-  },
-  {
-   "id": 37,
-   "slug": "pc-37",
-   "question": "What were the problems with the Articles of Confederation?",
-   "answer": "The problems with the Articles of Confederation were mostly due to their lack of specificity and the resulting deficiency they provided for governing a nation such as the United States hoped to become.",
-   "topics": [
-    "revolution"
-   ],
-   "scripture": [],
-   "words": [
-    "state",
+    "president",
+    "power",
     "nation"
    ],
    "books": []
   },
   {
-   "id": 38,
-   "slug": "pc-38",
-   "question": "Who makes laws in both the states and in the Union?",
-   "answer": "Laws which concern only one of the states are made by persons chosen by the people of that state by representatives they have selected, called the legislature. Laws which concern all the states or more states than one are made by the Congress of the United States.",
+   "id": 211,
+   "slug": "pc-211",
+   "question": "Has the President any power over other offices and positions in the f ederal government?",
+   "answer": "Yes, he has the powers of nomination and appointment.",
    "topics": [
-    "revolution"
+    "executive"
+   ],
+   "scripture": [],
+   "words": [
+    "government",
+    "president",
+    "power",
+    "office"
+   ],
+   "books": []
+  },
+  {
+   "id": 213,
+   "slug": "pc-213",
+   "question": "What sort of officers are appointed in this matter?",
+   "answer": "Ambassadors and foreign Ministers, consuls, judges of the Supreme Court and federal districts, and all other officers of the United States, except those who are expressly ordered by the Constitution to be appointed by some person or body other than the President.",
+   "topics": [
+    "executive"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "president",
+    "constitution",
+    "court",
+    "federal",
+    "judge"
+   ],
+   "books": []
+  },
+  {
+   "id": 214,
+   "slug": "pc-214",
+   "question": "May the President appoint any officer without the consent of the Senate?",
+   "answer": "Yes, if Congress makes a law giving him the power to do so.",
+   "topics": [
+    "executive"
+   ],
+   "scripture": [],
+   "words": [
+    "congress",
+    "president",
+    "power",
+    "senate"
+   ],
+   "books": []
+  },
+  {
+   "id": 215,
+   "slug": "pc-215",
+   "question": "What are the regular duties of the President?",
+   "answer": "The President must from time to time report to Congress concerning the state and affairs of the nation.",
+   "topics": [
+    "executive"
    ],
    "scripture": [],
    "words": [
     "state",
     "congress",
+    "president",
+    "nation",
+    "duties"
+   ],
+   "books": []
+  },
+  {
+   "id": 218,
+   "slug": "pc-218",
+   "question": "Suppose Congress wishes to know from the President something which he has not told them in his speech or messages, may they call upon him to communicate it?",
+   "answer": "Yes, and if he does not think that the public good requires it to be kept secret, he always answers the call, and gives them the knowledge they requested, if he can do so.",
+   "topics": [
+    "executive"
+   ],
+   "scripture": [],
+   "words": [
+    "congress",
+    "president",
+    "public"
+   ],
+   "books": []
+  },
+  {
+   "id": 219,
+   "slug": "pc-219",
+   "question": "Does he do more than communicate information to the Congress?",
+   "answer": "Yes; it is his duty also to recommend to them such actions as he believes will be for the advantage of the nation.",
+   "topics": [
+    "executive"
+   ],
+   "scripture": [],
+   "words": [
+    "congress",
+    "nation"
+   ],
+   "books": []
+  },
+  {
+   "id": 222,
+   "slug": "pc-222",
+   "question": "Suppose some very important matter should arise while Congress is adjourned, can the President call them together?",
+   "answer": "Yes. He can call either both houses, or only one. If any law is to be made, both houses are required. If only a treaty or an appointment is to be made, the Senate only need be assembled.",
+   "topics": [
+    "executive"
+   ],
+   "scripture": [],
+   "words": [
+    "congress",
+    "president",
+    "house",
+    "senate"
+   ],
+   "books": []
+  },
+  {
+   "id": 223,
+   "slug": "pc-223",
+   "question": "If when both Houses are in session, they should find themselves unable to agree about the time at which they will adjourn (that is, cease to meet and go into recess) can the President end their dispute?",
+   "answer": "Yes, by adjourning both Houses.",
+   "topics": [
+    "executive"
+   ],
+   "scripture": [],
+   "words": [
+    "president",
+    "house"
+   ],
+   "books": []
+  },
+  {
+   "id": 224,
+   "slug": "pc-224",
+   "question": "In that case, when are they to reconvene?",
+   "answer": "At any time the President declares, once he has adjourned them.",
+   "topics": [
+    "executive"
+   ],
+   "scripture": [],
+   "words": [
+    "president"
+   ],
+   "books": []
+  },
+  {
+   "id": 225,
+   "slug": "pc-225",
+   "question": "What are the duties required of the President with regard to foreign heads of state?",
+   "answer": "He must receive all ambassadors and foreign ministers; that is, persons sent by other nations to make treaties with us, or to reside here as representatives of their own government.",
+   "topics": [
+    "executive"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "government",
+    "president",
+    "representative",
+    "nation",
+    "duties"
+   ],
+   "books": []
+  },
+  {
+   "id": 226,
+   "slug": "pc-226",
+   "question": "Has he any great overriding duty?",
+   "answer": "Yes, he has one great, general, and constant duty in which all this power is put at his command, it is to take care that the laws shall be faithfully executed and enforced; that is, that whatever Congress orders shall be done, and that whoever disobeys their laws shall be punished.",
+   "topics": [
+    "executive"
+   ],
+   "scripture": [],
+   "words": [
+    "congress",
+    "power",
+    "laws"
+   ],
+   "books": []
+  },
+  {
+   "id": 228,
+   "slug": "pc-228",
+   "question": "Can there be no bribery but by means of money?",
+   "answer": "Yes; bribes may be offered in various forms. Any benefit or advantage received by an officer of the government, including the President, for a constitutionally improper end is considered a bribe.",
+   "topics": [
+    "executive"
+   ],
+   "scripture": [],
+   "words": [
+    "government",
+    "president",
+    "money"
+   ],
+   "books": []
+  },
+  {
+   "id": 229,
+   "slug": "pc-229",
+   "question": "What are we to understand by a Court?",
+   "answer": "A court is a legal institution wherein a duly constituted Judge sits to hear and determine disputes, or cases according to the law. A courthouse with courtrooms are the locales wherein this usually takes place.",
+   "topics": [
+    "judiciary"
+   ],
+   "scripture": [],
+   "words": [
+    "court",
+    "judge"
+   ],
+   "books": []
+  },
+  {
+   "id": 231,
+   "slug": "pc-231",
+   "question": "Are there Courts in every State of the United States?",
+   "answer": "Yes. Each State appoints Judges of its own to see that its state laws are enforced.",
+   "topics": [
+    "judiciary"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
     "laws",
-    "representative"
+    "court",
+    "judge"
+   ],
+   "books": []
+  },
+  {
+   "id": 233,
+   "slug": "pc-233",
+   "question": "Are all these Courts equal, or is one superior to another?",
+   "answer": "They are not all equal but in each State, some of the State Courts are set over others; and so it is with the Courts of the United States.",
+   "topics": [
+    "judiciary"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "court"
+   ],
+   "books": []
+  },
+  {
+   "id": 235,
+   "slug": "pc-235",
+   "question": "Can he take his cause from the State Courts to the Courts of the United States?",
+   "answer": "No, not unless his complaint is related to a law made by a State, which he supposes to be contrary to the Constitution of the United States. That matter can be settled only by the Supreme Court of the United States.",
+   "topics": [
+    "judiciary"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "constitution",
+    "court"
+   ],
+   "books": []
+  },
+  {
+   "id": 236,
+   "slug": "pc-236",
+   "question": "Suppose his complaint is in regard to a law of the United States and not a State law?",
+   "answer": "He must in this case go at once to the Courts of the United States.",
+   "topics": [
+    "judiciary"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "court"
+   ],
+   "books": []
+  },
+  {
+   "id": 237,
+   "slug": "pc-237",
+   "question": "Which courts are these?",
+   "answer": "They consist of one Supreme Court (the highest of all), and of such lower federal courts, as Congress may from time to time establish.",
+   "topics": [
+    "judiciary"
+   ],
+   "scripture": [],
+   "words": [
+    "congress",
+    "court",
+    "federal"
+   ],
+   "books": []
+  },
+  {
+   "id": 238,
+   "slug": "pc-238",
+   "question": "Has Congress established such courts?",
+   "answer": "Yes, it has, which are called Circuit or Appellate Courts of the United Stats; and others, below these, which are called District Courts of the United States.",
+   "topics": [
+    "judiciary"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "congress",
+    "court"
+   ],
+   "books": []
+  },
+  {
+   "id": 239,
+   "slug": "pc-239",
+   "question": "What Judges sit on the Circuit or Appellate Courts of the United States?",
+   "answer": "The thirteen U.S. Appellate courts are presided over by a panel of judges ranging from six to twenty-nine depending on the circuit, though usually a panel of three decides an individual appeal.",
+   "topics": [
+    "judiciary"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "court",
+    "individual",
+    "judge",
+    "twenty"
+   ],
+   "books": []
+  },
+  {
+   "id": 240,
+   "slug": "pc-240",
+   "question": "What Judges sit in the District Courts of the United States?",
+   "answer": "There are 94 federal judicial districts in the United States court system presided over by hundreds of district judges, though each district must have at least one federal judge appointed by the President for life.",
+   "topics": [
+    "judiciary"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "president",
+    "court",
+    "federal",
+    "judge"
+   ],
+   "books": []
+  },
+  {
+   "id": 241,
+   "slug": "pc-241",
+   "question": "What kind of cases are tried in the Courts of the United States?",
+   "answer": "A case must be tried in federal court when there is a dispute concerning the true United States constitutionality of a lower courts decision.",
+   "topics": [
+    "judiciary"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "court",
+    "federal"
+   ],
+   "books": []
+  },
+  {
+   "id": 242,
+   "slug": "pc-242",
+   "question": "Are there other cases to be tried in the Courts of the United States?",
+   "answer": "All cases under the federal laws of the United States. A federal court cannot adjudicate a case of state law unless that law itself or the application thereof is itself being challenged as contrary to the Constitution of the United States.",
+   "topics": [
+    "judiciary"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "constitution",
+    "laws",
+    "court",
+    "federal"
+   ],
+   "books": []
+  },
+  {
+   "id": 246,
+   "slug": "pc-246",
+   "question": "How are the Judges of the Courts of the United States appointed?",
+   "answer": "By the President, with the advice and consent of the Senate.",
+   "topics": [
+    "judiciary"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "president",
+    "court",
+    "senate",
+    "judge"
+   ],
+   "books": []
+  },
+  {
+   "id": 247,
+   "slug": "pc-247",
+   "question": "How long do they remain in office?",
+   "answer": "A federal presidential judicial appointment is for life or until the justice resigns or is removed by due process for some form of corruption.",
+   "topics": [
+    "judiciary"
+   ],
+   "scripture": [],
+   "words": [
+    "federal",
+    "office",
+    "long"
+   ],
+   "books": []
+  },
+  {
+   "id": 249,
+   "slug": "pc-249",
+   "question": "Why should not Legislators hold their office in the same way?",
+   "answer": "Because they make the laws, while Judges only explain and apply them; it would be very dangerous to liberty to give our law makers power for life; they require restraint lest they should become our tyrants; therefore their term in office is limited, so that if the people deem them unwise or unfaithful, they may refuse them that office again.",
+   "topics": [
+    "judiciary"
+   ],
+   "scripture": [],
+   "words": [
+    "power",
+    "laws",
+    "office",
+    "judge"
+   ],
+   "books": []
+  },
+  {
+   "id": 250,
+   "slug": "pc-250",
+   "question": "How do the Courts determine when laws have been disobeyed and determine their punishment?",
+   "answer": "When a person is charged with having acted illegally to his neighbor, or to the State, whether he is guilty of the charge or not is determined a citizen Jury of his peers.",
+   "topics": [
+    "judiciary"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "citizen",
+    "laws",
+    "court"
+   ],
+   "books": []
+  },
+  {
+   "id": 253,
+   "slug": "pc-253",
+   "question": "Does a Jury decide in civil suits as well as in criminal prosecutions?",
+   "answer": "Depending on the case, a jury can decide in both.",
+   "topics": [
+    "judiciary"
+   ],
+   "scripture": [],
+   "words": [],
+   "books": []
+  },
+  {
+   "id": 255,
+   "slug": "pc-255",
+   "question": "Suppose the act was committed at sea, or in some other place not within any one of the States, her territories or possessions. Where is such a trial held?",
+   "answer": "Where Congress shall have appointed by law.",
+   "topics": [
+    "judiciary"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "congress"
+   ],
+   "books": []
+  },
+  {
+   "id": 256,
+   "slug": "pc-256",
+   "question": "Ought all the public acts of a State and its courts and officers be recorded in writing?",
+   "answer": "Certainly; this must be done in order to preserve a remembrance of them and for those affected to show proof of them and if injured, to obtain redress.",
+   "topics": [
+    "judiciary"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "court",
+    "public"
+   ],
+   "books": []
+  },
+  {
+   "id": 257,
+   "slug": "pc-257",
+   "question": "When such a record is made in one of the states, and a copy of it duly proved and given, must that record be received as proof by all the other States?",
+   "answer": "Yes, but Congress may determine by law in what manner the record shall be proved for that purpose.",
+   "topics": [
+    "judiciary"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "congress"
+   ],
+   "books": []
+  },
+  {
+   "id": 258,
+   "slug": "pc-258",
+   "question": "When a citizen of one state travels to any other state of the Union, may he be treated as if he were a foreigner? That is, may any difference be made between his privileges and those of the citizens of that state?",
+   "answer": "No. He shall enjoy every privilege enjoyed by the citizens of that state.",
+   "topics": [
+    "judiciary"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "citizen"
+   ],
+   "books": []
+  },
+  {
+   "id": 259,
+   "slug": "pc-259",
+   "question": "If a person charged with a crime in one State, shall flee from justice into the bounds of another State is he safe from pursuit and trial?",
+   "answer": "No. If the Governor of the State where the crime was committed applies to the Governor of the State where he has taken refuge, the latter shall cause him to be delivered to the state in which the offense is alleged. This is called extradition.",
+   "topics": [
+    "judiciary"
+   ],
+   "scripture": [],
+   "words": [
+    "state"
+   ],
+   "books": []
+  },
+  {
+   "id": 260,
+   "slug": "pc-260",
+   "question": "How many States were there which revolted from Great Britain at the Revolution?",
+   "answer": "Thirteen.",
+   "topics": [
+    "judiciary"
+   ],
+   "scripture": [],
+   "words": [
+    "state"
+   ],
+   "books": []
+  },
+  {
+   "id": 261,
+   "slug": "pc-261",
+   "question": "Did they all agree to the Federal Constitution at the time it went into operation?",
+   "answer": "Not all, but the rest came in soon after.",
+   "topics": [
+    "judiciary"
+   ],
+   "scripture": [],
+   "words": [
+    "constitution",
+    "federal"
+   ],
+   "books": []
+  },
+  {
+   "id": 262,
+   "slug": "pc-262",
+   "question": "Was it then expected that other future States would be formed and join the Union?",
+   "answer": "Yes, and provision was made for admitting them.",
+   "topics": [
+    "judiciary"
+   ],
+   "scripture": [],
+   "words": [
+    "state"
+   ],
+   "books": []
+  },
+  {
+   "id": 263,
+   "slug": "pc-263",
+   "question": "By whom were they to be admitted?",
+   "answer": "By Congress.",
+   "topics": [
+    "judiciary"
+   ],
+   "scripture": [],
+   "words": [
+    "congress"
+   ],
+   "books": []
+  },
+  {
+   "id": 265,
+   "slug": "pc-265",
+   "question": "Has any State the right to set up a monarchical form of government for itself, that is a government where the supreme power is in the hands of a king?",
+   "answer": "No. At the time of our nation’s founding the colonies were all individual republics. The new government they formed for the union of these republics was itself a representative republican model, which would then be enacted in any additional states which would join this union in the future.",
+   "topics": [
+    "judiciary"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "government",
+    "power",
+    "representative",
+    "right",
+    "nation",
+    "colonies",
+    "individual"
+   ],
+   "books": []
+  },
+  {
+   "id": 266,
+   "slug": "pc-266",
+   "question": "Who is to see that this state of affairs is maintained?",
+   "answer": "The Congress.",
+   "topics": [
+    "judiciary"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "congress"
+   ],
+   "books": []
+  },
+  {
+   "id": 267,
+   "slug": "pc-267",
+   "question": "Does Congress secure any privilege to the different States?",
+   "answer": "Yes. It must protect them from attack or invasion by a foreign enemy. This is one of the most important benefits of our Union; each State has the protection of the whole.",
+   "topics": [
+    "judiciary"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "congress"
+   ],
+   "books": []
+  },
+  {
+   "id": 270,
+   "slug": "pc-270",
+   "question": "What is the supreme law of the United States?",
+   "answer": "The Constitution itself is supreme; and all laws and treaties made by Congress and the President, in conformity with it, are superior to any law made by one of the States, so that if a law of a State contradicts a law of Congress, the State law is of no force, and the United States law alone must be obeyed.",
+   "topics": [
+    "judiciary"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "congress",
+    "president",
+    "constitution",
+    "laws"
+   ],
+   "books": []
+  },
+  {
+   "id": 271,
+   "slug": "pc-271",
+   "question": "Is there any recourse for the State, if the Courts are misinterpreting the Constitution or if laws are being enforced (or not enforced) despotically or prejudicially?",
+   "answer": "Yes, the Doctrine of the Lesser Magistrate demands that all elected offices - even smaller State or local magistrates - must defend the Constitution of the United States. Within their means and ability, they are able to resist tyranny by keeping their own oath to the Constitution.",
+   "topics": [
+    "judiciary"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "constitution",
+    "laws",
+    "court",
+    "office"
+   ],
+   "books": []
+  },
+  {
+   "id": 272,
+   "slug": "pc-272",
+   "question": "What is the Doctrine of the Lesser Magistrate?",
+   "answer": "The Doctrine of the Lesser Magistrate teaches that when the superior or higher ranking civil authority makes unconstitutional or immoral policies, the lower or lesser ranking civil authority has both a right and duty to refuse obedience to that superior authority. If necessary, the lesser authorities may even actively resist the higher authority in keeping with their oath of office.",
+   "topics": [
+    "judiciary"
+   ],
+   "scripture": [],
+   "words": [
+    "right",
+    "office"
    ],
    "books": []
   },
@@ -3966,7 +3966,7 @@
    "id": 298,
    "slug": "pc-298",
    "question": "What are the requirements in obtaining a warrant in order to legally search a citizen’s person or property?",
-   "answer": "Warrants must be issued by a court, upon evidence of \"probable cause\" (that a crime has been committed by the individual) as provided by law enforcement.",
+   "answer": "Warrants must be issued by a court, upon evidence of “probable cause” (that a crime has been committed by the individual) as provided by law enforcement.",
    "topics": [
     "rights"
    ],
@@ -4011,7 +4011,7 @@
   {
    "id": 301,
    "slug": "pc-301",
-   "question": "Is the current trend of \"no-knock warrants\" constitutional?",
+   "question": "Is the current trend of “no-knock warrants” constitutional?",
    "answer": "Only in the most extreme of cases, when there is good and substantial reason to believe that citizens may be violent or evasive, should law enforcement not be required to announce the warrant and enter private property with great care and respectful diligence.",
    "topics": [
     "rights"
@@ -4254,8 +4254,8 @@
   {
    "id": 318,
    "slug": "pc-318",
-   "question": "What does \"naturalized\" mean?",
-   "answer": "\"Naturalized\" refers to one who has met the requirements of citizenship, but who was not born a citizen.",
+   "question": "What does “naturalized” mean?",
+   "answer": "“Naturalized” refers to one who has met the requirements of citizenship, but who was not born a citizen.",
    "topics": [
     "rights"
    ],
@@ -4515,7 +4515,7 @@
    "id": 339,
    "slug": "pc-339",
    "question": "What is the twenty fourth Amendment?",
-   "answer": "The twenty fourth Amendment eliminated a \"poll tax\" which required payment in order for a citizen to vote.",
+   "answer": "The twenty fourth Amendment eliminated a “poll tax” which required payment in order for a citizen to vote.",
    "topics": [
     "rights"
    ],
