@@ -1,0 +1,4583 @@
+{
+ "site": "usa",
+ "topicLabel": "Topic",
+ "topics": [
+  {
+   "id": "foundations",
+   "name": "Foundations of the Republic",
+   "n": 15
+  },
+  {
+   "id": "revolution",
+   "name": "Colonies, Revolution, and Union",
+   "n": 22
+  },
+  {
+   "id": "legislature",
+   "name": "Congress and Representation",
+   "n": 43
+  },
+  {
+   "id": "powers",
+   "name": "Powers of Congress",
+   "n": 73
+  },
+  {
+   "id": "executive",
+   "name": "Presidency and Executive Power",
+   "n": 34
+  },
+  {
+   "id": "judiciary",
+   "name": "Courts, States, and Constitutional Order",
+   "n": 31
+  },
+  {
+   "id": "rights",
+   "name": "Rights and Amendments",
+   "n": 60
+  }
+ ],
+ "keywords": [
+  {
+   "word": "state",
+   "n": 133
+  },
+  {
+   "word": "citizen",
+   "n": 66
+  },
+  {
+   "word": "congress",
+   "n": 60
+  },
+  {
+   "word": "government",
+   "n": 53
+  },
+  {
+   "word": "amendment",
+   "n": 47
+  },
+  {
+   "word": "president",
+   "n": 41
+  },
+  {
+   "word": "power",
+   "n": 40
+  },
+  {
+   "word": "constitution",
+   "n": 37
+  },
+  {
+   "word": "laws",
+   "n": 35
+  },
+  {
+   "word": "court",
+   "n": 30
+  },
+  {
+   "word": "federal",
+   "n": 28
+  },
+  {
+   "word": "representative",
+   "n": 26
+  },
+  {
+   "word": "house",
+   "n": 24
+  },
+  {
+   "word": "right",
+   "n": 24
+  },
+  {
+   "word": "nation",
+   "n": 21
+  },
+  {
+   "word": "office",
+   "n": 18
+  },
+  {
+   "word": "senate",
+   "n": 16
+  },
+  {
+   "word": "country",
+   "n": 15
+  },
+  {
+   "word": "property",
+   "n": 14
+  },
+  {
+   "word": "colonies",
+   "n": 13
+  },
+  {
+   "word": "money",
+   "n": 13
+  },
+  {
+   "word": "vote",
+   "n": 13
+  },
+  {
+   "word": "duties",
+   "n": 11
+  },
+  {
+   "word": "individual",
+   "n": 11
+  },
+  {
+   "word": "judge",
+   "n": 11
+  },
+  {
+   "word": "long",
+   "n": 11
+  },
+  {
+   "word": "private",
+   "n": 11
+  },
+  {
+   "word": "public",
+   "n": 11
+  },
+  {
+   "word": "taxes",
+   "n": 11
+  },
+  {
+   "word": "twenty",
+   "n": 11
+  }
+ ],
+ "books": [],
+ "cards": [
+  {
+   "id": 180,
+   "slug": "pc-180",
+   "question": "Why did the States delegate these powers to the Federal Government?",
+   "answer": "In order to aid and assist in a more consistent governance among all the people known as Americans.",
+   "topics": [
+    "executive"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "government",
+    "power",
+    "federal"
+   ],
+   "books": []
+  },
+  {
+   "id": 181,
+   "slug": "pc-181",
+   "question": "Who executes the laws which Congress has made, that is, who takes the responsibility in seeing that all citizens shall obey these laws?",
+   "answer": "The President of the United States.",
+   "topics": [
+    "executive"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "citizen",
+    "congress",
+    "president",
+    "laws"
+   ],
+   "books": []
+  },
+  {
+   "id": 182,
+   "slug": "pc-182",
+   "question": "Can the President make laws?",
+   "answer": "No, not at all. Those two powers, making law and executing law, are kept by the Constitutions entirely separate; the power that makes the law cannot execute it, and the power that executes the law cannot make it. The powers of lawmaking are called Legislative powers, and powers of law enforcement are called Executive powers.",
+   "topics": [
+    "executive"
+   ],
+   "scripture": [],
+   "words": [
+    "president",
+    "power",
+    "constitution",
+    "laws"
+   ],
+   "books": []
+  },
+  {
+   "id": 184,
+   "slug": "pc-184",
+   "question": "How does a man become President of the United States?",
+   "answer": "He is elected (chosen) by the people of the United States.",
+   "topics": [
+    "executive"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "president"
+   ],
+   "books": []
+  },
+  {
+   "id": 186,
+   "slug": "pc-186",
+   "question": "How are electors chosen?",
+   "answer": "This process varies from state to state. Typically, political parties nominate electors at their state conventions. Sometimes the process happens by a vote of the party’s central committee. The electors are often state-elected officials, political party leaders, or respected individuals within the party. Comprised together, these electors are called the \"Electoral College.\"",
+   "topics": [
+    "executive"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "vote",
+    "individual"
+   ],
+   "books": []
+  },
+  {
+   "id": 188,
+   "slug": "pc-188",
+   "question": "How many electoral votes must someone have to become President?",
+   "answer": "They must receive the majority of electoral votes, that being 270.",
+   "topics": [
+    "executive"
+   ],
+   "scripture": [],
+   "words": [
+    "president",
+    "vote"
+   ],
+   "books": []
+  },
+  {
+   "id": 190,
+   "slug": "pc-190",
+   "question": "Can a candidate lose the popular vote and still win the Electoral College, making them President?",
+   "answer": "Yes, it has happened on a number of occasions.",
+   "topics": [
+    "executive"
+   ],
+   "scripture": [],
+   "words": [
+    "president",
+    "vote"
+   ],
+   "books": []
+  },
+  {
+   "id": 192,
+   "slug": "pc-192",
+   "question": "Who is qualified to be President of the United States?",
+   "answer": "According to the Constitution, only those meeting the qualifications of citizenship from birth, who are 35 years of age or older, and have actually been continuously residing in the United States for fourteen or more years may be President.",
+   "topics": [
+    "executive"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "president",
+    "constitution"
+   ],
+   "books": []
+  },
+  {
+   "id": 195,
+   "slug": "pc-195",
+   "question": "Must electors vote for Presidents and Vice Presidents of the same party?",
+   "answer": "There is nothing in the Constitution or Federal Law that would prevent an elector from voting for a President from one party and a Vice President from another. However, many state election rules dictate that electors vote for a unified \"ticket\" or \"slate\" of Presidential and Vice Presidential candidates.",
+   "topics": [
+    "executive"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "president",
+    "constitution",
+    "federal",
+    "vote"
+   ],
+   "books": []
+  },
+  {
+   "id": 196,
+   "slug": "pc-196",
+   "question": "Are there any limits on who may serve together as President and Vice President?",
+   "answer": "The Constitution forbids electors from voting for a President and a Vice President from the same state, for fear that one state may become too powerful in the Union of States.",
+   "topics": [
+    "executive"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "president",
+    "constitution"
+   ],
+   "books": []
+  },
+  {
+   "id": 197,
+   "slug": "pc-197",
+   "question": "If the President should die, be removed from office, or resign, who shall carry out his duties of office?",
+   "answer": "The Vice President shall carry out his duties of office.",
+   "topics": [
+    "executive"
+   ],
+   "scripture": [],
+   "words": [
+    "president",
+    "office",
+    "duties"
+   ],
+   "books": []
+  },
+  {
+   "id": 198,
+   "slug": "pc-198",
+   "question": "If the Vice President, now serving as the President, shall be removed from office or resign, who shall carry out his duties of office?",
+   "answer": "The Speaker of the House shall become the President in this case. If he should die, leave or be removed from office, the Senate president pro tempore shall serve. From there, there is a line of succession to cabinet members including the Secretary of State, Secretary of the Treasury, Secretary of Defense and so on.",
+   "topics": [
+    "executive"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "president",
+    "house",
+    "office",
+    "senate",
+    "duties"
+   ],
+   "books": []
+  },
+  {
+   "id": 199,
+   "slug": "pc-199",
+   "question": "May the President be paid for serving in his office?",
+   "answer": "The President may receive a salary, as set by Congress.",
+   "topics": [
+    "executive"
+   ],
+   "scripture": [],
+   "words": [
+    "congress",
+    "president",
+    "office"
+   ],
+   "books": []
+  },
+  {
+   "id": 200,
+   "slug": "pc-200",
+   "question": "May the President receive money from any foreign government?",
+   "answer": "No, the President may not receive any money from any foreign government or receive any exorbitant gifts or honorariums.",
+   "topics": [
+    "executive"
+   ],
+   "scripture": [],
+   "words": [
+    "government",
+    "president",
+    "money"
+   ],
+   "books": []
+  },
+  {
+   "id": 201,
+   "slug": "pc-201",
+   "question": "May the President receive money from any State government?",
+   "answer": "No, the President may not receive money from any State government, lest he favor one State over another.",
+   "topics": [
+    "executive"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "government",
+    "president",
+    "money"
+   ],
+   "books": []
+  },
+  {
+   "id": 203,
+   "slug": "pc-203",
+   "question": "What is the Presidential oath of office?",
+   "answer": "It is these words, \"I do solemnly swear, that I will faithfully execute the office of President of the United States and will, to the best of my ability, preserve, protect, and defend the Constitution of the United States.\" By tradition, Presidents have often included at the end, \"So help me God.\"",
+   "topics": [
+    "executive"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "president",
+    "constitution",
+    "office"
+   ],
+   "books": []
+  },
+  {
+   "id": 204,
+   "slug": "pc-204",
+   "question": "What are the powers belonging to the President?",
+   "answer": "He is the Commander in Chief of all the Armed Services; every officer of all branches, from the highest to the lowest, is obliged to obey his orders.",
+   "topics": [
+    "executive"
+   ],
+   "scripture": [],
+   "words": [
+    "president",
+    "power"
+   ],
+   "books": []
+  },
+  {
+   "id": 205,
+   "slug": "pc-205",
+   "question": "Are the officers of the militia obliged to obey them?",
+   "answer": "Officers of the militia are obliged to obey the Commander in Chief, unless such orders are themselves unconstitutional or if he has himself, become an enemy of the United States.",
+   "topics": [
+    "executive"
+   ],
+   "scripture": [],
+   "words": [
+    "state"
+   ],
+   "books": []
+  },
+  {
+   "id": 206,
+   "slug": "pc-206",
+   "question": "Has he any other powers?",
+   "answer": "Yes, he may grant pardons for crimes.",
+   "topics": [
+    "executive"
+   ],
+   "scripture": [],
+   "words": [
+    "power"
+   ],
+   "books": []
+  },
+  {
+   "id": 207,
+   "slug": "pc-207",
+   "question": "What is a pardon?",
+   "answer": "A pardon is the delivering of a condemned person from the consequences or penalty of his offense.",
+   "topics": [
+    "executive"
+   ],
+   "scripture": [],
+   "words": [],
+   "books": []
+  },
+  {
+   "id": 208,
+   "slug": "pc-208",
+   "question": "May the President do this for all crimes?",
+   "answer": "Yes, although he cannot undo the consequence of impeachment.",
+   "topics": [
+    "executive"
+   ],
+   "scripture": [],
+   "words": [
+    "president"
+   ],
+   "books": []
+  },
+  {
+   "id": 209,
+   "slug": "pc-209",
+   "question": "Does the President possess powers to enter into treaties with other nations?",
+   "answer": "The President may make treaties with other nations on behalf of the United States.",
+   "topics": [
+    "executive"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "president",
+    "power",
+    "nation"
+   ],
+   "books": []
+  },
+  {
+   "id": 211,
+   "slug": "pc-211",
+   "question": "Has the President any power over other offices and positions in the f ederal government?",
+   "answer": "Yes, he has the powers of nomination and appointment.",
+   "topics": [
+    "executive"
+   ],
+   "scripture": [],
+   "words": [
+    "government",
+    "president",
+    "power",
+    "office"
+   ],
+   "books": []
+  },
+  {
+   "id": 213,
+   "slug": "pc-213",
+   "question": "What sort of officers are appointed in this matter?",
+   "answer": "Ambassadors and foreign Ministers, consuls, judges of the Supreme Court and federal districts, and all other officers of the United States, except those who are expressly ordered by the Constitution to be appointed by some person or body other than the President.",
+   "topics": [
+    "executive"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "president",
+    "constitution",
+    "court",
+    "federal",
+    "judge"
+   ],
+   "books": []
+  },
+  {
+   "id": 214,
+   "slug": "pc-214",
+   "question": "May the President appoint any officer without the consent of the Senate?",
+   "answer": "Yes, if Congress makes a law giving him the power to do so.",
+   "topics": [
+    "executive"
+   ],
+   "scripture": [],
+   "words": [
+    "congress",
+    "president",
+    "power",
+    "senate"
+   ],
+   "books": []
+  },
+  {
+   "id": 215,
+   "slug": "pc-215",
+   "question": "What are the regular duties of the President?",
+   "answer": "The President must from time to time report to Congress concerning the state and affairs of the nation.",
+   "topics": [
+    "executive"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "congress",
+    "president",
+    "nation",
+    "duties"
+   ],
+   "books": []
+  },
+  {
+   "id": 218,
+   "slug": "pc-218",
+   "question": "Suppose Congress wishes to know from the President something which he has not told them in his speech or messages, may they call upon him to communicate it?",
+   "answer": "Yes, and if he does not think that the public good requires it to be kept secret, he always answers the call, and gives them the knowledge they requested, if he can do so.",
+   "topics": [
+    "executive"
+   ],
+   "scripture": [],
+   "words": [
+    "congress",
+    "president",
+    "public"
+   ],
+   "books": []
+  },
+  {
+   "id": 219,
+   "slug": "pc-219",
+   "question": "Does he do more than communicate information to the Congress?",
+   "answer": "Yes; it is his duty also to recommend to them such actions as he believes will be for the advantage of the nation.",
+   "topics": [
+    "executive"
+   ],
+   "scripture": [],
+   "words": [
+    "congress",
+    "nation"
+   ],
+   "books": []
+  },
+  {
+   "id": 222,
+   "slug": "pc-222",
+   "question": "Suppose some very important matter should arise while Congress is adjourned, can the President call them together?",
+   "answer": "Yes. He can call either both houses, or only one. If any law is to be made, both houses are required. If only a treaty or an appointment is to be made, the Senate only need be assembled.",
+   "topics": [
+    "executive"
+   ],
+   "scripture": [],
+   "words": [
+    "congress",
+    "president",
+    "house",
+    "senate"
+   ],
+   "books": []
+  },
+  {
+   "id": 223,
+   "slug": "pc-223",
+   "question": "If when both Houses are in session, they should find themselves unable to agree about the time at which they will adjourn (that is, cease to meet and go into recess) can the President end their dispute?",
+   "answer": "Yes, by adjourning both Houses.",
+   "topics": [
+    "executive"
+   ],
+   "scripture": [],
+   "words": [
+    "president",
+    "house"
+   ],
+   "books": []
+  },
+  {
+   "id": 224,
+   "slug": "pc-224",
+   "question": "In that case, when are they to reconvene?",
+   "answer": "At any time the President declares, once he has adjourned them.",
+   "topics": [
+    "executive"
+   ],
+   "scripture": [],
+   "words": [
+    "president"
+   ],
+   "books": []
+  },
+  {
+   "id": 225,
+   "slug": "pc-225",
+   "question": "What are the duties required of the President with regard to foreign heads of state?",
+   "answer": "He must receive all ambassadors and foreign ministers; that is, persons sent by other nations to make treaties with us, or to reside here as representatives of their own government.",
+   "topics": [
+    "executive"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "government",
+    "president",
+    "representative",
+    "nation",
+    "duties"
+   ],
+   "books": []
+  },
+  {
+   "id": 226,
+   "slug": "pc-226",
+   "question": "Has he any great overriding duty?",
+   "answer": "Yes, he has one great, general, and constant duty in which all this power is put at his command, it is to take care that the laws shall be faithfully executed and enforced; that is, that whatever Congress orders shall be done, and that whoever disobeys their laws shall be punished.",
+   "topics": [
+    "executive"
+   ],
+   "scripture": [],
+   "words": [
+    "congress",
+    "power",
+    "laws"
+   ],
+   "books": []
+  },
+  {
+   "id": 228,
+   "slug": "pc-228",
+   "question": "Can there be no bribery but by means of money?",
+   "answer": "Yes; bribes may be offered in various forms. Any benefit or advantage received by an officer of the government, including the President, for a constitutionally improper end is considered a bribe.",
+   "topics": [
+    "executive"
+   ],
+   "scripture": [],
+   "words": [
+    "government",
+    "president",
+    "money"
+   ],
+   "books": []
+  },
+  {
+   "id": 1,
+   "slug": "pc-1",
+   "question": "In what country do you live?",
+   "answer": "In the United States of America.",
+   "topics": [
+    "foundations"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "country"
+   ],
+   "books": []
+  },
+  {
+   "id": 2,
+   "slug": "pc-2",
+   "question": "Why is this country called the United States of America?",
+   "answer": "Because it is made up of a number of States which were once separate, but afterwards agreed to unite together for specific purposes.",
+   "topics": [
+    "foundations"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "country"
+   ],
+   "books": []
+  },
+  {
+   "id": 3,
+   "slug": "pc-3",
+   "question": "What is meant by \"state?\"",
+   "answer": "By \"state\" is meant any district or country whose people are all under a common government.",
+   "topics": [
+    "foundations"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "government",
+    "country"
+   ],
+   "books": []
+  },
+  {
+   "id": 4,
+   "slug": "pc-4",
+   "question": "Had then the different States which united together each a government of its own?",
+   "answer": "Yes; but they agreed to put themselves all under one general or federal government.",
+   "topics": [
+    "foundations"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "government",
+    "federal"
+   ],
+   "books": []
+  },
+  {
+   "id": 5,
+   "slug": "pc-5",
+   "question": "Why did they do this?",
+   "answer": "To accomplish certain tasks easier than could be done alone.",
+   "topics": [
+    "foundations"
+   ],
+   "scripture": [],
+   "words": [],
+   "books": []
+  },
+  {
+   "id": 6,
+   "slug": "pc-6",
+   "question": "Is a governmental framework necessary to every country?",
+   "answer": "Certainly; with no governmental framework, our property and liberties would be in jeopardy.",
+   "topics": [
+    "foundations"
+   ],
+   "scripture": [],
+   "words": [
+    "country",
+    "property"
+   ],
+   "books": []
+  },
+  {
+   "id": 7,
+   "slug": "pc-7",
+   "question": "Cannot all the people of a country govern themselves?",
+   "answer": "No. God instituted government to punish the wicked and reward the good by administering justice.",
+   "topics": [
+    "foundations"
+   ],
+   "scripture": [],
+   "words": [
+    "government",
+    "country"
+   ],
+   "books": []
+  },
+  {
+   "id": 8,
+   "slug": "pc-8",
+   "question": "How is this done?",
+   "answer": "Laws are enacted which must be obeyed by all; with disobedience bringing punishment by the government through the exercise of force.",
+   "topics": [
+    "foundations"
+   ],
+   "scripture": [],
+   "words": [
+    "government",
+    "laws"
+   ],
+   "books": []
+  },
+  {
+   "id": 9,
+   "slug": "pc-9",
+   "question": "Who enacts these laws?",
+   "answer": "In America laws must be legislated; that is, they are passed into law by elected legislatures. Occasionally, men try to pronounce laws that are not passed by such a legislative process.",
+   "topics": [
+    "foundations"
+   ],
+   "scripture": [],
+   "words": [
+    "laws"
+   ],
+   "books": []
+  },
+  {
+   "id": 10,
+   "slug": "pc-10",
+   "question": "What is such a non legislative government called?",
+   "answer": "This kind of government, one in which laws are made binding without passing a legislatures, is called despotism or tyranny.",
+   "topics": [
+    "foundations"
+   ],
+   "scripture": [],
+   "words": [
+    "government",
+    "laws"
+   ],
+   "books": []
+  },
+  {
+   "id": 11,
+   "slug": "pc-11",
+   "question": "Why are laws passed by legislatures, and not directly by the people?",
+   "answer": "That is called a democracy, but America is not a democracy. We are a representative republic, wherein we vote officials into power to legislate on our behalf.",
+   "topics": [
+    "foundations"
+   ],
+   "scripture": [],
+   "words": [
+    "power",
+    "laws",
+    "representative",
+    "vote"
+   ],
+   "books": []
+  },
+  {
+   "id": 12,
+   "slug": "pc-12",
+   "question": "Why is America not a democracy?",
+   "answer": "It is impractical for all the people to gather in a single assembly. Likewise, not all people have the moral, mental or spiritual aptitude to directly govern through democracy.",
+   "topics": [
+    "foundations"
+   ],
+   "scripture": [],
+   "words": [],
+   "books": []
+  },
+  {
+   "id": 13,
+   "slug": "pc-13",
+   "question": "Which of these ways of governing a nation is best?",
+   "answer": "The best government governs the least, while yet protecting life, liberty and property.",
+   "topics": [
+    "foundations"
+   ],
+   "scripture": [],
+   "words": [
+    "government",
+    "nation",
+    "property"
+   ],
+   "books": []
+  },
+  {
+   "id": 14,
+   "slug": "pc-14",
+   "question": "Why do people obey government?",
+   "answer": "Because the government has the legal means to punish by the forced confiscation of property and the exercising of violence upon those who disobey.",
+   "topics": [
+    "foundations"
+   ],
+   "scripture": [],
+   "words": [
+    "government",
+    "property"
+   ],
+   "books": []
+  },
+  {
+   "id": 15,
+   "slug": "pc-15",
+   "question": "Cannot the people resist the government?",
+   "answer": "This has sometimes been done, and is sometimes necessary. There are certain ways to resist governmental power that are legal, and others that are not.",
+   "topics": [
+    "foundations"
+   ],
+   "scripture": [],
+   "words": [
+    "government",
+    "power"
+   ],
+   "books": []
+  },
+  {
+   "id": 229,
+   "slug": "pc-229",
+   "question": "What are we to understand by a Court?",
+   "answer": "A court is a legal institution wherein a duly constituted Judge sits to hear and determine disputes, or cases according to the law. A courthouse with courtrooms are the locales wherein this usually takes place.",
+   "topics": [
+    "judiciary"
+   ],
+   "scripture": [],
+   "words": [
+    "court",
+    "judge"
+   ],
+   "books": []
+  },
+  {
+   "id": 231,
+   "slug": "pc-231",
+   "question": "Are there Courts in every State of the United States?",
+   "answer": "Yes. Each State appoints Judges of its own to see that its state laws are enforced.",
+   "topics": [
+    "judiciary"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "laws",
+    "court",
+    "judge"
+   ],
+   "books": []
+  },
+  {
+   "id": 233,
+   "slug": "pc-233",
+   "question": "Are all these Courts equal, or is one superior to another?",
+   "answer": "They are not all equal but in each State, some of the State Courts are set over others; and so it is with the Courts of the United States.",
+   "topics": [
+    "judiciary"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "court"
+   ],
+   "books": []
+  },
+  {
+   "id": 235,
+   "slug": "pc-235",
+   "question": "Can he take his cause from the State Courts to the Courts of the United States?",
+   "answer": "No, not unless his complaint is related to a law made by a State, which he supposes to be contrary to the Constitution of the United States. That matter can be settled only by the Supreme Court of the United States.",
+   "topics": [
+    "judiciary"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "constitution",
+    "court"
+   ],
+   "books": []
+  },
+  {
+   "id": 236,
+   "slug": "pc-236",
+   "question": "Suppose his complaint is in regard to a law of the United States and not a State law?",
+   "answer": "He must in this case go at once to the Courts of the United States.",
+   "topics": [
+    "judiciary"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "court"
+   ],
+   "books": []
+  },
+  {
+   "id": 237,
+   "slug": "pc-237",
+   "question": "Which courts are these?",
+   "answer": "They consist of one Supreme Court (the highest of all), and of such lower federal courts, as Congress may from time to time establish.",
+   "topics": [
+    "judiciary"
+   ],
+   "scripture": [],
+   "words": [
+    "congress",
+    "court",
+    "federal"
+   ],
+   "books": []
+  },
+  {
+   "id": 238,
+   "slug": "pc-238",
+   "question": "Has Congress established such courts?",
+   "answer": "Yes, it has, which are called Circuit or Appellate Courts of the United Stats; and others, below these, which are called District Courts of the United States.",
+   "topics": [
+    "judiciary"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "congress",
+    "court"
+   ],
+   "books": []
+  },
+  {
+   "id": 239,
+   "slug": "pc-239",
+   "question": "What Judges sit on the Circuit or Appellate Courts of the United States?",
+   "answer": "The thirteen U.S. Appellate courts are presided over by a panel of judges ranging from six to twenty-nine depending on the circuit, though usually a panel of three decides an individual appeal.",
+   "topics": [
+    "judiciary"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "court",
+    "individual",
+    "judge",
+    "twenty"
+   ],
+   "books": []
+  },
+  {
+   "id": 240,
+   "slug": "pc-240",
+   "question": "What Judges sit in the District Courts of the United States?",
+   "answer": "There are 94 federal judicial districts in the United States court system presided over by hundreds of district judges, though each district must have at least one federal judge appointed by the President for life.",
+   "topics": [
+    "judiciary"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "president",
+    "court",
+    "federal",
+    "judge"
+   ],
+   "books": []
+  },
+  {
+   "id": 241,
+   "slug": "pc-241",
+   "question": "What kind of cases are tried in the Courts of the United States?",
+   "answer": "A case must be tried in federal court when there is a dispute concerning the true United States constitutionality of a lower courts decision.",
+   "topics": [
+    "judiciary"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "court",
+    "federal"
+   ],
+   "books": []
+  },
+  {
+   "id": 242,
+   "slug": "pc-242",
+   "question": "Are there other cases to be tried in the Courts of the United States?",
+   "answer": "All cases under the federal laws of the United States. A federal court cannot adjudicate a case of state law unless that law itself or the application thereof is itself being challenged as contrary to the Constitution of the United States.",
+   "topics": [
+    "judiciary"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "constitution",
+    "laws",
+    "court",
+    "federal"
+   ],
+   "books": []
+  },
+  {
+   "id": 246,
+   "slug": "pc-246",
+   "question": "How are the Judges of the Courts of the United States appointed?",
+   "answer": "By the President, with the advice and consent of the Senate.",
+   "topics": [
+    "judiciary"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "president",
+    "court",
+    "senate",
+    "judge"
+   ],
+   "books": []
+  },
+  {
+   "id": 247,
+   "slug": "pc-247",
+   "question": "How long do they remain in office?",
+   "answer": "A federal presidential judicial appointment is for life or until the justice resigns or is removed by due process for some form of corruption.",
+   "topics": [
+    "judiciary"
+   ],
+   "scripture": [],
+   "words": [
+    "federal",
+    "office",
+    "long"
+   ],
+   "books": []
+  },
+  {
+   "id": 249,
+   "slug": "pc-249",
+   "question": "Why should not Legislators hold their office in the same way?",
+   "answer": "Because they make the laws, while Judges only explain and apply them; it would be very dangerous to liberty to give our law makers power for life; they require restraint lest they should become our tyrants; therefore their term in office is limited, so that if the people deem them unwise or unfaithful, they may refuse them that office again.",
+   "topics": [
+    "judiciary"
+   ],
+   "scripture": [],
+   "words": [
+    "power",
+    "laws",
+    "office",
+    "judge"
+   ],
+   "books": []
+  },
+  {
+   "id": 250,
+   "slug": "pc-250",
+   "question": "How do the Courts determine when laws have been disobeyed and determine their punishment?",
+   "answer": "When a person is charged with having acted illegally to his neighbor, or to the State, whether he is guilty of the charge or not is determined a citizen Jury of his peers.",
+   "topics": [
+    "judiciary"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "citizen",
+    "laws",
+    "court"
+   ],
+   "books": []
+  },
+  {
+   "id": 253,
+   "slug": "pc-253",
+   "question": "Does a Jury decide in civil suits as well as in criminal prosecutions?",
+   "answer": "Depending on the case, a jury can decide in both.",
+   "topics": [
+    "judiciary"
+   ],
+   "scripture": [],
+   "words": [],
+   "books": []
+  },
+  {
+   "id": 255,
+   "slug": "pc-255",
+   "question": "Suppose the act was committed at sea, or in some other place not within any one of the States, her territories or possessions. Where is such a trial held?",
+   "answer": "Where Congress shall have appointed by law.",
+   "topics": [
+    "judiciary"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "congress"
+   ],
+   "books": []
+  },
+  {
+   "id": 256,
+   "slug": "pc-256",
+   "question": "Ought all the public acts of a State and its courts and officers be recorded in writing?",
+   "answer": "Certainly; this must be done in order to preserve a remembrance of them and for those affected to show proof of them and if injured, to obtain redress.",
+   "topics": [
+    "judiciary"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "court",
+    "public"
+   ],
+   "books": []
+  },
+  {
+   "id": 257,
+   "slug": "pc-257",
+   "question": "When such a record is made in one of the states, and a copy of it duly proved and given, must that record be received as proof by all the other States?",
+   "answer": "Yes, but Congress may determine by law in what manner the record shall be proved for that purpose.",
+   "topics": [
+    "judiciary"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "congress"
+   ],
+   "books": []
+  },
+  {
+   "id": 258,
+   "slug": "pc-258",
+   "question": "When a citizen of one state travels to any other state of the Union, may he be treated as if he were a foreigner? That is, may any difference be made between his privileges and those of the citizens of that state?",
+   "answer": "No. He shall enjoy every privilege enjoyed by the citizens of that state.",
+   "topics": [
+    "judiciary"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "citizen"
+   ],
+   "books": []
+  },
+  {
+   "id": 259,
+   "slug": "pc-259",
+   "question": "If a person charged with a crime in one State, shall flee from justice into the bounds of another State is he safe from pursuit and trial?",
+   "answer": "No. If the Governor of the State where the crime was committed applies to the Governor of the State where he has taken refuge, the latter shall cause him to be delivered to the state in which the offense is alleged. This is called extradition.",
+   "topics": [
+    "judiciary"
+   ],
+   "scripture": [],
+   "words": [
+    "state"
+   ],
+   "books": []
+  },
+  {
+   "id": 260,
+   "slug": "pc-260",
+   "question": "How many States were there which revolted from Great Britain at the Revolution?",
+   "answer": "Thirteen.",
+   "topics": [
+    "judiciary"
+   ],
+   "scripture": [],
+   "words": [
+    "state"
+   ],
+   "books": []
+  },
+  {
+   "id": 261,
+   "slug": "pc-261",
+   "question": "Did they all agree to the Federal Constitution at the time it went into operation?",
+   "answer": "Not all, but the rest came in soon after.",
+   "topics": [
+    "judiciary"
+   ],
+   "scripture": [],
+   "words": [
+    "constitution",
+    "federal"
+   ],
+   "books": []
+  },
+  {
+   "id": 262,
+   "slug": "pc-262",
+   "question": "Was it then expected that other future States would be formed and join the Union?",
+   "answer": "Yes, and provision was made for admitting them.",
+   "topics": [
+    "judiciary"
+   ],
+   "scripture": [],
+   "words": [
+    "state"
+   ],
+   "books": []
+  },
+  {
+   "id": 263,
+   "slug": "pc-263",
+   "question": "By whom were they to be admitted?",
+   "answer": "By Congress.",
+   "topics": [
+    "judiciary"
+   ],
+   "scripture": [],
+   "words": [
+    "congress"
+   ],
+   "books": []
+  },
+  {
+   "id": 265,
+   "slug": "pc-265",
+   "question": "Has any State the right to set up a monarchical form of government for itself, that is a government where the supreme power is in the hands of a king?",
+   "answer": "No. At the time of our nation’s founding the colonies were all individual republics. The new government they formed for the union of these republics was itself a representative republican model, which would then be enacted in any additional states which would join this union in the future.",
+   "topics": [
+    "judiciary"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "government",
+    "power",
+    "representative",
+    "right",
+    "nation",
+    "colonies",
+    "individual"
+   ],
+   "books": []
+  },
+  {
+   "id": 266,
+   "slug": "pc-266",
+   "question": "Who is to see that this state of affairs is maintained?",
+   "answer": "The Congress.",
+   "topics": [
+    "judiciary"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "congress"
+   ],
+   "books": []
+  },
+  {
+   "id": 267,
+   "slug": "pc-267",
+   "question": "Does Congress secure any privilege to the different States?",
+   "answer": "Yes. It must protect them from attack or invasion by a foreign enemy. This is one of the most important benefits of our Union; each State has the protection of the whole.",
+   "topics": [
+    "judiciary"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "congress"
+   ],
+   "books": []
+  },
+  {
+   "id": 270,
+   "slug": "pc-270",
+   "question": "What is the supreme law of the United States?",
+   "answer": "The Constitution itself is supreme; and all laws and treaties made by Congress and the President, in conformity with it, are superior to any law made by one of the States, so that if a law of a State contradicts a law of Congress, the State law is of no force, and the United States law alone must be obeyed.",
+   "topics": [
+    "judiciary"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "congress",
+    "president",
+    "constitution",
+    "laws"
+   ],
+   "books": []
+  },
+  {
+   "id": 271,
+   "slug": "pc-271",
+   "question": "Is there any recourse for the State, if the Courts are misinterpreting the Constitution or if laws are being enforced (or not enforced) despotically or prejudicially?",
+   "answer": "Yes, the Doctrine of the Lesser Magistrate demands that all elected offices - even smaller State or local magistrates - must defend the Constitution of the United States. Within their means and ability, they are able to resist tyranny by keeping their own oath to the Constitution.",
+   "topics": [
+    "judiciary"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "constitution",
+    "laws",
+    "court",
+    "office"
+   ],
+   "books": []
+  },
+  {
+   "id": 272,
+   "slug": "pc-272",
+   "question": "What is the Doctrine of the Lesser Magistrate?",
+   "answer": "The Doctrine of the Lesser Magistrate teaches that when the superior or higher ranking civil authority makes unconstitutional or immoral policies, the lower or lesser ranking civil authority has both a right and duty to refuse obedience to that superior authority. If necessary, the lesser authorities may even actively resist the higher authority in keeping with their oath of office.",
+   "topics": [
+    "judiciary"
+   ],
+   "scripture": [],
+   "words": [
+    "right",
+    "office"
+   ],
+   "books": []
+  },
+  {
+   "id": 40,
+   "slug": "pc-40",
+   "question": "Who is to determine whether any law is contrary to the Constitution or not, the people themselves?",
+   "answer": "No; Justices of the Supreme Court of the United States may issue opinions regarding whether or not laws are constitutional.",
+   "topics": [
+    "legislature"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "constitution",
+    "laws",
+    "court"
+   ],
+   "books": []
+  },
+  {
+   "id": 41,
+   "slug": "pc-41",
+   "question": "Was this always a power of reviewing laws granted to the Supreme Court?",
+   "answer": "Absolutely not. This power was gradually gained by the Judiciary through means which are themselves unconstitutional.",
+   "topics": [
+    "legislature"
+   ],
+   "scripture": [],
+   "words": [
+    "power",
+    "laws",
+    "court"
+   ],
+   "books": []
+  },
+  {
+   "id": 42,
+   "slug": "pc-42",
+   "question": "Do the members of the Congress of the United States all meet together in one assembly when they make the laws?",
+   "answer": "No: they meet in two different assemblies, one of which is called the Senate, and the other is called the House of Representatives.",
+   "topics": [
+    "legislature"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "congress",
+    "laws",
+    "representative",
+    "house",
+    "senate"
+   ],
+   "books": []
+  },
+  {
+   "id": 43,
+   "slug": "pc-43",
+   "question": "Who chooses the persons who shall be members of the House of Representatives?",
+   "answer": "The people of all the states: because the laws of Congress concern all the states, and must be obeyed by all the people of the republic.",
+   "topics": [
+    "legislature"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "congress",
+    "laws",
+    "representative",
+    "house"
+   ],
+   "books": []
+  },
+  {
+   "id": 44,
+   "slug": "pc-44",
+   "question": "May all people vote to decide who shall represent them?",
+   "answer": "No. Only citizens of the state who are eighteen years of age or older may vote.",
+   "topics": [
+    "legislature"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "citizen",
+    "vote"
+   ],
+   "books": []
+  },
+  {
+   "id": 45,
+   "slug": "pc-45",
+   "question": "Are there any other requirements of voting, besides citizenry and age?",
+   "answer": "While certain protections were initially made in early America, today the only requirements are citizenship and age, and the ability to prove both through the means of authorized identification.",
+   "topics": [
+    "legislature"
+   ],
+   "scripture": [],
+   "words": [],
+   "books": []
+  },
+  {
+   "id": 46,
+   "slug": "pc-46",
+   "question": "Are there any persons unfit to vote?",
+   "answer": "There may be some, due to general ignorance or laziness, who should not vote. The law, however, allows people to vote so long as they are citizens who are of age.",
+   "topics": [
+    "legislature"
+   ],
+   "scripture": [],
+   "words": [
+    "citizen",
+    "vote",
+    "long"
+   ],
+   "books": []
+  },
+  {
+   "id": 48,
+   "slug": "pc-48",
+   "question": "Are the times, places and manner of holding these elections fixed by Congress?",
+   "answer": "No: They have, thus far, been left to be regulated by each state for itself, but Congress may fix them if it deems appropriate.",
+   "topics": [
+    "legislature"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "congress"
+   ],
+   "books": []
+  },
+  {
+   "id": 49,
+   "slug": "pc-49",
+   "question": "Suppose a dispute should arise concerning an election, and one person shall declare that he has been fairly chosen, while another denies it, and insists that he himself has been chosen; who has the power to settle that dispute?",
+   "answer": "A dispute between persons who claim a seat in the House of Representatives can be determined only by the House of Representatives; a dispute between persons claiming a seat in the Senate can be settled by the Senate only.",
+   "topics": [
+    "legislature"
+   ],
+   "scripture": [],
+   "words": [
+    "power",
+    "representative",
+    "house",
+    "senate"
+   ],
+   "books": []
+  },
+  {
+   "id": 50,
+   "slug": "pc-50",
+   "question": "When a person is chosen to be a member of the House of Representatives, how long does he continue to hold that seat?",
+   "answer": "For a term of two years.",
+   "topics": [
+    "legislature"
+   ],
+   "scripture": [],
+   "words": [
+    "representative",
+    "house",
+    "long"
+   ],
+   "books": []
+  },
+  {
+   "id": 52,
+   "slug": "pc-52",
+   "question": "Suppose he dies before the end of his term?",
+   "answer": "Another is chosen in his stead, for the remainder of that term. This process varies between state legislatures and also for the federal house.",
+   "topics": [
+    "legislature"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "federal",
+    "house"
+   ],
+   "books": []
+  },
+  {
+   "id": 53,
+   "slug": "pc-53",
+   "question": "How old must a person be before he can be chosen a Member of the House?",
+   "answer": "Twenty-five years old.",
+   "topics": [
+    "legislature"
+   ],
+   "scripture": [],
+   "words": [
+    "house",
+    "twenty"
+   ],
+   "books": []
+  },
+  {
+   "id": 54,
+   "slug": "pc-54",
+   "question": "May a person be chosen who has just come into the United States, and who is a subject of some other country (that means, who is bound to obey the laws of some other country)?",
+   "answer": "No. Any person, to be chosen a Member of our House of Representatives, must either have been born in the United States, or must have been a naturalized citizen for seven years before he is eligible.",
+   "topics": [
+    "legislature"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "citizen",
+    "laws",
+    "representative",
+    "house",
+    "country"
+   ],
+   "books": []
+  },
+  {
+   "id": 56,
+   "slug": "pc-56",
+   "question": "May the people of one State choose a person who is an inhabitant of another State to be a Member of the House of Representatives?",
+   "answer": "No; he must be a citizen of the State where he is voting.",
+   "topics": [
+    "legislature"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "citizen",
+    "representative",
+    "house"
+   ],
+   "books": []
+  },
+  {
+   "id": 57,
+   "slug": "pc-57",
+   "question": "How many persons may be chosen by each State, as Members of the House of Representatives?",
+   "answer": "The number of Representatives of any state is in proportion to the number of people in that State.",
+   "topics": [
+    "legislature"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "representative",
+    "house"
+   ],
+   "books": []
+  },
+  {
+   "id": 58,
+   "slug": "pc-58",
+   "question": "Are any people, based upon their ethnicity or any other factor, counted more or less than others when factoring their representation in Congress?",
+   "answer": "No, all people are treated equally under the Law.",
+   "topics": [
+    "legislature"
+   ],
+   "scripture": [],
+   "words": [
+    "congress"
+   ],
+   "books": []
+  },
+  {
+   "id": 59,
+   "slug": "pc-59",
+   "question": "How is it known what number of people each State contains?",
+   "answer": "Certain persons are appointed to count the people and compile a written list of them. Such a counting is called a census, and it takes place once every ten years.",
+   "topics": [
+    "legislature"
+   ],
+   "scripture": [],
+   "words": [
+    "state"
+   ],
+   "books": []
+  },
+  {
+   "id": 60,
+   "slug": "pc-60",
+   "question": "When the members of the House of Representatives meet to make the laws, are they all equal or does anyone preside over them?",
+   "answer": "They choose one of their own number, whose duty it is to preside over them while they are assembled to do business, and to see that they proceed in a regular and orderly manner in doing their public duty. He is called their Speaker.",
+   "topics": [
+    "legislature"
+   ],
+   "scripture": [],
+   "words": [
+    "laws",
+    "representative",
+    "house",
+    "public"
+   ],
+   "books": []
+  },
+  {
+   "id": 61,
+   "slug": "pc-61",
+   "question": "Who chooses the members of the Senate of the United States?",
+   "answer": "The members of the Senate are chosen by the people, just as are chosen the members of the House of Representatives.",
+   "topics": [
+    "legislature"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "representative",
+    "house",
+    "senate"
+   ],
+   "books": []
+  },
+  {
+   "id": 62,
+   "slug": "pc-62",
+   "question": "Were members of the Senate always chosen this way?",
+   "answer": "No. Members of the Senate were originally chosen by the Legislature of each state.",
+   "topics": [
+    "legislature"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "senate"
+   ],
+   "books": []
+  },
+  {
+   "id": 63,
+   "slug": "pc-63",
+   "question": "Was making the members of the Senate chosen by the people wise?",
+   "answer": "No. Members of the Senate, known as Senators, were to represent the needs of the state as a whole, not of individuals directly. Making Senators elected in the same manner as Representatives defeated the purpose of a separate body designed to represent the states.",
+   "topics": [
+    "legislature"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "representative",
+    "senate",
+    "individual"
+   ],
+   "books": []
+  },
+  {
+   "id": 64,
+   "slug": "pc-64",
+   "question": "How many Senators may there be?",
+   "answer": "Two from each state.",
+   "topics": [
+    "legislature"
+   ],
+   "scripture": [],
+   "words": [
+    "state"
+   ],
+   "books": []
+  },
+  {
+   "id": 65,
+   "slug": "pc-65",
+   "question": "When a citizen is chosen to be a Senator, how long is his term of duty?",
+   "answer": "He shall serve for six years. If he dies before he finishes his duty or resigns his office, another shall be elected in his place.",
+   "topics": [
+    "legislature"
+   ],
+   "scripture": [],
+   "words": [
+    "citizen",
+    "office",
+    "long"
+   ],
+   "books": []
+  },
+  {
+   "id": 66,
+   "slug": "pc-66",
+   "question": "Are all the Senators chosen at the same time, as are members of the House of Representatives?",
+   "answer": "No. Only one third are chosen at a time in two year intervals, so that every two years one third of the number of the Senators see the expiration of their terms; but the same persons may again be chosen if the people wish to reelect them.",
+   "topics": [
+    "legislature"
+   ],
+   "scripture": [],
+   "words": [
+    "representative",
+    "house"
+   ],
+   "books": []
+  },
+  {
+   "id": 67,
+   "slug": "pc-67",
+   "question": "How old must a person be before he can be nominated for a seat in the United States Senate?",
+   "answer": "Thirty years old.",
+   "topics": [
+    "legislature"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "senate"
+   ],
+   "books": []
+  },
+  {
+   "id": 68,
+   "slug": "pc-68",
+   "question": "Can he be chosen if he has not been born in the United States?",
+   "answer": "Yes, if he has been a naturalized citizen for at least nine years.",
+   "topics": [
+    "legislature"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "citizen"
+   ],
+   "books": []
+  },
+  {
+   "id": 69,
+   "slug": "pc-69",
+   "question": "Can a Senator for one State be chosen by the people of another State?",
+   "answer": "No. The people must choose a citizen of their State.",
+   "topics": [
+    "legislature"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "citizen"
+   ],
+   "books": []
+  },
+  {
+   "id": 70,
+   "slug": "pc-70",
+   "question": "Does the Senate choose a Speaker, as the House of Representatives does?",
+   "answer": "No. The person who is chosen by the people to be Vice President of the United States is made by the Constitution, President of the Senate; his duties are like those of the Speaker of the House of Representatives, except that he is not obliged to keep order in debate.",
+   "topics": [
+    "legislature"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "president",
+    "constitution",
+    "representative",
+    "house",
+    "senate",
+    "duties"
+   ],
+   "books": []
+  },
+  {
+   "id": 71,
+   "slug": "pc-71",
+   "question": "Do the Senators ever sit as Judges?",
+   "answer": "Yes. When any civil officer of the United States (that is, not an officer of the Army) is accused of a violation of his public duty and charged by the House of Representatives, and tried by the Senate. Such a process is called a trial of impeachment.",
+   "topics": [
+    "legislature"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "representative",
+    "house",
+    "senate",
+    "judge",
+    "public"
+   ],
+   "books": []
+  },
+  {
+   "id": 73,
+   "slug": "pc-73",
+   "question": "Cannot the Senate, in like manner, impeach, that is, solemnly charge an officer before the House of Representatives?",
+   "answer": "No. None can bring an impeachment but the House of Representatives, and none can try an impeachment but the Senate.",
+   "topics": [
+    "legislature"
+   ],
+   "scripture": [],
+   "words": [
+    "representative",
+    "house",
+    "senate"
+   ],
+   "books": []
+  },
+  {
+   "id": 74,
+   "slug": "pc-74",
+   "question": "May ever the President of the United states be thus impeached and punished?",
+   "answer": "Yes. No man is above the law.",
+   "topics": [
+    "legislature"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "president"
+   ],
+   "books": []
+  },
+  {
+   "id": 75,
+   "slug": "pc-75",
+   "question": "How often does the Congress meet?",
+   "answer": "It must meet at least once in every year; but may meet more often if necessary.",
+   "topics": [
+    "legislature"
+   ],
+   "scripture": [],
+   "words": [
+    "congress"
+   ],
+   "books": []
+  },
+  {
+   "id": 76,
+   "slug": "pc-76",
+   "question": "Is any day fixed for its meeting?",
+   "answer": "Yes; the first Monday in December; but it has power to fix an alternate day. When a session of Congress ceases to meet, it is said to adjourn.",
+   "topics": [
+    "legislature"
+   ],
+   "scripture": [],
+   "words": [
+    "congress",
+    "power"
+   ],
+   "books": []
+  },
+  {
+   "id": 77,
+   "slug": "pc-77",
+   "question": "Why was this date in December originally chosen?",
+   "answer": "The founders did not design or expect Congress to meet for great lengths of time. Because the founders knew that the best government governs the least, they expected Congress to get done with it’s business after the harvest, during a few weeks in December.",
+   "topics": [
+    "legislature"
+   ],
+   "scripture": [],
+   "words": [
+    "congress",
+    "government"
+   ],
+   "books": []
+  },
+  {
+   "id": 78,
+   "slug": "pc-78",
+   "question": "Suppose all members of the Senate, or all members of the House of Representatives do not attend a meeting, can those who do not attend make laws without them?",
+   "answer": "If more than one half are present, they have in most cases power to do whatever the whole number could have done. More than one half are called a majority, less than one half are called a minority. As many as are necessary to do business are called a quorum.",
+   "topics": [
+    "legislature"
+   ],
+   "scripture": [],
+   "words": [
+    "power",
+    "laws",
+    "representative",
+    "house",
+    "senate"
+   ],
+   "books": []
+  },
+  {
+   "id": 79,
+   "slug": "pc-79",
+   "question": "Supposing less than one half should attend, can they do nothing?",
+   "answer": "Yes, they have power to send for the others and compel them to attend.",
+   "topics": [
+    "legislature"
+   ],
+   "scripture": [],
+   "words": [
+    "power"
+   ],
+   "books": []
+  },
+  {
+   "id": 80,
+   "slug": "pc-80",
+   "question": "Who settles what these aforementioned rules shall be?",
+   "answer": "The rules for the Senate are made by the Senate; the rules for the House of Representatives are made by the House of Representatives. Each house has power to alter its own rules of order, or to suspend them.",
+   "topics": [
+    "legislature"
+   ],
+   "scripture": [],
+   "words": [
+    "power",
+    "representative",
+    "house",
+    "senate"
+   ],
+   "books": []
+  },
+  {
+   "id": 81,
+   "slug": "pc-81",
+   "question": "Suppose a member refuses to attend or behaves in a disorderly manner. What may happen to him?",
+   "answer": "He may be punished in any way the other members think proper.",
+   "topics": [
+    "legislature"
+   ],
+   "scripture": [],
+   "words": [],
+   "books": []
+  },
+  {
+   "id": 82,
+   "slug": "pc-82",
+   "question": "May he even be expelled from the House?",
+   "answer": "Yes, but only by a two thirds vote of all the members.",
+   "topics": [
+    "legislature"
+   ],
+   "scripture": [],
+   "words": [
+    "house",
+    "vote"
+   ],
+   "books": []
+  },
+  {
+   "id": 83,
+   "slug": "pc-83",
+   "question": "May Congress sit in secret?",
+   "answer": "Yes. Whenever they are engaged in business which would be better done in private, they close their doors.",
+   "topics": [
+    "legislature"
+   ],
+   "scripture": [],
+   "words": [
+    "congress",
+    "private"
+   ],
+   "books": []
+  },
+  {
+   "id": 86,
+   "slug": "pc-86",
+   "question": "May either house remove to any other place?",
+   "answer": "No, not unless the other house moves also.",
+   "topics": [
+    "legislature"
+   ],
+   "scripture": [],
+   "words": [
+    "house"
+   ],
+   "books": []
+  },
+  {
+   "id": 87,
+   "slug": "pc-87",
+   "question": "Do members of congress receive anything for doing the business of the public?",
+   "answer": "Their best reward is the honor of serving their country; but as many of them cannot afford to leave their own business so often without having the loss in some measure compensated, the Constitution says that they shall be allowed such a compensation to be ascertained by law, and paid out of the Treasury of the United States.",
+   "topics": [
+    "legislature"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "congress",
+    "constitution",
+    "country",
+    "public"
+   ],
+   "books": []
+  },
+  {
+   "id": 88,
+   "slug": "pc-88",
+   "question": "Who fixes the rate of compensation, that is, how much the members shall be paid?",
+   "answer": "It is fixed by Congress.",
+   "topics": [
+    "legislature"
+   ],
+   "scripture": [],
+   "words": [
+    "congress"
+   ],
+   "books": []
+  },
+  {
+   "id": 89,
+   "slug": "pc-89",
+   "question": "Ought they be allowed to fix their own wages?",
+   "answer": "It cannot be avoided, for there is none other power to make laws but Congress.",
+   "topics": [
+    "powers"
+   ],
+   "scripture": [],
+   "words": [
+    "congress",
+    "power",
+    "laws"
+   ],
+   "books": []
+  },
+  {
+   "id": 90,
+   "slug": "pc-90",
+   "question": "May members of Congress be arrested while they are attending their public duty?",
+   "answer": "Their duties are of such value to us that the Constitution does not allow them to be arrested while going to or returning from their home to the Capitol where Congress meets, except in the cases of treason, felony, or breach of the peace.",
+   "topics": [
+    "powers"
+   ],
+   "scripture": [],
+   "words": [
+    "congress",
+    "constitution",
+    "duties",
+    "public"
+   ],
+   "books": []
+  },
+  {
+   "id": 91,
+   "slug": "pc-91",
+   "question": "When is a person guilty of treason?",
+   "answer": "When he makes war against the United States or provides aid and or comfort to others who are making war against the United States. It is punishable by death.",
+   "topics": [
+    "powers"
+   ],
+   "scripture": [],
+   "words": [
+    "state"
+   ],
+   "books": []
+  },
+  {
+   "id": 92,
+   "slug": "pc-92",
+   "question": "If members of Congress while engaged in a debate, that is, in arguing about any law that is proposed to be made, shall say anything offensive to another member, may he be sued for it by the other in a court of law?",
+   "answer": "No, lest this destroy the freedom of debate and make members afraid to speak their mind. A member cannot be held to account in any other place for anything he says on the floor of Congress.",
+   "topics": [
+    "powers"
+   ],
+   "scripture": [],
+   "words": [
+    "congress",
+    "court"
+   ],
+   "books": []
+  },
+  {
+   "id": 93,
+   "slug": "pc-93",
+   "question": "If Congress creates a new office or increases the salary for an existing office, may a member of Congress who participated in this process be then appointed to that office?",
+   "answer": "No, not until the whole time for which he was chosen a member shall have expired.",
+   "topics": [
+    "powers"
+   ],
+   "scripture": [],
+   "words": [
+    "congress",
+    "office"
+   ],
+   "books": []
+  },
+  {
+   "id": 96,
+   "slug": "pc-96",
+   "question": "Is it now a law?",
+   "answer": "Not yet. The engrossed bill is then sent to the President of the United States for his approbation. If he approves it, he signs and returns it. The bill is then called an act, and it becomes the law of the land.",
+   "topics": [
+    "powers"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "president"
+   ],
+   "books": []
+  },
+  {
+   "id": 98,
+   "slug": "pc-98",
+   "question": "Suppose the President of the United States should neglect to sign and return a bill sent to him by Congress?",
+   "answer": "If he does not sign or return any bill within ten days after it is sent to him (not counting Sundays), it becomes a law unless in that time Congress shall have adjourned.",
+   "topics": [
+    "powers"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "congress",
+    "president"
+   ],
+   "books": []
+  },
+  {
+   "id": 99,
+   "slug": "pc-99",
+   "question": "Why is making a law so complicated?",
+   "answer": "The more laws a nation has, the less liberty will be protected. The founders designed the process for creating laws to be difficult and rigorous in order to protect the people against tyranny by legislation.",
+   "topics": [
+    "powers"
+   ],
+   "scripture": [],
+   "words": [
+    "laws",
+    "nation"
+   ],
+   "books": []
+  },
+  {
+   "id": 100,
+   "slug": "pc-100",
+   "question": "You have said that no laws can be made for the United States but by Congress; may Congress make any laws they please?",
+   "answer": "No. Their power is limited by the Constitution. They have no power except that specifically granted them by the Constitution, which was designed to limit their power. Whatever power is not given to the federal government in the Constitution is reserved for the states and the people.",
+   "topics": [
+    "powers"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "congress",
+    "government",
+    "power",
+    "constitution",
+    "laws",
+    "federal"
+   ],
+   "books": []
+  },
+  {
+   "id": 101,
+   "slug": "pc-101",
+   "question": "What powers are given to Congress by the Constitution?",
+   "answer": "Congress has the power to collect taxes, duties, imposts and excises.",
+   "topics": [
+    "powers"
+   ],
+   "scripture": [],
+   "words": [
+    "congress",
+    "power",
+    "constitution",
+    "duties",
+    "taxes"
+   ],
+   "books": []
+  },
+  {
+   "id": 102,
+   "slug": "pc-102",
+   "question": "What is a tax?",
+   "answer": "Tax is a sum of money which the people are directed to pay to support the constitutional functions of government. Tax is the confiscation of wealth by the government, under the threat of coercion, usually threatening confiscation of property or violence to one who does not pay it.",
+   "topics": [
+    "powers"
+   ],
+   "scripture": [],
+   "words": [
+    "government",
+    "property",
+    "money"
+   ],
+   "books": []
+  },
+  {
+   "id": 103,
+   "slug": "pc-103",
+   "question": "What are duties?",
+   "answer": "Duties are sums of money which must be paid by persons who bring goods of any kind from another country into the United States. It is paid at certain places called Customs Houses, and is sent onward to the Treasury of the United States.",
+   "topics": [
+    "powers"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "house",
+    "country",
+    "money",
+    "duties"
+   ],
+   "books": []
+  },
+  {
+   "id": 104,
+   "slug": "pc-104",
+   "question": "What are Imposts?",
+   "answer": "Imposts are sums of money which must be paid to the government, by persons owning vessels, which enter the harbors of the United States.",
+   "topics": [
+    "powers"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "government",
+    "money"
+   ],
+   "books": []
+  },
+  {
+   "id": 105,
+   "slug": "pc-105",
+   "question": "What are Excises?",
+   "answer": "Excises are sums of money which must be paid to the government, by persons who make certain articles within the United States, in proportion to the quantity or value of the articles manufactured.",
+   "topics": [
+    "powers"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "government",
+    "money"
+   ],
+   "books": []
+  },
+  {
+   "id": 107,
+   "slug": "pc-107",
+   "question": "What means of force does our government use to collect taxes?",
+   "answer": "Government uses various means of force, but chiefly the confiscation of property or the violence of imprisonment or some other punishment that will bring harm upon property or body.",
+   "topics": [
+    "powers"
+   ],
+   "scripture": [],
+   "words": [
+    "government",
+    "property",
+    "taxes"
+   ],
+   "books": []
+  },
+  {
+   "id": 108,
+   "slug": "pc-108",
+   "question": "Is it the duty of a citizen to pay taxes?",
+   "answer": "It is the duty of a citizen to pay taxes, so long as it is in keeping with the social compact between the government and the governed.",
+   "topics": [
+    "powers"
+   ],
+   "scripture": [],
+   "words": [
+    "citizen",
+    "government",
+    "long",
+    "taxes"
+   ],
+   "books": []
+  },
+  {
+   "id": 109,
+   "slug": "pc-109",
+   "question": "Why is it the duty of a citizen to pay taxes?",
+   "answer": "First, the Bible - the foundation of Western law and civilization - instructs us to render taxes to the ruling authorities. Secondly, citizens have the responsibility to rule the nation, and with the responsibility of ruling, comes the obligation to steward resources, which includes paying taxes.",
+   "topics": [
+    "powers"
+   ],
+   "scripture": [],
+   "words": [
+    "citizen",
+    "nation",
+    "taxes"
+   ],
+   "books": []
+  },
+  {
+   "id": 110,
+   "slug": "pc-110",
+   "question": "Should all citizens be required to pay taxes equally?",
+   "answer": "All citizens should be required to pay taxes in the most equitable way possible, and no citizen should be exempt from paying taxes so long as any other citizen is taxed. Fairness requires impartiality, and taxes should be collected impartially.",
+   "topics": [
+    "powers"
+   ],
+   "scripture": [],
+   "words": [
+    "citizen",
+    "long",
+    "taxes"
+   ],
+   "books": []
+  },
+  {
+   "id": 111,
+   "slug": "pc-111",
+   "question": "Are all taxes constitutional?",
+   "answer": "No. Sometimes the government abuses its power, and uses taxation as a means to punish its enemies or manipulate the behavior of its citizens. Often this is done through means other than that provided for by legislation through Congress.",
+   "topics": [
+    "powers"
+   ],
+   "scripture": [],
+   "words": [
+    "citizen",
+    "congress",
+    "government",
+    "power",
+    "taxes"
+   ],
+   "books": []
+  },
+  {
+   "id": 112,
+   "slug": "pc-112",
+   "question": "What is the most equitable, or fair, form of taxation?",
+   "answer": "The most equitable form of taxation is a tax on consumable goods, which is the same tax for all people who purchase those goods.",
+   "topics": [
+    "powers"
+   ],
+   "scripture": [],
+   "words": [],
+   "books": []
+  },
+  {
+   "id": 114,
+   "slug": "pc-114",
+   "question": "Is a tax on income constitutional?",
+   "answer": "The income tax was ruled unconstitutional, according to the Supreme Court in 1895. However, the 16th Amendment to our Constitution of 1913 declared the income tax to now be constitutional.",
+   "topics": [
+    "powers"
+   ],
+   "scripture": [],
+   "words": [
+    "amendment",
+    "constitution",
+    "court"
+   ],
+   "books": []
+  },
+  {
+   "id": 115,
+   "slug": "pc-115",
+   "question": "Is a tax on income wise?",
+   "answer": "Taxes that penalize income are unwise in a nation that desires to create and sustain wealth. In certain cases, taxing income will cause people to be less industrious, which will diminish both the income of the government and the income of the individual.",
+   "topics": [
+    "powers"
+   ],
+   "scripture": [],
+   "words": [
+    "government",
+    "nation",
+    "individual",
+    "taxes"
+   ],
+   "books": []
+  },
+  {
+   "id": 116,
+   "slug": "pc-116",
+   "question": "Is a tax on income moral?",
+   "answer": "Graduated taxes that treat people partially, by taxing different people at different rates, are immoral because they treat people unequally. It is the application of unjust weights and measures, which should be seen as wrong in any morally conscientious society.",
+   "topics": [
+    "powers"
+   ],
+   "scripture": [],
+   "words": [
+    "taxes"
+   ],
+   "books": []
+  },
+  {
+   "id": 117,
+   "slug": "pc-117",
+   "question": "Is there any other way that a tax may be unjust, aside from partiality?",
+   "answer": "Any wealth that is confiscated to redistribute to others is inherently unjust, and is theft. Likewise, any confiscation of wealth in order to finance governmental powers not granted them by the Constitution is inherently unjust.",
+   "topics": [
+    "powers"
+   ],
+   "scripture": [],
+   "words": [
+    "power",
+    "constitution"
+   ],
+   "books": []
+  },
+  {
+   "id": 118,
+   "slug": "pc-118",
+   "question": "Could any government exist without taxation?",
+   "answer": "No government has ever existed without taxation, although certain governments have raised revenue through tariffs or trade or by the taxation of colonies by imperialism rather than by direct taxation of its own citizens.",
+   "topics": [
+    "powers"
+   ],
+   "scripture": [],
+   "words": [
+    "citizen",
+    "government",
+    "colonies"
+   ],
+   "books": []
+  },
+  {
+   "id": 119,
+   "slug": "pc-119",
+   "question": "Ought the people complain of having to pay taxes?",
+   "answer": "People ought to complain when taxes are unjust. However, if the benefits of taxation are distributed through the function of government to all classes of people equally, and all people are equal beneficiaries of government services to them (and they include only the services required of the government by the Constitution), then they should not complain about taxation.",
+   "topics": [
+    "powers"
+   ],
+   "scripture": [],
+   "words": [
+    "government",
+    "constitution",
+    "taxes"
+   ],
+   "books": []
+  },
+  {
+   "id": 120,
+   "slug": "pc-120",
+   "question": "What are the benefits of taxation?",
+   "answer": "The benefits of taxation include a government that can afford to defend its citizens against invasions of foreign armies, mint currency, execute laws, provide certain necessary infrastructure, punish wickedness and reward good.",
+   "topics": [
+    "powers"
+   ],
+   "scripture": [],
+   "words": [
+    "citizen",
+    "government",
+    "laws"
+   ],
+   "books": []
+  },
+  {
+   "id": 121,
+   "slug": "pc-121",
+   "question": "May one part of the United States be required to pay at a greater rate than the rest?",
+   "answer": "No; all duties, imposts, and excises must be uniform throughout all of the United States.",
+   "topics": [
+    "powers"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "duties"
+   ],
+   "books": []
+  },
+  {
+   "id": 122,
+   "slug": "pc-122",
+   "question": "What other power does Congress have aside from the levying of taxes?",
+   "answer": "Congress has the power to borrow money on the credit of the United States.",
+   "topics": [
+    "powers"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "congress",
+    "power",
+    "money",
+    "taxes"
+   ],
+   "books": []
+  },
+  {
+   "id": 123,
+   "slug": "pc-123",
+   "question": "What other power does Congress possess?",
+   "answer": "It may make rules according to which the commerce of the citizens of the United States with other nations shall be carried out; also, it can make rules regarding the commerce of one state with another state and with Indian tribes. These are called the Foreign Commerce Clause, the Interstate Commerce Clause, and the Indian Commerce Clause.",
+   "topics": [
+    "powers"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "citizen",
+    "congress",
+    "power",
+    "nation"
+   ],
+   "books": []
+  },
+  {
+   "id": 124,
+   "slug": "pc-124",
+   "question": "What is an example of an instance in which the Interstate Commerce Clause is used?",
+   "answer": "The Interstate Commerce Clause gives the Federal Government the power to make laws regarding the use of roadways or navigable waterways that extend from one state into the next.",
+   "topics": [
+    "powers"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "government",
+    "power",
+    "laws",
+    "federal"
+   ],
+   "books": []
+  },
+  {
+   "id": 125,
+   "slug": "pc-125",
+   "question": "What is an example of an instance in which the Interstate Commerce Clause has been abused?",
+   "answer": "The Interstate Commerce Clause regulates trade between the states, and not the people of those states. Whereas roadways, navigable waterways or other publicly-owned properties may be under the purview of the Interstate Commerce Clause, the clause gives the Federal Government no right to oversee or regulate trade between individual citizens within the several states.",
+   "topics": [
+    "powers"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "citizen",
+    "government",
+    "federal",
+    "right",
+    "individual"
+   ],
+   "books": []
+  },
+  {
+   "id": 126,
+   "slug": "pc-126",
+   "question": "What is another power given to Congress by the Constitution?",
+   "answer": "Admitting a foreigner to become a citizen of the United States is the power of Congress, which can make one uniform rule that shall be followed throughout the country.",
+   "topics": [
+    "powers"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "citizen",
+    "congress",
+    "power",
+    "constitution",
+    "country"
+   ],
+   "books": []
+  },
+  {
+   "id": 128,
+   "slug": "pc-128",
+   "question": "May any persons who pleases mint money?",
+   "answer": "No, only the Congress may mint money that is to be considered mandatory legal currency. While states or individuals may maintain precious metals which may be traded or bartered like any other good, only that issued by the United States congress must be received as currency.",
+   "topics": [
+    "powers"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "congress",
+    "money",
+    "individual"
+   ],
+   "books": []
+  },
+  {
+   "id": 129,
+   "slug": "pc-129",
+   "question": "May Congress outsource control over currency to any other body?",
+   "answer": "No. The Constitution does not allow Congress to outsource the control of currency to any other body.",
+   "topics": [
+    "powers"
+   ],
+   "scripture": [],
+   "words": [
+    "congress",
+    "constitution"
+   ],
+   "books": []
+  },
+  {
+   "id": 130,
+   "slug": "pc-130",
+   "question": "Are private banks, like that of the Federal Reserve, to be allowed to set monetary policy or print currency?",
+   "answer": "No. Only Congress may set monetary policy and print currency according to the Constitution. To allow this privilege to other bodies, is a dereliction of their duty and places the liberty of the citizens in the hands of private interest rather than in the hands of their duly elected representatives.",
+   "topics": [
+    "powers"
+   ],
+   "scripture": [],
+   "words": [
+    "citizen",
+    "congress",
+    "constitution",
+    "federal",
+    "representative",
+    "private"
+   ],
+   "books": []
+  },
+  {
+   "id": 131,
+   "slug": "pc-131",
+   "question": "What other power belongs to Congress?",
+   "answer": "Congress may establish a postal service or office, locations and instruments for the carrying out of those services and also roads upon which those services may be carried out.",
+   "topics": [
+    "powers"
+   ],
+   "scripture": [],
+   "words": [
+    "congress",
+    "power",
+    "office"
+   ],
+   "books": []
+  },
+  {
+   "id": 132,
+   "slug": "pc-132",
+   "question": "What is the post office?",
+   "answer": "An organization with the resources for the gathering and delivery of letters and packages from one citizen or business to anothe, as a service provided by the government to its citizens.",
+   "topics": [
+    "powers"
+   ],
+   "scripture": [],
+   "words": [
+    "citizen",
+    "government",
+    "office"
+   ],
+   "books": []
+  },
+  {
+   "id": 133,
+   "slug": "pc-133",
+   "question": "Does congress protect the personal ideas and inventions of the citizens?",
+   "answer": "Yes, it may grant patents and copyrights.",
+   "topics": [
+    "powers"
+   ],
+   "scripture": [],
+   "words": [
+    "citizen",
+    "congress"
+   ],
+   "books": []
+  },
+  {
+   "id": 135,
+   "slug": "pc-135",
+   "question": "Can Congress erect courts or direct judges?",
+   "answer": "Yes, Congress may appoint as many courts as it deems necessary for the answering of questions and cases relating to matters particularly pertaining to the federal government, or rights acknowledged by the Constitution.",
+   "topics": [
+    "powers"
+   ],
+   "scripture": [],
+   "words": [
+    "congress",
+    "government",
+    "constitution",
+    "court",
+    "federal",
+    "right",
+    "judge"
+   ],
+   "books": []
+  },
+  {
+   "id": 136,
+   "slug": "pc-136",
+   "question": "Has congress the power to declare war?",
+   "answer": "Yes, it is congress that holds this most solemn and weighty power, that being the declaration of war between the United States and any other foreign power.",
+   "topics": [
+    "powers"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "congress",
+    "power"
+   ],
+   "books": []
+  },
+  {
+   "id": 137,
+   "slug": "pc-137",
+   "question": "When Congress has declared the United States to be at war with any particular nation, can any of the citizens of the United States remain at peace with that nation.",
+   "answer": "Citizens cannot be forced to violate their conscience. However, citizens can be obliged under the threat of force to not provide aid or assistance to enemies of the United States, especially during wartime.",
+   "topics": [
+    "powers"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "citizen",
+    "congress",
+    "nation"
+   ],
+   "books": []
+  },
+  {
+   "id": 138,
+   "slug": "pc-138",
+   "question": "When the United States has a grievance against another nation, and yet does not wish to go to war with that nation, is there any other measure Congress may take to compel that nation to do them justice?",
+   "answer": "Yes. Congress may issue diplomatic or economic sanctions or punishments upon them.",
+   "topics": [
+    "powers"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "congress",
+    "nation"
+   ],
+   "books": []
+  },
+  {
+   "id": 139,
+   "slug": "pc-139",
+   "question": "When Congress declares war, may it raise and equip armies and hire soldiers?",
+   "answer": "Congress may pay, equip, clothe, feed and transport soldiers at the public expense.",
+   "topics": [
+    "powers"
+   ],
+   "scripture": [],
+   "words": [
+    "congress",
+    "public"
+   ],
+   "books": []
+  },
+  {
+   "id": 140,
+   "slug": "pc-140",
+   "question": "May Congress make a law, setting apart money enough at one time, to pay and support an army for more than two years?",
+   "answer": "No, lest a wicked Congress, by keeping a standing army, remain in power beyond the time for which they were elected, and so destroy the liberty of their country.",
+   "topics": [
+    "powers"
+   ],
+   "scripture": [],
+   "words": [
+    "congress",
+    "power",
+    "country",
+    "money"
+   ],
+   "books": []
+  },
+  {
+   "id": 141,
+   "slug": "pc-141",
+   "question": "Why was the time limited to two years?",
+   "answer": "Because every two years a new Congress may be chosen.",
+   "topics": [
+    "powers"
+   ],
+   "scripture": [],
+   "words": [
+    "congress"
+   ],
+   "books": []
+  },
+  {
+   "id": 142,
+   "slug": "pc-142",
+   "question": "Does the Congress have the right to raise and support the army only?",
+   "answer": "No, Congress may raise and support any branch of the armed services.",
+   "topics": [
+    "powers"
+   ],
+   "scripture": [],
+   "words": [
+    "congress",
+    "right"
+   ],
+   "books": []
+  },
+  {
+   "id": 143,
+   "slug": "pc-143",
+   "question": "Has the United States no other defense than to depend upon hired soldiers?",
+   "answer": "The country may also have militias raised up among the people to defend the nation.",
+   "topics": [
+    "powers"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "nation",
+    "country"
+   ],
+   "books": []
+  },
+  {
+   "id": 144,
+   "slug": "pc-144",
+   "question": "What is a militia?",
+   "answer": "A militia is a group of armed citizens, who are not within the United States military, but who have chosen to bear arms to protect themselves or others.",
+   "topics": [
+    "powers"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "citizen"
+   ],
+   "books": []
+  },
+  {
+   "id": 145,
+   "slug": "pc-145",
+   "question": "Does a militia only exist in order to protect the nation against foreign powers?",
+   "answer": "No, a militia may protect the nation against unrest, injustice, or a tyrannical domestic government.",
+   "topics": [
+    "powers"
+   ],
+   "scripture": [],
+   "words": [
+    "government",
+    "power",
+    "nation"
+   ],
+   "books": []
+  },
+  {
+   "id": 146,
+   "slug": "pc-146",
+   "question": "May Congress command the militia?",
+   "answer": "The Congress may command the militia, upon the agreement of the militia. A free nation requires a militia that is not beholden to a government that may be or become corrupt.",
+   "topics": [
+    "powers"
+   ],
+   "scripture": [],
+   "words": [
+    "congress",
+    "government",
+    "nation"
+   ],
+   "books": []
+  },
+  {
+   "id": 147,
+   "slug": "pc-147",
+   "question": "Must a militia be an organized para-military unit?",
+   "answer": "No, a militia is any number of citizens that are armed and willing to protect the nation. It does not have to be structured like the United States military.",
+   "topics": [
+    "powers"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "citizen",
+    "nation"
+   ],
+   "books": []
+  },
+  {
+   "id": 148,
+   "slug": "pc-148",
+   "question": "How does Congress see to the location and logistics of it’s own business?",
+   "answer": "The Congress may enact all laws relating to a geographical location where it’s members meet to conduct the business of state and which is also the seat of federal government. Currently, this is Washington D.C. (District of Columbia)",
+   "topics": [
+    "powers"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "congress",
+    "government",
+    "laws",
+    "federal"
+   ],
+   "books": []
+  },
+  {
+   "id": 150,
+   "slug": "pc-150",
+   "question": "Is the district a part of a state?",
+   "answer": "No, it is a territory the states have relinquished for the purpose of it being the seat of the federal government.",
+   "topics": [
+    "powers"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "government",
+    "federal"
+   ],
+   "books": []
+  },
+  {
+   "id": 151,
+   "slug": "pc-151",
+   "question": "Are there any other locations in the United States under similar control by Congress?",
+   "answer": "Yes, and they include all forts, armories, and international docks. These are governed not by the states, but by the Congress.",
+   "topics": [
+    "powers"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "congress"
+   ],
+   "books": []
+  },
+  {
+   "id": 153,
+   "slug": "pc-153",
+   "question": "Are there additional powers conferred by the Constitution upon the Congress of the United States?",
+   "answer": "Congress may make any law which \"shall be necessary and proper for carrying into execution the foregoing powers,\" that is, any law necessary to fulfill the very specific responsibilities given it by the Constitution.",
+   "topics": [
+    "powers"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "congress",
+    "power",
+    "constitution"
+   ],
+   "books": []
+  },
+  {
+   "id": 154,
+   "slug": "pc-154",
+   "question": "Is slavery legal?",
+   "answer": "No, slavery is an affront to God and to civilization, and forbidden by equal application of the Law.",
+   "topics": [
+    "powers"
+   ],
+   "scripture": [],
+   "words": [],
+   "books": []
+  },
+  {
+   "id": 155,
+   "slug": "pc-155",
+   "question": "Was slavery legal?",
+   "answer": "Yes, slaves were inconsistently treated as property at the founding of our country, while yet in certain instances were in fact counted as people. As more people called for the abolition of slavery, it therefore and unfortunately, became a matter of property rights that brought our nation to war.",
+   "topics": [
+    "powers"
+   ],
+   "scripture": [],
+   "words": [
+    "right",
+    "nation",
+    "country",
+    "property"
+   ],
+   "books": []
+  },
+  {
+   "id": 156,
+   "slug": "pc-156",
+   "question": "Doesn’t a citizen have a right to have his property, and to maintain his property without fear of confiscation?",
+   "answer": "Yes, a citizen has the right to have and maintain his property. However, God did not make men as property to be owned by other men.",
+   "topics": [
+    "powers"
+   ],
+   "scripture": [],
+   "words": [
+    "citizen",
+    "right",
+    "property"
+   ],
+   "books": []
+  },
+  {
+   "id": 157,
+   "slug": "pc-157",
+   "question": "What made slavery illegal?",
+   "answer": "The Thirteenth Amendment of the Constitution made slavery illegal. However, the fact that all men were not treated equally under the law was a great national sin, for which our country has paid dearly.",
+   "topics": [
+    "powers"
+   ],
+   "scripture": [],
+   "words": [
+    "amendment",
+    "constitution",
+    "country"
+   ],
+   "books": []
+  },
+  {
+   "id": 158,
+   "slug": "pc-158",
+   "question": "If slavery was not made illegal until the Thirteenth Amendment, was it wrong for the Union to coerce the states to free their slaves?",
+   "answer": "While slavery is immoral, it was unconstitutional for the Union to coerce the states to free slaves without first amending the Constitution.",
+   "topics": [
+    "powers"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "amendment",
+    "constitution"
+   ],
+   "books": []
+  },
+  {
+   "id": 160,
+   "slug": "pc-160",
+   "question": "What should the Union do if a State wishes to secede?",
+   "answer": "The Union may try to amend whatever grievance the state has against the Federal Government, or may revoke benefits bestowed to the state on behalf of the Federal Government, to persuade them to stay. To make war upon the States is tyranny and despotism.",
+   "topics": [
+    "powers"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "government",
+    "federal"
+   ],
+   "books": []
+  },
+  {
+   "id": 161,
+   "slug": "pc-161",
+   "question": "If an American citizen is seized and imprisoned, may he be kept there as long as those who arrested him see fit?",
+   "answer": "No; he may obtain a writ of Habeas Corpus.",
+   "topics": [
+    "powers"
+   ],
+   "scripture": [],
+   "words": [
+    "citizen",
+    "long"
+   ],
+   "books": []
+  },
+  {
+   "id": 162,
+   "slug": "pc-162",
+   "question": "What is Habeas Corpus?",
+   "answer": "It is a command from a court, by which the jailer is forced to allow the prisoner to be brought before a judge that the occasion of his imprisonment may be examined: in order to ensure that there is just and legal cause for detaining him, and if not, that he may immediately be set at liberty.",
+   "topics": [
+    "powers"
+   ],
+   "scripture": [],
+   "words": [
+    "court",
+    "judge"
+   ],
+   "books": []
+  },
+  {
+   "id": 163,
+   "slug": "pc-163",
+   "question": "Must this command be given whenever it is applied for?",
+   "answer": "Yes, except under exceptional circumstances, when this privilege is suspended (that is, interrupted for a time, but not taken away).",
+   "topics": [
+    "powers"
+   ],
+   "scripture": [],
+   "words": [],
+   "books": []
+  },
+  {
+   "id": 166,
+   "slug": "pc-166",
+   "question": "May a man’s children be punished by law for his offense?",
+   "answer": "This must never happen in our country; and is expressly forbidden by the Constitution.",
+   "topics": [
+    "powers"
+   ],
+   "scripture": [],
+   "words": [
+    "constitution",
+    "country"
+   ],
+   "books": []
+  },
+  {
+   "id": 167,
+   "slug": "pc-167",
+   "question": "May a citizen of the United States be punished for an action that was not contrary to any law at the time of the action, but does violate a law that was enacted after the time of the action?",
+   "answer": "No. A law that attempts to punish actions that were done before the law was made, is called an \"ex-post-facto law.\" This also is expressly forbidden by the Constitution.",
+   "topics": [
+    "powers"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "citizen",
+    "constitution"
+   ],
+   "books": []
+  },
+  {
+   "id": 168,
+   "slug": "pc-168",
+   "question": "When a direct tax is leveyed, that is, when Congress orders that a certain sum of money must be paid by each citizen, for the public use, what is the rule by which such a tax is to be collected?",
+   "answer": "The rule by which such a tax is to collected is the census, or public counting of the people.",
+   "topics": [
+    "powers"
+   ],
+   "scripture": [],
+   "words": [
+    "citizen",
+    "congress",
+    "money",
+    "public"
+   ],
+   "books": []
+  },
+  {
+   "id": 171,
+   "slug": "pc-171",
+   "question": "In what way can the monies of the United States be drawn from the Treasury?",
+   "answer": "Monies may be withdrawn from the United States Treasury only by authority of a law of Congress and such a law is called an Appropriation.",
+   "topics": [
+    "powers"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "congress"
+   ],
+   "books": []
+  },
+  {
+   "id": 173,
+   "slug": "pc-173",
+   "question": "Can any families be distinguished as nobility from the rest of the citizens of the republic?",
+   "answer": "No; no title of Nobility can be granted in America. The only titles among us, are those which mark a person’s trade in the army or navy, or his office in the State.",
+   "topics": [
+    "powers"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "citizen",
+    "office"
+   ],
+   "books": []
+  },
+  {
+   "id": 174,
+   "slug": "pc-174",
+   "question": "May any citizen of the United States receive a title of nobility from the king, or prince, or government of any other country?",
+   "answer": "The government does not interfere with the lives of private persons, but no person holding any office of profit or trust under our republic can accept either a title, sum of money as salary, an office, or even a gift, from any foreign throne or government, without the express consent of Congress.",
+   "topics": [
+    "powers"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "citizen",
+    "congress",
+    "government",
+    "office",
+    "country",
+    "money",
+    "private"
+   ],
+   "books": []
+  },
+  {
+   "id": 175,
+   "slug": "pc-175",
+   "question": "When the States agreed to form a voluntary union with the other States and to create the Federal Government, what responsibilities did they delegate to that Federal Government?",
+   "answer": "The States granted to the Federal Government the responsibility to make treaties and alliances with other nations, the right to coin money and to emit bills of credit, and the right to lay duties on exports and imports.",
+   "topics": [
+    "powers"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "government",
+    "federal",
+    "right",
+    "nation",
+    "money",
+    "duties"
+   ],
+   "books": []
+  },
+  {
+   "id": 179,
+   "slug": "pc-179",
+   "question": "May a single State declare war?",
+   "answer": "No; not unless an enemy has entered their bounds, or is in such danger of entering, that there is no time to wait for the aid of the Federal Government, or unless the Federal Government itself has become that enemy that must be defended against.",
+   "topics": [
+    "powers"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "government",
+    "federal"
+   ],
+   "books": []
+  },
+  {
+   "id": 16,
+   "slug": "pc-16",
+   "question": "Was America always a Republic?",
+   "answer": "No, she was once a collection of colonies.",
+   "topics": [
+    "revolution"
+   ],
+   "scripture": [],
+   "words": [
+    "colonies"
+   ],
+   "books": []
+  },
+  {
+   "id": 17,
+   "slug": "pc-17",
+   "question": "What do you mean by colonies?",
+   "answer": "A colony is a group of citizens of a nation, who settle themselves in a different land under the auspices of their home nation, and hence continue to be ultimately governed by that home nation.",
+   "topics": [
+    "revolution"
+   ],
+   "scripture": [],
+   "words": [
+    "citizen",
+    "nation",
+    "colonies"
+   ],
+   "books": []
+  },
+  {
+   "id": 18,
+   "slug": "pc-18",
+   "question": "By what nation were the American colonies governed?",
+   "answer": "The colonies that first created the United States by their union were governed by Great Britain.",
+   "topics": [
+    "revolution"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "nation",
+    "colonies"
+   ],
+   "books": []
+  },
+  {
+   "id": 19,
+   "slug": "pc-19",
+   "question": "From where did the laws come that governed the colonies from Great Britain?",
+   "answer": "The laws inherited by the colonists came from what is called English Common Law and Social Compact Theory.",
+   "topics": [
+    "revolution"
+   ],
+   "scripture": [],
+   "words": [
+    "laws",
+    "colonies"
+   ],
+   "books": []
+  },
+  {
+   "id": 20,
+   "slug": "pc-20",
+   "question": "Were these laws good and wise?",
+   "answer": "Many of them were; and for a time the colonies were blessed by their relationship with Great Britain. But over time, unjust laws were passed upon these colonies which threatened their reasonable liberties and well being.",
+   "topics": [
+    "revolution"
+   ],
+   "scripture": [],
+   "words": [
+    "laws",
+    "colonies"
+   ],
+   "books": []
+  },
+  {
+   "id": 21,
+   "slug": "pc-21",
+   "question": "What was the colonies’ response to these unjust laws?",
+   "answer": "They issued complaints, and for a time reasoned with Great Britain, in an attempt to persuade her to see her error and govern more justly.",
+   "topics": [
+    "revolution"
+   ],
+   "scripture": [],
+   "words": [
+    "laws",
+    "colonies"
+   ],
+   "books": []
+  },
+  {
+   "id": 22,
+   "slug": "pc-22",
+   "question": "Did Great Britain heed their complaints and repeal these unjust laws?",
+   "answer": "No, but instead she deployed her navy and army threatening the colonies with confiscation of their wealth and violence toward their persons if their compliance was not forthcoming.",
+   "topics": [
+    "revolution"
+   ],
+   "scripture": [],
+   "words": [
+    "laws",
+    "colonies"
+   ],
+   "books": []
+  },
+  {
+   "id": 24,
+   "slug": "pc-24",
+   "question": "Did the colonists sin against God by rebelling against Great Britain?",
+   "answer": "No, not at all. Great Britain surrendered the colonists as their citizens when they denied them representation in Parliament. The colonists were citizens where they were represented, which was in their colonies. When a government breaks it’s own compact with its citizens, its citizens are free to find or create new government.",
+   "topics": [
+    "revolution"
+   ],
+   "scripture": [],
+   "words": [
+    "citizen",
+    "government",
+    "colonies"
+   ],
+   "books": []
+  },
+  {
+   "id": 25,
+   "slug": "pc-25",
+   "question": "When the citizens of the colonies declared their independence, what was Great Britain’s response?",
+   "answer": "Great Britain continued to confiscate the wealth and commit violence upon the citizens of the colonies, and thus provoke a state of war.",
+   "topics": [
+    "revolution"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "citizen",
+    "colonies"
+   ],
+   "books": []
+  },
+  {
+   "id": 26,
+   "slug": "pc-26",
+   "question": "When we speak of this war, what do we call it?",
+   "answer": "We call it the American Revolution.",
+   "topics": [
+    "revolution"
+   ],
+   "scripture": [],
+   "words": [],
+   "books": []
+  },
+  {
+   "id": 27,
+   "slug": "pc-27",
+   "question": "What do you mean by Revolution?",
+   "answer": "A revolution means to revolt with the aim of securing a great change of government.",
+   "topics": [
+    "revolution"
+   ],
+   "scripture": [],
+   "words": [
+    "government"
+   ],
+   "books": []
+  },
+  {
+   "id": 28,
+   "slug": "pc-28",
+   "question": "When and where did the war of the revolution begin?",
+   "answer": "At Lexington and Concord, villages near Boston in Massachusetts, on the 19th of April, 1775.",
+   "topics": [
+    "revolution"
+   ],
+   "scripture": [],
+   "words": [],
+   "books": []
+  },
+  {
+   "id": 29,
+   "slug": "pc-29",
+   "question": "How long did the struggle continue?",
+   "answer": "More than seven years.",
+   "topics": [
+    "revolution"
+   ],
+   "scripture": [],
+   "words": [
+    "long"
+   ],
+   "books": []
+  },
+  {
+   "id": 30,
+   "slug": "pc-30",
+   "question": "When did it end?",
+   "answer": "On the 21st of January, 1783 when a treaty was signed at Paris acknowledging the independence of the United States.",
+   "topics": [
+    "revolution"
+   ],
+   "scripture": [],
+   "words": [
+    "state"
+   ],
+   "books": []
+  },
+  {
+   "id": 31,
+   "slug": "pc-31",
+   "question": "Why is the 4th of July kept with such public rejoicing through all parts of the United States?",
+   "answer": "Because it was on the 4th of July, 1776, that the Colonies first declared themselves free and independent.",
+   "topics": [
+    "revolution"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "colonies",
+    "public"
+   ],
+   "books": []
+  },
+  {
+   "id": 32,
+   "slug": "pc-32",
+   "question": "What was the change produced by the Revolution?",
+   "answer": "The different Colonies became each a free state, having power to govern itself in any way it should think proper.",
+   "topics": [
+    "revolution"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "power",
+    "colonies"
+   ],
+   "books": []
+  },
+  {
+   "id": 33,
+   "slug": "pc-33",
+   "question": "Had not one state any power over the other?",
+   "answer": "Legally, each state was an independent, autonomous and sovereign entity.",
+   "topics": [
+    "revolution"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "power"
+   ],
+   "books": []
+  },
+  {
+   "id": 34,
+   "slug": "pc-34",
+   "question": "Why did the states decide to create the Union?",
+   "answer": "The states discovered that they could better accomplish several vitally important tasks by working together, creating a general and central government to help the states achieve this cooperation.",
+   "topics": [
+    "revolution"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "government"
+   ],
+   "books": []
+  },
+  {
+   "id": 35,
+   "slug": "pc-35",
+   "question": "What approach to government and law did the states first create in order to work together?",
+   "answer": "They drafted the Articles of Confederation.",
+   "topics": [
+    "revolution"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "government"
+   ],
+   "books": []
+  },
+  {
+   "id": 36,
+   "slug": "pc-36",
+   "question": "What were the Articles of Confederation?",
+   "answer": "The Articles of Confederation were a broad precursor to what would become the Constitution of the United States.",
+   "topics": [
+    "revolution"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "constitution"
+   ],
+   "books": []
+  },
+  {
+   "id": 37,
+   "slug": "pc-37",
+   "question": "What were the problems with the Articles of Confederation?",
+   "answer": "The problems with the Articles of Confederation were mostly due to their lack of specificity and the resulting deficiency they provided for governing a nation such as the United States hoped to become.",
+   "topics": [
+    "revolution"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "nation"
+   ],
+   "books": []
+  },
+  {
+   "id": 38,
+   "slug": "pc-38",
+   "question": "Who makes laws in both the states and in the Union?",
+   "answer": "Laws which concern only one of the states are made by persons chosen by the people of that state by representatives they have selected, called the legislature. Laws which concern all the states or more states than one are made by the Congress of the United States.",
+   "topics": [
+    "revolution"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "congress",
+    "laws",
+    "representative"
+   ],
+   "books": []
+  },
+  {
+   "id": 273,
+   "slug": "pc-273",
+   "question": "What security do we have that the Constitution will be followed?",
+   "answer": "The President, members of Congress, the members of State Legislatures, all public officers of the United States and each of the States takes an oath of office promising to uphold the Constitution. Each branch of government provides a check and balance for the others, and both lesser and greater magistrates check and balance each other.",
+   "topics": [
+    "rights"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "congress",
+    "government",
+    "president",
+    "constitution",
+    "office",
+    "public"
+   ],
+   "books": []
+  },
+  {
+   "id": 274,
+   "slug": "pc-274",
+   "question": "Has the Constitution ever been altered?",
+   "answer": "Yes. Through its own constitutional amendment process.",
+   "topics": [
+    "rights"
+   ],
+   "scripture": [],
+   "words": [
+    "amendment",
+    "constitution"
+   ],
+   "books": []
+  },
+  {
+   "id": 275,
+   "slug": "pc-275",
+   "question": "How many times has the Constitution been amended?",
+   "answer": "There have been twenty seven amendments to the constitution.",
+   "topics": [
+    "rights"
+   ],
+   "scripture": [],
+   "words": [
+    "amendment",
+    "constitution",
+    "twenty"
+   ],
+   "books": []
+  },
+  {
+   "id": 276,
+   "slug": "pc-276",
+   "question": "What is the subject of the First Amendment?",
+   "answer": "The subject of the First Amendment is the right to the free practice of religion.",
+   "topics": [
+    "rights"
+   ],
+   "scripture": [],
+   "words": [
+    "amendment",
+    "right"
+   ],
+   "books": []
+  },
+  {
+   "id": 277,
+   "slug": "pc-277",
+   "question": "What does this mean?",
+   "answer": "This means that every man has the right to observe his religion according to his conscience, without being called to account for his opinions or punished for them by any governing authority, so long as he does not infringe upon the explicit constitutional rights of others.",
+   "topics": [
+    "rights"
+   ],
+   "scripture": [],
+   "words": [
+    "right",
+    "long"
+   ],
+   "books": []
+  },
+  {
+   "id": 280,
+   "slug": "pc-280",
+   "question": "How does the first constitutional amendment address this subject?",
+   "answer": "Congress is forbidden from making any law respecting the establishment of religion; that is, laws to establishing a particular denomination or religion, or forbidding the free exercise of religious conviction according to individual conscience.",
+   "topics": [
+    "rights"
+   ],
+   "scripture": [],
+   "words": [
+    "congress",
+    "amendment",
+    "laws",
+    "individual"
+   ],
+   "books": []
+  },
+  {
+   "id": 281,
+   "slug": "pc-281",
+   "question": "May the government or her officials recognize God or any religion?",
+   "answer": "There is no the constitutional prohibition of the government as a whole or any member of any governmental office from recognizing deity or religion, so long as they are neither establishing nor hindering religion by law.",
+   "topics": [
+    "rights"
+   ],
+   "scripture": [],
+   "words": [
+    "government",
+    "office",
+    "long"
+   ],
+   "books": []
+  },
+  {
+   "id": 282,
+   "slug": "pc-282",
+   "question": "Was any other subject introduced in this same amendment?",
+   "answer": "Yes; the freedom of speech and the freedom of the press.",
+   "topics": [
+    "rights"
+   ],
+   "scripture": [],
+   "words": [
+    "amendment"
+   ],
+   "books": []
+  },
+  {
+   "id": 284,
+   "slug": "pc-284",
+   "question": "How ought the press be defined?",
+   "answer": "The press is defined as any institution, organization or individual which publishes positions or opinions in or on any medium, whether it be paper, recorded audio or video, or any other electronic format.",
+   "topics": [
+    "rights"
+   ],
+   "scripture": [],
+   "words": [
+    "individual"
+   ],
+   "books": []
+  },
+  {
+   "id": 285,
+   "slug": "pc-285",
+   "question": "May the press be in any way disqualified, so as to limit it 's voice or distribution to certain publications or organizations?",
+   "answer": "No, the First Amendment is promised to the People, and anyone wishing to share an idea or opinion may publish it according to the principle of the freedom of the press.",
+   "topics": [
+    "rights"
+   ],
+   "scripture": [],
+   "words": [
+    "amendment"
+   ],
+   "books": []
+  },
+  {
+   "id": 286,
+   "slug": "pc-286",
+   "question": "May someone be punished if what they speak is injurious to another?",
+   "answer": "Yes, if it can be proven in court that what has been alleged is false and resulting injury is demonstrable, this is called libel. Personal denigration of the character of another if proven true is not libelous and therefor not illegal.",
+   "topics": [
+    "rights"
+   ],
+   "scripture": [],
+   "words": [
+    "court"
+   ],
+   "books": []
+  },
+  {
+   "id": 287,
+   "slug": "pc-287",
+   "question": "If the people shall be of the opinion that any of the acts of their rulers have been corrupt, may they meet together to petition, that is publicly to seek that these acts be addressed?",
+   "answer": "Yes, if they meet peaceably; but if they meet in a riotous or otherwise dangrous manner causing injury to persons or damage to property, then they ought to be prosecuted.",
+   "topics": [
+    "rights"
+   ],
+   "scripture": [],
+   "words": [
+    "property"
+   ],
+   "books": []
+  },
+  {
+   "id": 288,
+   "slug": "pc-288",
+   "question": "May they meet bearing arms?",
+   "answer": "Yes; the right to keep and bear arms is one which belongs to the citizens at all times; but arms must not be used except to support the rule of law or to defend against an enemy or resist tyranny.",
+   "topics": [
+    "rights"
+   ],
+   "scripture": [],
+   "words": [
+    "citizen",
+    "right"
+   ],
+   "books": []
+  },
+  {
+   "id": 289,
+   "slug": "pc-289",
+   "question": "Which Amendment secures the right to keep and bear arms?",
+   "answer": "The Second Amendment.",
+   "topics": [
+    "rights"
+   ],
+   "scripture": [],
+   "words": [
+    "amendment",
+    "right"
+   ],
+   "books": []
+  },
+  {
+   "id": 290,
+   "slug": "pc-290",
+   "question": "To whom does the Second Amendment secure this right?",
+   "answer": "To private citizens, who comprise a militia.",
+   "topics": [
+    "rights"
+   ],
+   "scripture": [],
+   "words": [
+    "citizen",
+    "amendment",
+    "right",
+    "private"
+   ],
+   "books": []
+  },
+  {
+   "id": 291,
+   "slug": "pc-291",
+   "question": "Is a militia the same as an army?",
+   "answer": "No. A militia is comprised of civilians only. The army is comprised of regular soldiers.",
+   "topics": [
+    "rights"
+   ],
+   "scripture": [],
+   "words": [],
+   "books": []
+  },
+  {
+   "id": 292,
+   "slug": "pc-292",
+   "question": "Who is a member of the militia?",
+   "answer": "All private citizens comprise the militia.",
+   "topics": [
+    "rights"
+   ],
+   "scripture": [],
+   "words": [
+    "citizen",
+    "private"
+   ],
+   "books": []
+  },
+  {
+   "id": 293,
+   "slug": "pc-293",
+   "question": "May the Federal Government make any laws regarding the right of citizens to bear arms?",
+   "answer": "No. Federal Laws regulating the ownership, transport, use or carry of private arms are unconstitutional.",
+   "topics": [
+    "rights"
+   ],
+   "scripture": [],
+   "words": [
+    "citizen",
+    "government",
+    "laws",
+    "federal",
+    "right",
+    "private"
+   ],
+   "books": []
+  },
+  {
+   "id": 294,
+   "slug": "pc-294",
+   "question": "What is the primary intent of the Second Amendment?",
+   "answer": "The primary intent of the Second Amendment is to ensure that a well-armed citizenry can provide the ultimate check and balance against governmental tyranny.",
+   "topics": [
+    "rights"
+   ],
+   "scripture": [],
+   "words": [
+    "amendment"
+   ],
+   "books": []
+  },
+  {
+   "id": 295,
+   "slug": "pc-295",
+   "question": "What is the Third Amendment?",
+   "answer": "The Third Amendment commands that soldiers may not be quartered in the homes of citizens without their consent. It places ultimate control of private property in the hands of the citizenry, rather than in the hands of the government.",
+   "topics": [
+    "rights"
+   ],
+   "scripture": [],
+   "words": [
+    "citizen",
+    "government",
+    "amendment",
+    "property",
+    "private"
+   ],
+   "books": []
+  },
+  {
+   "id": 296,
+   "slug": "pc-296",
+   "question": "Does the Third Amendment apply to Civilian Law enforcement?",
+   "answer": "The Third Amendment applies particularly to non-Civilian military personnel. However, no citizen’s private property rights should be infringed upon by another, even by law enforcement.",
+   "topics": [
+    "rights"
+   ],
+   "scripture": [],
+   "words": [
+    "citizen",
+    "amendment",
+    "right",
+    "property",
+    "private"
+   ],
+   "books": []
+  },
+  {
+   "id": 297,
+   "slug": "pc-297",
+   "question": "What is the Fourth Amendment?",
+   "answer": "The Fourth Amendment protects citizens against searches of persons or their property without a legal warrant.",
+   "topics": [
+    "rights"
+   ],
+   "scripture": [],
+   "words": [
+    "citizen",
+    "amendment",
+    "property"
+   ],
+   "books": []
+  },
+  {
+   "id": 298,
+   "slug": "pc-298",
+   "question": "What are the requirements in obtaining a warrant in order to legally search a citizen’s person or property?",
+   "answer": "Warrants must be issued by a court, upon evidence of \"probable cause\" (that a crime has been committed by the individual) as provided by law enforcement.",
+   "topics": [
+    "rights"
+   ],
+   "scripture": [],
+   "words": [
+    "citizen",
+    "court",
+    "property",
+    "individual"
+   ],
+   "books": []
+  },
+  {
+   "id": 299,
+   "slug": "pc-299",
+   "question": "May warrants be general?",
+   "answer": "No, warrants must specify who is to be searched, what of their property is to be searched, and what in particular is being searched for.",
+   "topics": [
+    "rights"
+   ],
+   "scripture": [],
+   "words": [
+    "property"
+   ],
+   "books": []
+  },
+  {
+   "id": 300,
+   "slug": "pc-300",
+   "question": "How should warrants be delivered to citizens?",
+   "answer": "Because citizens are presumed innocent until proven guilty, even if there is probable cause to issue a warrant, warrants should be delivered in a manner consistent with the citizen’s rights.",
+   "topics": [
+    "rights"
+   ],
+   "scripture": [],
+   "words": [
+    "citizen",
+    "right"
+   ],
+   "books": []
+  },
+  {
+   "id": 301,
+   "slug": "pc-301",
+   "question": "Is the current trend of \"no-knock warrants\" constitutional?",
+   "answer": "Only in the most extreme of cases, when there is good and substantial reason to believe that citizens may be violent or evasive, should law enforcement not be required to announce the warrant and enter private property with great care and respectful diligence.",
+   "topics": [
+    "rights"
+   ],
+   "scripture": [],
+   "words": [
+    "citizen",
+    "property",
+    "private"
+   ],
+   "books": []
+  },
+  {
+   "id": 302,
+   "slug": "pc-302",
+   "question": "What is the Fifth Amendment?",
+   "answer": "The Fifth Amendment protects our citizens against an injustice known as double jeopardy. An American citizen may not be tried for the same offense twice. The fifth amendment also protects defendants from being forced to give self incriminating testimony during their own trial.",
+   "topics": [
+    "rights"
+   ],
+   "scripture": [],
+   "words": [
+    "citizen",
+    "amendment"
+   ],
+   "books": []
+  },
+  {
+   "id": 304,
+   "slug": "pc-304",
+   "question": "What does the Sixth Amendment provide?",
+   "answer": "The Sixth Amendment provides a fair and speedy trial to all citizens accused of violating the law. It also requires a jury trial in the district and state where the alleged crime was committed.",
+   "topics": [
+    "rights"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "citizen",
+    "amendment"
+   ],
+   "books": []
+  },
+  {
+   "id": 306,
+   "slug": "pc-306",
+   "question": "What is the Seventh Amendment?",
+   "answer": "The Seventh Amendment iterates the right to a trial by jury in civil cases, wherein the value under disputes is higher than twenty dollars.",
+   "topics": [
+    "rights"
+   ],
+   "scripture": [],
+   "words": [
+    "amendment",
+    "right",
+    "twenty"
+   ],
+   "books": []
+  },
+  {
+   "id": 307,
+   "slug": "pc-307",
+   "question": "What is the Eighth Amendment?",
+   "answer": "The Eight Amendment prohibits excessive bail from being required in cases where release upon bail while awaiting trial is warranted, and it prohibits cruel or unusual punishments.",
+   "topics": [
+    "rights"
+   ],
+   "scripture": [],
+   "words": [
+    "amendment"
+   ],
+   "books": []
+  },
+  {
+   "id": 308,
+   "slug": "pc-308",
+   "question": "How might cruel and unusual punishment be properly defined?",
+   "answer": "A cruel or unusual punishment is one that goes beyond fair restitution for crimes, or that which degrades the humanity of the convicted citizen.",
+   "topics": [
+    "rights"
+   ],
+   "scripture": [],
+   "words": [
+    "citizen"
+   ],
+   "books": []
+  },
+  {
+   "id": 309,
+   "slug": "pc-309",
+   "question": "What does the Ninth Amendment declare?",
+   "answer": "The Ninth Amendment declares that the Bill of Rights (the first Ten Amendments) does not include all the rights retained by the People.",
+   "topics": [
+    "rights"
+   ],
+   "scripture": [],
+   "words": [
+    "amendment",
+    "right"
+   ],
+   "books": []
+  },
+  {
+   "id": 310,
+   "slug": "pc-310",
+   "question": "What is the Tenth Amendment?",
+   "answer": "The Tenth Amendment declares that any powers not explicitly delegated to the Federal Government in the Constitution (or prohibited to the States) are reserved either to the States or the People.",
+   "topics": [
+    "rights"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "government",
+    "amendment",
+    "power",
+    "constitution",
+    "federal"
+   ],
+   "books": []
+  },
+  {
+   "id": 311,
+   "slug": "pc-311",
+   "question": "What is the major implication of the Tenth Amendment?",
+   "answer": "The Tenth Amendment declares that the Constitution is not designed to limit the rights of citizens or States, but to limit the power of the Federal Government.",
+   "topics": [
+    "rights"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "citizen",
+    "government",
+    "amendment",
+    "power",
+    "constitution",
+    "federal",
+    "right"
+   ],
+   "books": []
+  },
+  {
+   "id": 312,
+   "slug": "pc-312",
+   "question": "If a power is not explicitly given to the Federal Government, may the Federal Government usurp such power?",
+   "answer": "No. That would be tyranny.",
+   "topics": [
+    "rights"
+   ],
+   "scripture": [],
+   "words": [
+    "government",
+    "power",
+    "federal"
+   ],
+   "books": []
+  },
+  {
+   "id": 313,
+   "slug": "pc-313",
+   "question": "What is the Eleventh Amendment?",
+   "answer": "The Eleventh Amendment declares that Federal Courts can hear cases brought by private citizens against the States and that the States are not immune from suits brought by citizens of other States.",
+   "topics": [
+    "rights"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "citizen",
+    "amendment",
+    "court",
+    "federal",
+    "private"
+   ],
+   "books": []
+  },
+  {
+   "id": 314,
+   "slug": "pc-314",
+   "question": "What is the Twelfth Amendment?",
+   "answer": "The Twelfth Amendment was to revise the manner in which Presidents and Vice Presidents would be chosen in the Electoral College, as previously explained in the questions above treating the election of the Vice President.",
+   "topics": [
+    "rights"
+   ],
+   "scripture": [],
+   "words": [
+    "amendment",
+    "president"
+   ],
+   "books": []
+  },
+  {
+   "id": 315,
+   "slug": "pc-315",
+   "question": "What is the Thirteenth Amendment?",
+   "answer": "The Thirteenth Amendment abolished and prohibited slavery in all its forms within the United States or its territories.",
+   "topics": [
+    "rights"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "amendment"
+   ],
+   "books": []
+  },
+  {
+   "id": 316,
+   "slug": "pc-316",
+   "question": "What is the Fourteenth Amendment?",
+   "answer": "The Fourteenth Amendment declares that all naturalized persons under the jurisdiction of the United States are citizens.",
+   "topics": [
+    "rights"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "citizen",
+    "amendment"
+   ],
+   "books": []
+  },
+  {
+   "id": 317,
+   "slug": "pc-317",
+   "question": "Why was the Fourteenth Amendment created?",
+   "answer": "The Fourteenth Amendment was created to iterate that freed slaves, naturalized under the jurisdiction of the United States, were to be considered full citizens, and that the states must treat them accordingly.",
+   "topics": [
+    "rights"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "citizen",
+    "amendment"
+   ],
+   "books": []
+  },
+  {
+   "id": 318,
+   "slug": "pc-318",
+   "question": "What does \"naturalized\" mean?",
+   "answer": "\"Naturalized\" refers to one who has met the requirements of citizenship, but who was not born a citizen.",
+   "topics": [
+    "rights"
+   ],
+   "scripture": [],
+   "words": [
+    "citizen"
+   ],
+   "books": []
+  },
+  {
+   "id": 319,
+   "slug": "pc-319",
+   "question": "What are the requirements of being a citizen from birth?",
+   "answer": "Those who have a parent who is a citizen of the United States, regardless of the territory in which they are born, are citizens from birth.",
+   "topics": [
+    "rights"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "citizen"
+   ],
+   "books": []
+  },
+  {
+   "id": 320,
+   "slug": "pc-320",
+   "question": "Are those who are born inside the boundaries of the United States but whose parents aren’t citizens to be considered citizens?",
+   "answer": "No. Although current laws are often ignorant of the proper interpretation of this Amendment, those born within our borders whose parents are not citizens (such as those children belonging to diplomats or non-citizen legal or illegal immigrants) are not citizens by birth, and must be naturalized in order to become citizens.",
+   "topics": [
+    "rights"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "citizen",
+    "amendment",
+    "laws"
+   ],
+   "books": []
+  },
+  {
+   "id": 322,
+   "slug": "pc-322",
+   "question": "Does the Fourteenth Amendment require the States to treat all people as equal under the law?",
+   "answer": "No. It requires the states to treat all citizens - born or naturalized - equally under the law. Although all people are created by God and afforded basic human rights, the specific rights enunciated in the Constitution and its amendments are guaranteed to citizens only.",
+   "topics": [
+    "rights"
+   ],
+   "scripture": [],
+   "words": [
+    "state",
+    "citizen",
+    "amendment",
+    "constitution",
+    "right"
+   ],
+   "books": []
+  },
+  {
+   "id": 324,
+   "slug": "pc-324",
+   "question": "Should citizens honor or acknowledge the Fourteenth Amendment to the Constitution?",
+   "answer": "While the content of the Fourteenth Amendment is just and fair, no amendment should be acknowledged unless it is Constitutionally ratified, regardless of how long it has been seen to have been in force. It should be properly ratified by duly elected representatives of the People.",
+   "topics": [
+    "rights"
+   ],
+   "scripture": [],
+   "words": [
+    "citizen",
+    "amendment",
+    "constitution",
+    "representative",
+    "long"
+   ],
+   "books": []
+  },
+  {
+   "id": 325,
+   "slug": "pc-325",
+   "question": "What is the Fifteenth Amendment?",
+   "answer": "The Fifteenth Amendment guarantees the right to vote irrespective of race, color or position of servitude.",
+   "topics": [
+    "rights"
+   ],
+   "scripture": [],
+   "words": [
+    "amendment",
+    "right",
+    "vote"
+   ],
+   "books": []
+  },
+  {
+   "id": 326,
+   "slug": "pc-326",
+   "question": "What is the Sixteenth Amendment?",
+   "answer": "The Sixteenth Amendment allows the Federal Government to tax personal and private income, and did away with the requirement that taxes would be levied through a census only.",
+   "topics": [
+    "rights"
+   ],
+   "scripture": [],
+   "words": [
+    "government",
+    "amendment",
+    "federal",
+    "private",
+    "taxes"
+   ],
+   "books": []
+  },
+  {
+   "id": 327,
+   "slug": "pc-327",
+   "question": "Was the Sixteenth Amendment properly ratified?",
+   "answer": "There have been legitimate questions about the Constitutionality of the Sixteenth Amendment, but they have typically been rejected.",
+   "topics": [
+    "rights"
+   ],
+   "scripture": [],
+   "words": [
+    "amendment"
+   ],
+   "books": []
+  },
+  {
+   "id": 330,
+   "slug": "pc-330",
+   "question": "What is the Seventeenth Amendment?",
+   "answer": "The Seventeenth Amendment provided that a seat in the Senate would be won by public election as is the case with a seat in the House of Representatives.",
+   "topics": [
+    "rights"
+   ],
+   "scripture": [],
+   "words": [
+    "amendment",
+    "representative",
+    "house",
+    "senate",
+    "public"
+   ],
+   "books": []
+  },
+  {
+   "id": 332,
+   "slug": "pc-332",
+   "question": "What is the Eighteenth Amendment?",
+   "answer": "The Eighteenth Amendment was a prohibition upon the sale of intoxicating beverages.",
+   "topics": [
+    "rights"
+   ],
+   "scripture": [],
+   "words": [
+    "amendment"
+   ],
+   "books": []
+  },
+  {
+   "id": 333,
+   "slug": "pc-333",
+   "question": "What was the inherent flaw of the Eighteenth Amendment?",
+   "answer": "There are several. But first, enforcing the prohibition of alcohol is beyond the scope of the federal government, and laws should not be made that cannot be duly enforced. Secondly, the prohibition of alcohol is an infringement upon individual liberty.",
+   "topics": [
+    "rights"
+   ],
+   "scripture": [],
+   "words": [
+    "government",
+    "amendment",
+    "laws",
+    "federal",
+    "individual"
+   ],
+   "books": []
+  },
+  {
+   "id": 334,
+   "slug": "pc-334",
+   "question": "What is the Nineteenth Amendment?",
+   "answer": "The Nineteenth Amendment provided Woman’s suffrage. That is, the right of women to vote.",
+   "topics": [
+    "rights"
+   ],
+   "scripture": [],
+   "words": [
+    "amendment",
+    "right",
+    "vote"
+   ],
+   "books": []
+  },
+  {
+   "id": 335,
+   "slug": "pc-335",
+   "question": "What is the Twentieth Amendment?",
+   "answer": "The Twentieth Amendment set the commencement of a Presidential and Vice Presidential term for noon on the January 20th following the election and for Senators and Representatives on January 3rd.",
+   "topics": [
+    "rights"
+   ],
+   "scripture": [],
+   "words": [
+    "amendment",
+    "representative"
+   ],
+   "books": []
+  },
+  {
+   "id": 336,
+   "slug": "pc-336",
+   "question": "What is the Twenty First Amendment?",
+   "answer": "The Twenty First Amendment repealed the Eighteenth Amendment, thus allowing the sale of intoxicating beverages.",
+   "topics": [
+    "rights"
+   ],
+   "scripture": [],
+   "words": [
+    "amendment",
+    "twenty"
+   ],
+   "books": []
+  },
+  {
+   "id": 337,
+   "slug": "pc-337",
+   "question": "What is the Twenty Second Amendment?",
+   "answer": "The Twenty Second Amendment limits the President to two terms, or if they serve more than two years of an appointed term, to no more than one and a half terms. (see above)",
+   "topics": [
+    "rights"
+   ],
+   "scripture": [],
+   "words": [
+    "amendment",
+    "president",
+    "twenty"
+   ],
+   "books": []
+  },
+  {
+   "id": 338,
+   "slug": "pc-338",
+   "question": "What is the Twenty-Third Amendment?",
+   "answer": "The 23rd Amendment gives residents of the District of Columbia the right to vote for representatives in the Electoral College.",
+   "topics": [
+    "rights"
+   ],
+   "scripture": [],
+   "words": [
+    "amendment",
+    "representative",
+    "right",
+    "vote",
+    "twenty"
+   ],
+   "books": []
+  },
+  {
+   "id": 339,
+   "slug": "pc-339",
+   "question": "What is the twenty fourth Amendment?",
+   "answer": "The twenty fourth Amendment eliminated a \"poll tax\" which required payment in order for a citizen to vote.",
+   "topics": [
+    "rights"
+   ],
+   "scripture": [],
+   "words": [
+    "citizen",
+    "amendment",
+    "vote",
+    "twenty"
+   ],
+   "books": []
+  },
+  {
+   "id": 340,
+   "slug": "pc-340",
+   "question": "What is the Twenty Fifth Amendment?",
+   "answer": "The Twenty Fifth Amendment allows for the Vice President to become President if the President is unable to fulfill the duties of his office.",
+   "topics": [
+    "rights"
+   ],
+   "scripture": [],
+   "words": [
+    "amendment",
+    "president",
+    "office",
+    "duties",
+    "twenty"
+   ],
+   "books": []
+  },
+  {
+   "id": 341,
+   "slug": "pc-341",
+   "question": "What is the Twenty Sixth Amendment?",
+   "answer": "The Twenty Sixth Amendment made the age a citizen can vote to be 18 years.",
+   "topics": [
+    "rights"
+   ],
+   "scripture": [],
+   "words": [
+    "citizen",
+    "amendment",
+    "vote",
+    "twenty"
+   ],
+   "books": []
+  },
+  {
+   "id": 342,
+   "slug": "pc-342",
+   "question": "What is the Twenty Seventh Amendment?",
+   "answer": "The Twenty Seventh Amendment stipulates that an increase in salary for Senators or Representatives cannot take effect during the term in which the increase was passed.",
+   "topics": [
+    "rights"
+   ],
+   "scripture": [],
+   "words": [
+    "amendment",
+    "representative",
+    "twenty"
+   ],
+   "books": []
+  }
+ ]
+}

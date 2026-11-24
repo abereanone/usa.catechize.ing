@@ -17,6 +17,8 @@ import QuestionSwipe from "@/components/QuestionSwipe.astro";
 import QuestionAnswer from "@/components/QuestionAnswer.astro";
 import QuestionNav from "@/components/QuestionNav.astro";
 import QuestionShare from "@/components/QuestionShare.astro";
+import quoteData from "@/data/quote-cards.json";
+import { defaultTone, quoteImage } from "@/lib/quoteImages";
 import { siteSettings } from "@/config/siteSettings";
 
 // Only the canonical slug is built as a page. The numeric (/questions/41) and grouped
@@ -61,6 +63,9 @@ if (!question && !listingMatches) {
 }
 
 const siteName = siteSettings.branding.siteName;
+// This question's share image, if it has one (long answers and ones that need the question
+// before them have none).
+const shareCard = question ? quoteData.cards.find((c) => c.slug === question.slug) : undefined;
 const showAuthors = siteSettings.showAuthor;
 
 let questionSlug = "";
@@ -287,6 +292,8 @@ function buildStructuredData(entry: Question): string | null {
         title: question.title,
         description: questionOgDescription,
         url: canonicalQuestionPath,
+        ...(shareCard ? { image: quoteImage(shareCard.slug, defaultTone(shareCard.id)) } : {}),
+        imageAlt: question.title,
       }}
     >
       {structuredDataJson ? (
@@ -336,7 +343,11 @@ function buildStructuredData(entry: Question): string | null {
 
         {/* Below the answer so nothing interrupts question -> answer. */}
         <div class="question-share-row">
-          <QuestionShare shareUrl={shareUrl} shareText={shareText} />
+          <QuestionShare
+            shareUrl={shareUrl}
+            shareText={shareText}
+            imageHref={shareCard ? `/quotes/${shareCard.slug}` : undefined}
+          />
         </div>
 
         {previousQuestion || nextQuestion ? (

@@ -29,3 +29,5 @@ devserver*.log
 A_Patriot's_Catechism.pdf
 USA_favicon_io.zip
 scripts/pdf-pages/
+# Share images live on R2 (C:/code/quote-cards); a local copy for the dev server goes here.
+public/quotes/
