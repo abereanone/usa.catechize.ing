@@ -103,6 +103,7 @@
   .bars { display: flex; flex-direction: column; gap: 0.7rem; margin: 0; padding: 0; list-style: none; }
   .bars li { display: grid; grid-template-columns: minmax(0, 21rem) minmax(0, 1fr) 3.6rem; gap: 0.75rem; align-items: center; font-size: 0.95rem; }
   .bars .name { min-width: 0; overflow-wrap: anywhere; }
+  .bars .name a { color: inherit; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 2px; }
   .bars .track { background: var(--bg-soft); border-radius: 4px; height: 14px; }
   /* Bars are drawn with borders, not fills, so they still print when the browser's "Background graphics" option is off. */
   .bars .fill { display: block; box-sizing: border-box; height: 14px; border: 7px solid var(--bar-main); border-radius: 4px; }
@@ -144,18 +145,18 @@
     <div class="eyebrow">United States Catechism · usa.catechize.ing</div>
     <h1>How people are using United States Catechism</h1>
     <dl class="period">
-      <dt>Period covered</dt><dd>October 24, 2026 – November 22, 2026 (the last 30 days)</dd>
-      <dt>Compared with</dt><dd>September 24, 2026 – October 23, 2026</dd>
-      <dt>Numbers pulled</dt><dd>November 23, 2026</dd>
+      <dt>Period covered</dt><dd>October 25, 2026 – November 23, 2026 (the last 30 days)</dd>
+      <dt>Compared with</dt><dd>September 25, 2026 – October 24, 2026</dd>
+      <dt>Numbers pulled</dt><dd>November 24, 2026</dd>
     </dl>
   </header>
 
   <div class="summary">
     <h2>The short version</h2>
     <ul>
-      <li>About <strong>54 visits</strong> in the last 30 days.</li>
+      <li>About <strong>53 visits</strong> in the last 30 days.</li>
       <li>The most-viewed pages are <strong>Home page</strong>, <strong>Question and answer pages</strong> and <strong>Resources</strong>.</li>
-      <li>37% of visitors are on a phone or tablet.</li>
+      <li>36% of visitors are on a phone or tablet.</li>
       <li>Pages load fast for 91% of visitors.</li>
     </ul>
   </div>
@@ -163,9 +164,9 @@
   <section>
     <h2>How many people visit</h2>
     <div class="stats">
-      <div class="stat"><div class="num">~54</div><div class="label">visits, the last 30 days</div></div>
-      <div class="stat"><div class="num">~13</div><div class="label">visits in an average week</div></div>
-      <div class="stat"><div class="num">~15</div><div class="label">visits in the period before</div></div>
+      <div class="stat"><div class="num">~53</div><div class="label">visits, the last 30 days</div></div>
+      <div class="stat"><div class="num">~12</div><div class="label">visits in an average week</div></div>
+      <div class="stat"><div class="num">~16</div><div class="label">visits in the period before</div></div>
     </div>
     <p class="sowhat">A visit is one arrival at the site. Someone who comes back on another day counts again, so visits are not the same as different people.</p>
   </section>
@@ -188,12 +189,12 @@
   <section>
     <h2>What people look at</h2>
     <ul class="bars" aria-label="Most viewed pages">
-      <li><span class="name">Home page</span><span class="track"><span class="fill" style="width:100%"></span></span><span class="val">39</span></li>
+      <li><span class="name"><a href="https://usa.catechize.ing/" data-no-go>Home page</a></span><span class="track"><span class="fill" style="width:100%"></span></span><span class="val">38</span></li>
       <li><span class="name">Question and answer pages</span><span class="track"><span class="fill" style="width:18%"></span></span><span class="val">7</span></li>
-      <li><span class="name">Resources</span><span class="track"><span class="fill" style="width:5%"></span></span><span class="val">2</span></li>
-      <li><span class="name">Post archive (page 12)</span><span class="track"><span class="fill" style="width:3%"></span></span><span class="val">1</span></li>
-      <li><span class="name">Categories – Executive</span><span class="track"><span class="fill" style="width:3%"></span></span><span class="val">1</span></li>
-      <li><span class="name">Post archive (page 3)</span><span class="track"><span class="fill" style="width:3%"></span></span><span class="val">1</span></li>
+      <li><span class="name"><a href="https://usa.catechize.ing/resources" data-no-go>Resources</a></span><span class="track"><span class="fill" style="width:5%"></span></span><span class="val">2</span></li>
+      <li><span class="name"><a href="https://usa.catechize.ing/page/12" data-no-go>Post archive (page 12)</a></span><span class="track"><span class="fill" style="width:3%"></span></span><span class="val">1</span></li>
+      <li><span class="name"><a href="https://usa.catechize.ing/categories/executive" data-no-go>Categories – Executive</a></span><span class="track"><span class="fill" style="width:3%"></span></span><span class="val">1</span></li>
+      <li><span class="name"><a href="https://usa.catechize.ing/page/3.html" data-no-go>Post archive (page 3)</a></span><span class="track"><span class="fill" style="width:3%"></span></span><span class="val">1</span></li>
     </ul>
 
   </section>
@@ -201,10 +202,10 @@
   <section class="newpage">
     <h2>How people find us</h2>
     <ul class="bars" aria-label="How visitors arrived">
-      <li><span class="name">Typed the address, bookmark, or a link in a text or email</span><span class="track"><span class="fill" style="width:100%"></span></span><span class="val">53</span></li>
+      <li><span class="name">Typed the address, bookmark, or a link in a text or email</span><span class="track"><span class="fill" style="width:100%"></span></span><span class="val">52</span></li>
       <li><span class="name">2026.doreancon.org</span><span class="track"><span class="fill" style="width:3%"></span></span><span class="val">1</span></li>
     </ul>
-    <p class="sowhat">63% of visits are on a computer and 37% on a phone or tablet.</p>
+    <p class="sowhat">64% of visits are on a computer and 36% on a phone or tablet.</p>
   </section>
 
   <section>
@@ -223,7 +224,7 @@
   </section>
 
   <div class="foot">
-    <p>Updated November 23, 2026. Numbers come from Cloudflare, covering October 24, 2026 – November 22, 2026. All figures are rounded estimates. The tool does not use cookies or track individuals.</p>
+    <p>Updated November 23, 2026. Numbers come from Cloudflare, covering October 25, 2026 – November 23, 2026. All figures are rounded estimates. The tool does not use cookies or track individuals.</p>
   </div>
 </div>
 </body>
